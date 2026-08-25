@@ -1,0 +1,72 @@
+name: Importar acervo do Blogger
+
+on:
+  push:
+    branches:
+      - feat/blog-profissional
+    paths:
+      - migration/IMPORT_READY
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruir pacote de importação
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat migration/chunks/*.b64 | base64 --decode > /tmp/blogger-import.zip
+          unzip -q -o /tmp/blogger-import.zip -d .
+          rm -f _posts/2026-08-25-modelo-de-post.md
+          rm -f sobre.html
+          rm -rf migration/chunks migration/IMPORT_READY
+
+      - name: Validar importação
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(find _posts -maxdepth 1 -type f -name '*.md' | wc -l)" -eq 189
+          test "$(find _drafts -maxdepth 1 -type f -name '*.md' | wc -l)" -eq 1
+          test "$(find p -maxdepth 1 -type f -name '*.md' | wc -l)" -eq 5
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          files = list(Path('_posts').glob('*.md')) + list(Path('_drafts').glob('*.md')) + list(Path('p').glob('*.md'))
+          permalinks = []
+          for path in files:
+              text = path.read_text(encoding='utf-8')
+              if not text.startswith('---\n'):
+                  raise SystemExit(f'Front matter ausente: {path}')
+              match = re.search(r'^permalink:\s*["\']?([^"\'\n]+)', text, flags=re.M)
+              if not match:
+                  raise SystemExit(f'Permalink ausente: {path}')
+              permalinks.append(match.group(1).strip())
+              if '<script' in text.lower():
+                  raise SystemExit(f'Script legado encontrado: {path}')
+          if len(permalinks) != len(set(permalinks)):
+              raise SystemExit('Há permalinks duplicados')
+          print(f'Importação validada: {len(files)} conteúdos, {len(set(permalinks))} URLs únicas.')
+          PY
+
+      - name: Commitar acervo convertido
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+            exit 0
+          fi
+          git commit -m "import: migra acervo completo do Blogger"
+          git push origin HEAD:feat/blog-profissional
