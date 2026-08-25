@@ -1,0 +1,44 @@
+name: Validar site Jekyll
+
+on:
+  push:
+    branches:
+      - feat/blog-profissional
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
+
+      - name: Verificar URLs essenciais
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f _site/index.html
+          test -f _site/arquivo/index.html
+          test -f _site/2024/12/cine-espanol-culpa-mia.html
+          test -f _site/p/sobre.html
+          test -f _site/p/contato.html
+          test -f _site/p/politica-de-privacidade.html
+          test -f _site/p/termos-e-condicoes.html
+          test -f _site/sitemap.xml
+          test -f _site/feed.xml
