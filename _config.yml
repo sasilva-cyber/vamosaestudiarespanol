@@ -1,0 +1,46 @@
+title: "Vamos a Estudiar Español"
+tagline: "¡Aprende, practica y avanza!"
+description: "Conteúdos, cultura, gramática, vocabulário e recursos para aprender espanhol."
+url: "https://vamosaestudiarespanol.com.br"
+baseurl: ""
+lang: "pt-BR"
+timezone: "America/Sao_Paulo"
+encoding: "utf-8"
+
+# Mantém o padrão histórico do Blogger: /ano/mês/slug.html
+permalink: /:year/:month/:title.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+social:
+  instagram: "https://www.instagram.com/vamosaestudiarespanol"
+  facebook: "https://www.facebook.com/vamosaestudiarespanol"
+  youtube: "https://www.youtube.com/@vamosaestudiarespanol"
+  practice: "https://pratica.vamosaestudiarespanol.com.br/"
+
+youtube_latest_api: "https://clfwoywzalttkvhstsgh.supabase.co/functions/v1/youtube-latest"
+
+# Pode ser preenchido depois com um endpoint de analytics/Supabase.
+popular_posts_api: ""
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "Vamos a Estudiar Español"
+      image: ""
+      popular: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
