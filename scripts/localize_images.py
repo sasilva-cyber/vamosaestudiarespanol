@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MEDIA = ROOT / "assets" / "media"
 EXPECTED_IMAGES = 248
 WORDPRESS_HOST = "vamosaestudiarespanol.files.wordpress.com"
+WORDPRESS_SITE = "vamosaestudiarespanol.wordpress.com"
 IMAGE_HOSTS = {
     "blogger.googleusercontent.com",
     WORDPRESS_HOST,
@@ -64,14 +65,24 @@ def destination_for(permalink: str, index: int, source: str) -> tuple[Path, str]
 
 
 def candidate_urls(url: str) -> list[str]:
-    """Tenta variantes seguras quando o CDN antigo do WordPress bloqueia hotlink."""
+    """Tenta origens alternativas seguras para o antigo acervo do WordPress."""
     parsed = urlparse(url)
     candidates = [url]
     if (parsed.hostname or "").lower() == WORDPRESS_HOST:
         clean = urlunparse((parsed.scheme or "https", parsed.netloc, parsed.path, "", "", ""))
-        candidates.append(clean)
-        candidates.append(f"https://i0.wp.com/{WORDPRESS_HOST}{parsed.path}")
-        candidates.append(f"https://i1.wp.com/{WORDPRESS_HOST}{parsed.path}")
+        wp_origin = f"https://{WORDPRESS_SITE}/wp-content/uploads{parsed.path}"
+        candidates.extend(
+            [
+                clean,
+                wp_origin,
+                f"https://i0.wp.com/{WORDPRESS_SITE}/wp-content/uploads{parsed.path}?ssl=1",
+                f"https://i1.wp.com/{WORDPRESS_SITE}/wp-content/uploads{parsed.path}?ssl=1",
+                f"https://i2.wp.com/{WORDPRESS_SITE}/wp-content/uploads{parsed.path}?ssl=1",
+                f"https://i0.wp.com/{WORDPRESS_HOST}{parsed.path}",
+                f"https://i1.wp.com/{WORDPRESS_HOST}{parsed.path}",
+                f"https://i2.wp.com/{WORDPRESS_HOST}{parsed.path}",
+            ]
+        )
     return list(dict.fromkeys(candidates))
 
 
@@ -87,15 +98,18 @@ def request_bytes(url: str) -> bytes:
         for attempt in range(2):
             try:
                 req = urllib.request.Request(candidate, headers=headers)
-                with urllib.request.urlopen(req, timeout=60) as response:
+                with urllib.request.urlopen(req, timeout=45) as response:
                     data = response.read()
+                    content_type = (response.headers.get("Content-Type") or "").lower()
                     if not data:
                         raise RuntimeError("resposta vazia")
+                    if "text/html" in content_type:
+                        raise RuntimeError("resposta HTML em vez de imagem")
                     return data
             except Exception as exc:
                 errors.append(f"{candidate}: {exc}")
-                time.sleep(0.8 * (attempt + 1))
-    raise RuntimeError(f"Falha ao baixar {url}: {' | '.join(errors[-4:])}")
+                time.sleep(0.5 * (attempt + 1))
+    raise RuntimeError(f"Falha ao baixar {url}: {' | '.join(errors[-6:])}")
 
 
 def save_webp(data: bytes, destination: Path) -> None:
