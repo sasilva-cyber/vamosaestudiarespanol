@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Lectura en Español (Nível B1) - Un Día en la Playa"
+description: "¡Disfruta de un día soleado en la playa con nuestra lectura en español (Nivel B1). ¡No te pierdas esta oportunidad de aprender y divertirte al mismo tiempo! Texto…"
+date: 2024-06-07 09:36:00 -0300
+last_modified_at: 2024-06-23 12:27:45 -0300
+permalink: "/2024/06/lectura-espanol-nivel-b1-un-dia-en-la-playa.html"
+category: "Leitura"
+categories: ["Leitura"]
+image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT6qHZUQjvU95fBYczJXu8Ld6-sbX11AtD3eeTYKPdVYhsDRx_ZS6he-9uhErJbEJiRmiyAX6DzPdYLVCQU8RrHQ5WFQZ_qkf_b_Gxr1s4JoEBjw4lbJj_xuxaVeLcdh8WU13YVwy0mGIbETeUU3MmLkDLeJns-5fm2tQd-RKrmPUInqhYHg0OPvzhqWvU/s1200/5126e587-8540-4926-a61e-53dbf9afb696_16-9-discover-aspect-ratio_default_1001052.webp"
+image_alt: "Lectura en Español (Nível B1) - Un Día en la Playa"
+reading_time: 2
+blogger_id: "tag:blogger.com,1999:blog-3745886708439851129.post-2164256091690174400"
+blogger_status: "LIVE"
+---
+
+<div><span>¡Disfruta de un día soleado en la playa con nuestra lectura en español (Nivel B1). ¡No te pierdas esta oportunidad de aprender y divertirte al mismo tiempo!</span></div><div><span><br/></span></div><div><span><div><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT6qHZUQjvU95fBYczJXu8Ld6-sbX11AtD3eeTYKPdVYhsDRx_ZS6he-9uhErJbEJiRmiyAX6DzPdYLVCQU8RrHQ5WFQZ_qkf_b_Gxr1s4JoEBjw4lbJj_xuxaVeLcdh8WU13YVwy0mGIbETeUU3MmLkDLeJns-5fm2tQd-RKrmPUInqhYHg0OPvzhqWvU/s1200/5126e587-8540-4926-a61e-53dbf9afb696_16-9-discover-aspect-ratio_default_1001052.webp" rel="noopener noreferrer"><img alt="" decoding="async" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT6qHZUQjvU95fBYczJXu8Ld6-sbX11AtD3eeTYKPdVYhsDRx_ZS6he-9uhErJbEJiRmiyAX6DzPdYLVCQU8RrHQ5WFQZ_qkf_b_Gxr1s4JoEBjw4lbJj_xuxaVeLcdh8WU13YVwy0mGIbETeUU3MmLkDLeJns-5fm2tQd-RKrmPUInqhYHg0OPvzhqWvU/s1200/5126e587-8540-4926-a61e-53dbf9afb696_16-9-discover-aspect-ratio_default_1001052.webp"/></a></div></span></div><span><br/><div><b></b></div><blockquote><div><b>Texto: Un Día en la Playa</b></div><div><br/></div>Hoy es un día soleado y perfecto para ir a la playa. María y sus amigos están muy emocionados por pasar el día juntos junto al mar. Han preparado sus toallas, protector solar y una nevera llena de bocadillos y bebidas frescas.<br/><br/>Cuando llegan a la playa, se apresuran a encontrar un lugar cerca del agua. Despliegan sus toallas y se aplican protector solar para protegerse del sol abrasador. Luego, corren hacia el mar y se sumergen en las refrescantes olas.<br/><br/>Después de nadar y jugar en el agua durante un rato, deciden jugar al voleibol de playa. Dividen equipos y comienzan un emocionante partido bajo el sol. Las risas y los gritos llenan el aire mientras se esfuerzan por ganar.<br/><br/>Cuando el sol comienza a ponerse, María y sus amigos se sientan en la arena para disfrutar de un picnic improvisado. Comen bocadillos y comparten historias mientras observan el hermoso atardecer sobre el horizonte.<br/><br/>Finalmente, después de un día lleno de diversión y risas, empacan sus cosas y se despiden de la playa. Están agotados pero felices, listos para volver otro día y hacerlo todo de nuevo.</blockquote><br/><br/><b>¡Qué día tan maravilloso en la playa!<br/></b><br/><ul><li><span><b>Vocabulário</b></span></li></ul><blockquote>Playa - Praia<br/>Toallas - Toalhas<br/>Voleibol - Voleibol<br/>Picnic - Piquenique<br/>Atardecer - Entardecer</blockquote></span>
