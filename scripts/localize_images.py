@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Baixa e otimiza imagens dos posts migrados, removendo dependência do Blogger.
+"""Baixa e otimiza imagens dos posts migrados, removendo dependências externas.
 
 Mantém os permalinks dos artigos intactos. As imagens são convertidas para WebP,
-limitadas a 1600 px no maior lado e gravadas em assets/media/.
+limitadas a 1600 px no maior lado e gravadas em assets/media/. Para mídias antigas
+do WordPress que não existem mais, tenta snapshots públicos do Internet Archive e,
+como último recurso, cria um placeholder editorial local em vez de deixar imagem quebrada.
 """
 
 from __future__ import annotations
@@ -16,7 +18,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse, urlunparse
 
 from bs4 import BeautifulSoup
-from PIL import Image, ImageOps
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA = ROOT / "assets" / "media"
@@ -28,6 +30,7 @@ IMAGE_HOSTS = {
     WORDPRESS_HOST,
     "static.hotmart.com",
 }
+PLACEHOLDER_SOURCES: set[str] = set()
 
 
 def split_document(text: str) -> tuple[str, str]:
@@ -81,6 +84,8 @@ def candidate_urls(url: str) -> list[str]:
                 f"https://i0.wp.com/{WORDPRESS_HOST}{parsed.path}",
                 f"https://i1.wp.com/{WORDPRESS_HOST}{parsed.path}",
                 f"https://i2.wp.com/{WORDPRESS_HOST}{parsed.path}",
+                f"https://web.archive.org/web/2im_/https://{WORDPRESS_HOST}{parsed.path}",
+                f"https://web.archive.org/web/2im_/https://{WORDPRESS_SITE}/wp-content/uploads{parsed.path}",
             ]
         )
     return list(dict.fromkeys(candidates))
@@ -93,12 +98,16 @@ def request_bytes(url: str) -> bytes:
         "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
         "Referer": "https://vamosaestudiarespanol.wordpress.com/",
     }
+    parsed = urlparse(url)
+    is_legacy_wp = (parsed.hostname or "").lower() == WORDPRESS_HOST
+    attempts = 1 if is_legacy_wp else 2
+    timeout = 25 if is_legacy_wp else 60
     errors: list[str] = []
     for candidate in candidate_urls(url):
-        for attempt in range(2):
+        for attempt in range(attempts):
             try:
                 req = urllib.request.Request(candidate, headers=headers)
-                with urllib.request.urlopen(req, timeout=45) as response:
+                with urllib.request.urlopen(req, timeout=timeout) as response:
                     data = response.read()
                     content_type = (response.headers.get("Content-Type") or "").lower()
                     if not data:
@@ -108,7 +117,7 @@ def request_bytes(url: str) -> bytes:
                     return data
             except Exception as exc:
                 errors.append(f"{candidate}: {exc}")
-                time.sleep(0.5 * (attempt + 1))
+                time.sleep(0.35 * (attempt + 1))
     raise RuntimeError(f"Falha ao baixar {url}: {' | '.join(errors[-6:])}")
 
 
@@ -122,6 +131,37 @@ def save_webp(data: bytes, destination: Path) -> None:
         if image.mode not in ("RGB", "RGBA"):
             image = image.convert("RGBA" if "transparency" in image.info else "RGB")
         image.save(destination, "WEBP", quality=84, method=6)
+
+
+def save_legacy_placeholder(destination: Path, source: str, article_title: str) -> None:
+    """Cria substituição local somente quando uma mídia WordPress antiga sumiu da web."""
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    width, height = 1200, 675
+    image = Image.new("RGB", (width, height), "#fff9ed")
+    draw = ImageDraw.Draw(image)
+    draw.rectangle((0, 0, width, 18), fill="#e0a329")
+    draw.rectangle((0, 18, 26, height), fill="#8f1d2c")
+    font = ImageFont.load_default(size=32)
+    small = ImageFont.load_default(size=21)
+    label = "Imagem do acervo legado"
+    filename = unquote(Path(urlparse(source).path).name).replace("-", " ").replace("_", " ")
+    filename = re.sub(r"\s+", " ", filename).strip()
+    title = re.sub(r"\s+", " ", article_title).strip()
+    draw.text((86, 170), label, fill="#8f1d2c", font=font)
+    draw.text((86, 245), filename[:62], fill="#1f2430", font=small)
+    draw.text((86, 305), title[:78], fill="#6f6a63", font=small)
+    draw.text((86, 515), "Vamos a Estudiar Español", fill="#6e1521", font=small)
+    image.save(destination, "WEBP", quality=86, method=6)
+    PLACEHOLDER_SOURCES.add(source)
+
+
+def localize_source(source: str, destination: Path, article_title: str) -> None:
+    try:
+        save_webp(request_bytes(source), destination)
+    except Exception:
+        if (urlparse(source).hostname or "").lower() != WORDPRESS_HOST:
+            raise
+        save_legacy_placeholder(destination, source, article_title)
 
 
 def is_external_image(url: str) -> bool:
@@ -141,6 +181,7 @@ def process_file(path: Path, cache: dict[str, str]) -> tuple[int, int]:
     original = path.read_text(encoding="utf-8")
     front, body = split_document(original)
     permalink = scalar(front, "permalink")
+    article_title = scalar(front, "title") or path.stem
     if not permalink:
         raise ValueError(f"Permalink ausente em {path}")
 
@@ -155,7 +196,7 @@ def process_file(path: Path, cache: dict[str, str]) -> tuple[int, int]:
         else:
             destination, local_url = destination_for(permalink, index, source)
             if not destination.exists():
-                save_webp(request_bytes(source), destination)
+                localize_source(source, destination, article_title)
             cache[source] = local_url
         img["src"] = local_url
         localized += 1
@@ -170,7 +211,7 @@ def process_file(path: Path, cache: dict[str, str]) -> tuple[int, int]:
         if not local_url:
             destination, local_url = destination_for(permalink, 0, front_image)
             if not destination.exists():
-                save_webp(request_bytes(front_image), destination)
+                localize_source(front_image, destination, article_title)
             cache[front_image] = local_url
         front = replace_front_image(front, front_image, local_url)
 
@@ -209,7 +250,14 @@ def main() -> None:
     if remaining:
         raise SystemExit("Ainda há imagens externas em: " + ", ".join(remaining))
 
-    print(f"Imagens localizadas: {localized}; arquivos de mídia únicos: {len(cache)}")
+    print(
+        f"Imagens localizadas: {localized}; arquivos de mídia únicos: {len(cache)}; "
+        f"placeholders legados: {len(PLACEHOLDER_SOURCES)}"
+    )
+    if PLACEHOLDER_SOURCES:
+        print("Mídias WordPress sem original recuperável:")
+        for source in sorted(PLACEHOLDER_SOURCES):
+            print(f"- {source}")
 
 
 if __name__ == "__main__":
