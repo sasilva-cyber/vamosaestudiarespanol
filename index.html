@@ -1,0 +1,41 @@
+---
+layout: default
+title: "Vamos a Estudiar Español"
+description: "Espanhol, cultura e aprendizagem em um blog feito para estudantes brasileiros."
+---
+<section class="blog-hero" aria-labelledby="blog-title">
+  <p class="eyebrow">Español sin fronteras</p>
+  <h1 id="blog-title">Aprenda espanhol com língua, cultura e contexto.</h1>
+  <p class="hero-text">Artigos, explicações e referências para estudar espanhol de forma consistente — conectados ao nosso Espaço de Prática para você transformar leitura em aprendizagem ativa.</p>
+  <div class="hero-actions">
+    <a class="button-primary" href="{{ site.social.practice }}">Ir para o Espaço de Prática</a>
+    <a class="button-secondary" href="{{ '/arquivo/' | relative_url }}">Explorar o arquivo</a>
+  </div>
+</section>
+
+<section aria-labelledby="latest-title">
+  <div class="section-title">
+    <div><p class="eyebrow">Do blog</p><h2 id="latest-title">Postagens recentes</h2></div>
+    <a href="{{ '/arquivo/' | relative_url }}">Ver todas →</a>
+  </div>
+
+  <div class="post-grid">
+    {% for post in site.posts limit: 10 %}
+    <article class="post-card">
+      <a class="post-card-image" href="{{ post.url | relative_url }}" aria-label="Ler {{ post.title }}">
+        {% if post.image %}
+        <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: '' }}" loading="lazy">
+        {% endif %}
+      </a>
+      <div class="post-card-body">
+        <span class="post-card-category">{{ post.category | default: 'Blog' }}</span>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description | default: post.excerpt | strip_html | truncate: 150 }}</p>
+        <div class="post-card-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d/%m/%Y' }}</time><span>Ler artigo →</span></div>
+      </div>
+    </article>
+    {% else %}
+    <div class="empty-state">A interface do novo blog está pronta. As postagens aparecerão aqui assim que o acervo do Blogger for importado, preservando títulos, datas e URLs originais.</div>
+    {% endfor %}
+  </div>
+</section>
