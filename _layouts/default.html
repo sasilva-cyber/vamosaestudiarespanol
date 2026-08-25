@@ -11,6 +11,16 @@
 <body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 
+  <div class="topline">
+    <div class="topline__inner">
+      <p>Conteúdo independente para quem estuda espanhol no Brasil.</p>
+      <nav aria-label="Redes sociais">
+        <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer">YouTube</a>
+      </nav>
+    </div>
+  </div>
+
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — início">
@@ -29,7 +39,7 @@
         <a href="{{ '/' | relative_url }}">Início</a>
         <a href="{{ '/arquivo/' | relative_url }}">Arquivo</a>
         <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
-        <a class="nav-practice" href="{{ site.social.practice }}">Espaço de prática</a>
+        <a class="nav-practice" href="{{ site.social.practice }}">Espaço de prática <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
     <div class="heritage-stripe" aria-hidden="true"></div>
@@ -42,6 +52,13 @@
 
     {% unless page.sidebar == false %}
     <aside class="sidebar" aria-label="Conteúdo complementar">
+      <section class="sidebar-card sidebar-card--practice">
+        <p class="sidebar-kicker">Continue estudando</p>
+        <h2>Da leitura à prática</h2>
+        <p>Revise conteúdos e treine o espanhol com atividades no nosso Espaço de Prática.</p>
+        <a class="sidebar-cta" href="{{ site.social.practice }}">Praticar agora <span aria-hidden="true">→</span></a>
+      </section>
+
       <section class="sidebar-card archive-card">
         <p class="sidebar-kicker">Navegue pelo tempo</p>
         <h2>Arquivo do blog</h2>
@@ -58,8 +75,6 @@
             {% endif %}
           {% endfor %}
         </select>
-        {% else %}
-        <p class="sidebar-empty">As postagens aparecerão aqui após a importação do Blogger.</p>
         {% endif %}
       </section>
 
@@ -70,10 +85,8 @@
           {% for post in site.posts limit: 5 %}
           <a class="sidebar-post" href="{{ post.url | relative_url }}">
             {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% endif %}
-            <span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%d/%m/%Y' }}</small></span>
+            <span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%d.%m.%Y' }}</small></span>
           </a>
-          {% else %}
-          <p class="sidebar-empty">Nenhuma postagem importada ainda.</p>
           {% endfor %}
         </div>
       </section>
@@ -89,17 +102,7 @@
             <span class="rank">{{ forloop.index }}</span>
             <span><strong>{{ post.title }}</strong><small>{% if post.views %}{{ post.views }} visualizações{% else %}Em destaque{% endif %}</small></span>
           </a>
-          {% else %}
-          <p class="sidebar-empty">A lista será preenchida quando as postagens forem migradas.</p>
           {% endfor %}
-        </div>
-      </section>
-
-      <section class="sidebar-card facebook-card">
-        <p class="sidebar-kicker">Acompanhe</p>
-        <h2>Facebook</h2>
-        <div class="facebook-frame">
-          <iframe title="Página Vamos a Estudiar Español no Facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvamosaestudiarespanol&amp;tabs=timeline&amp;width=300&amp;height=390&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false" width="300" height="390" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe>
         </div>
       </section>
 
@@ -111,25 +114,46 @@
         </div>
         <a class="sidebar-link" href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer">Ver canal no YouTube →</a>
       </section>
+
+      <section class="sidebar-card facebook-card">
+        <p class="sidebar-kicker">Comunidade</p>
+        <h2>Facebook</h2>
+        <div class="facebook-frame">
+          <iframe title="Página Vamos a Estudiar Español no Facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvamosaestudiarespanol&amp;tabs=timeline&amp;width=300&amp;height=390&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false" width="300" height="390" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe>
+        </div>
+      </section>
     </aside>
     {% endunless %}
   </div>
 
   <footer class="site-footer">
-    <div class="footer-inner">
+    <div class="footer-main">
       <div class="footer-brand">
         <span class="brand-mark" aria-hidden="true">Ñ</span>
-        <div><strong>{{ site.title }}</strong><p>Aprender espanhol também é descobrir novas formas de ver o mundo.</p></div>
+        <div>
+          <strong>{{ site.title }}</strong>
+          <p>Espanhol com língua, cultura e contexto para estudantes brasileiros.</p>
+        </div>
       </div>
-      <nav class="footer-links" aria-label="Links do rodapé">
-        <a href="{{ '/' | relative_url }}">Blog</a>
+
+      <div class="footer-column">
+        <h2>Explore</h2>
+        <a href="{{ '/' | relative_url }}">Início</a>
         <a href="{{ '/arquivo/' | relative_url }}">Arquivo</a>
-        <a href="{{ site.social.practice }}">Prática</a>
+        <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
+        <a href="{{ site.social.practice }}">Espaço de Prática</a>
+      </div>
+
+      <div class="footer-column">
+        <h2>Acompanhe</h2>
         <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="{{ site.social.facebook }}" target="_blank" rel="noopener noreferrer">Facebook</a>
         <a href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer">YouTube</a>
-      </nav>
-      <p class="copyright">© {{ 'now' | date: '%Y' }} {{ site.title }}.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {{ 'now' | date: '%Y' }} {{ site.title }}.</p>
+      <p>¡Aprende, practica y avanza!</p>
     </div>
   </footer>
 
