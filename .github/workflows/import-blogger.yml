@@ -38,7 +38,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          rm -f sobre.html migration/IMPORT_READY
+          rm -f migration/IMPORT_READY
 
       - name: Commitar acervo convertido
         shell: bash
