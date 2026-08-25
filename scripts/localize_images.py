@@ -13,7 +13,7 @@ import re
 import time
 import urllib.request
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import unquote, urlparse, urlunparse
 
 from bs4 import BeautifulSoup
 from PIL import Image, ImageOps
@@ -21,9 +21,10 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA = ROOT / "assets" / "media"
 EXPECTED_IMAGES = 248
+WORDPRESS_HOST = "vamosaestudiarespanol.files.wordpress.com"
 IMAGE_HOSTS = {
     "blogger.googleusercontent.com",
-    "vamosaestudiarespanol.files.wordpress.com",
+    WORDPRESS_HOST,
     "static.hotmart.com",
 }
 
@@ -62,21 +63,39 @@ def destination_for(permalink: str, index: int, source: str) -> tuple[Path, str]
     return ROOT / rel, "/" + rel.as_posix()
 
 
+def candidate_urls(url: str) -> list[str]:
+    """Tenta variantes seguras quando o CDN antigo do WordPress bloqueia hotlink."""
+    parsed = urlparse(url)
+    candidates = [url]
+    if (parsed.hostname or "").lower() == WORDPRESS_HOST:
+        clean = urlunparse((parsed.scheme or "https", parsed.netloc, parsed.path, "", "", ""))
+        candidates.append(clean)
+        candidates.append(f"https://i0.wp.com/{WORDPRESS_HOST}{parsed.path}")
+        candidates.append(f"https://i1.wp.com/{WORDPRESS_HOST}{parsed.path}")
+    return list(dict.fromkeys(candidates))
+
+
 def request_bytes(url: str) -> bytes:
     headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; VAE-Media-Migration/1.0)",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
         "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+        "Referer": "https://vamosaestudiarespanol.wordpress.com/",
     }
-    last_error: Exception | None = None
-    for attempt in range(3):
-        try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=60) as response:
-                return response.read()
-        except Exception as exc:
-            last_error = exc
-            time.sleep(1.5 * (attempt + 1))
-    raise RuntimeError(f"Falha ao baixar {url}: {last_error}")
+    errors: list[str] = []
+    for candidate in candidate_urls(url):
+        for attempt in range(2):
+            try:
+                req = urllib.request.Request(candidate, headers=headers)
+                with urllib.request.urlopen(req, timeout=60) as response:
+                    data = response.read()
+                    if not data:
+                        raise RuntimeError("resposta vazia")
+                    return data
+            except Exception as exc:
+                errors.append(f"{candidate}: {exc}")
+                time.sleep(0.8 * (attempt + 1))
+    raise RuntimeError(f"Falha ao baixar {url}: {' | '.join(errors[-4:])}")
 
 
 def save_webp(data: bytes, destination: Path) -> None:
