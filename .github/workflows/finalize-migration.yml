@@ -1,0 +1,44 @@
+name: Finalizar migração do Blogger
+
+on:
+  push:
+    branches:
+      - feat/blog-profissional
+    paths:
+      - migration/FINALIZE_MIGRATION
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Aplicar SEO e ajustes finais
+        run: python scripts/finalize_migration.py
+
+      - name: Auditar migração
+        run: python scripts/audit_migration.py
+
+      - name: Remover marcador
+        run: rm -f migration/FINALIZE_MIGRATION
+
+      - name: Commitar fechamento técnico
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+            exit 0
+          fi
+          git commit -m "chore: finaliza migração do Blogger"
+          git push origin HEAD:feat/blog-profissional
