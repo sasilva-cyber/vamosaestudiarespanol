@@ -18,6 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Auditar migração completa
+        run: python scripts/audit_migration.py
+
       - name: Validar conjunto de URLs contra o backup do Blogger
         shell: bash
         run: |
