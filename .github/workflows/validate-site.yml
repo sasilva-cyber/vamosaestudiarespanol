@@ -1,0 +1,76 @@
+name: Validar site Jekyll
+
+on:
+  push:
+    branches:
+      - feat/blog-profissional
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Auditar migração completa
+        run: python scripts/audit_migration.py
+
+      - name: Validar conjunto de URLs contra o backup do Blogger
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import re
+
+          expected_count = 194
+          expected_hash = "699a67dd194ff2c929df8456f03f286068e101ba2c0650266709349cab13c65c"
+          paths = list(Path('_posts').glob('*.md')) + list(Path('p').glob('*.md'))
+          permalinks = []
+          for path in paths:
+              text = path.read_text(encoding='utf-8')
+              match = re.search(r'^permalink:\s*["\']([^"\']+)["\']\s*$', text, re.M)
+              if not match:
+                  raise SystemExit(f'Permalink ausente ou inválido: {path}')
+              permalinks.append(match.group(1))
+          if len(permalinks) != expected_count:
+              raise SystemExit(f'Esperadas {expected_count} URLs, encontradas {len(permalinks)}')
+          if len(set(permalinks)) != expected_count:
+              raise SystemExit('Há permalinks duplicados')
+          actual_hash = hashlib.sha256('\n'.join(sorted(permalinks)).encode()).hexdigest()
+          if actual_hash != expected_hash:
+              raise SystemExit(f'Conjunto de URLs difere do backup: {actual_hash}')
+          print(f'URLs validadas contra o backup: {expected_count}; SHA-256 {actual_hash}')
+          PY
+
+      - name: Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
+
+      - name: Verificar URLs essenciais
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f _site/index.html
+          test -f _site/arquivo/index.html
+          test -f _site/2024/12/cine-espanol-culpa-mia.html
+          test -f _site/p/sobre.html
+          test -f _site/p/contato.html
+          test -f _site/p/politica-de-privacidade.html
+          test -f _site/p/termos-e-condicoes.html
+          test -f _site/sitemap.xml
+          test -f _site/feed.xml

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Madre Soló Hay Dos com Paulina Goto e Ludwika Paleta"
+description: "Madre Soló Hay Dos é uma comédia mexicana com Paulina Goto e Ludwika Paleta. A série que estreou a pouco na Netflix é uma indicação ideal para você estudante que…"
+date: 2022-03-27 13:32:00 -0300
+last_modified_at: 2024-08-06 12:18:22 -0300
+permalink: "/2022/03/madre-solo-hay-dos-dica-de-serie.html"
+category: "Séries"
+categories: ["Séries"]
+image: "/assets/media/2022/03/madre-solo-hay-dos-dica-de-serie-01-19f8d07e.webp"
+image_alt: "Madre Soló Hay Dos com Paulina Goto e Ludwika Paleta"
+reading_time: 2
+blogger_id: "tag:blogger.com,1999:blog-3745886708439851129.post-7772905919697446727"
+blogger_status: "LIVE"
+---
+<div><span><b>Madre Soló Hay Dos</b> é uma comédia mexicana com Paulina Goto e Ludwika Paleta.</span></div><div><span><span><br/></span></span></div><div><span><span>A série que estreou a pouco na Netflix é uma indicação ideal para você estudante que deseja aprender o idioma, enquanto, estuda espanhol. Saiba Mais!</span></span></div><span><div><br/></div><div><a href="/assets/media/2022/03/madre-solo-hay-dos-dica-de-serie-01-19f8d07e.webp" rel="noopener noreferrer"><img alt="" decoding="async" loading="lazy" src="/assets/media/2022/03/madre-solo-hay-dos-dica-de-serie-01-19f8d07e.webp"/></a></div><div><br/></div></span><span><div>Madre Soló Hay Dos (título original), em português recebeu a tradução de "Mãe só tem duas"; chegou a netflix em sua primeira temporada com Ludwika Paleta (atualmente na novela "Triunfo do Amor", em exibição no SBT) e Paulina Goto. </div><div><br/></div><div>A trama e da mesma roteirista de "<b>Jane The Virgin</b>", possui uma história "batida'", contudo interessante, do ponto de vista de uma estudante do idioma. Afinal o enredo trata de duas mulheres, completamente diferentes, que engravidam e na maternidade tem seus bebês trocados. Após descobrir a troca, elas se veem apegadas aos seus respectivos bebês mesmo não sendo a mãe biológica.</div><div><div></div><blockquote><div>Ficha técnica</div><div>Gênero: Comédia dramática</div><div>Direção: Carolina Rivera</div><div>Origem: México</div><div>Ano: 2021</div></blockquote></div><div>Criando assim, uma série de situações do cotidiano que podemos utilizar para acrescentar em nosso vocabulários novas palavras que envolvem: maternidade, filhos, relacionamentos conjugais, etc… A série "Madre Soló Hay Dos" não é a melhor produção mexicana lançado recentemente no serviço de streaming da Netflix (encontre aqui outras indicações). </div><div><br/></div><div><a href="/assets/media/2022/03/madre-solo-hay-dos-dica-de-serie-02-7466e760.webp" rel="noopener noreferrer"><img alt="" decoding="async" loading="lazy" src="/assets/media/2022/03/madre-solo-hay-dos-dica-de-serie-02-7466e760.webp"/></a></div><div><br/></div></span><div><span>Contudo, nos do</span><span><b><a href="/" target="_blank"> ¡Vamos a Estudiar Español!</a></b></span><span> também buscamos a valorização do cinema e produções televisivas latinas ou de origem espanhola, nada como, uma indicação divertida e valida, mesmo não sendo a melhor do gênero assim como, "<b><a href="/2024/01/doblemente-embarazada-con-maite-perroni.html" target="_blank">Doblemente Embarazada</a></b>" com Maite Perroni.</span></div>

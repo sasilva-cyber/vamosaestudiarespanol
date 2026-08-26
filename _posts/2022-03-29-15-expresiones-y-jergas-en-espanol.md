@@ -1,0 +1,16 @@
+---
+layout: post
+title: "15 Expresiones y Jergas en Español"
+description: " Vamos aprender algumas expressões e gírias do Espanhol? Separamos 15 “Expresiones y Jergas” del español para que você aprenda e acrescente ao seu voc"
+date: 2022-03-29 17:01:00 -0300
+last_modified_at: 2022-03-29 17:02:31 -0300
+permalink: "/2022/03/15-expresiones-y-jergas-en-espanol.html"
+category: "Vocabulário"
+categories: ["Vocabulário"]
+image: "/assets/media/2022/03/15-expresiones-y-jergas-en-espanol-01-a6260d15.webp"
+image_alt: "15 Expresiones y Jergas en Español"
+reading_time: 1
+blogger_id: "tag:blogger.com,1999:blog-3745886708439851129.post-7697452355827055235"
+blogger_status: "LIVE"
+---
+<p><span><span>Vamos aprender algumas expressões e gírias do Espanhol? Separamos 15 <b>“Expresiones y Jergas” del español</b> para que você aprenda e acrescente ao seu vocabulário! Veja abaixo:</span></span></p><div><a href="/assets/media/2022/03/15-expresiones-y-jergas-en-espanol-01-a6260d15.webp" imageanchor="1" rel="noopener noreferrer"><img alt="" decoding="async" loading="lazy" src="/assets/media/2022/03/15-expresiones-y-jergas-en-espanol-01-a6260d15.webp"/></a></div><br/><p><br/></p><ol><li>Dejar plantado = Dar Bolo</li><li>Dar una Carcajada = Dar uma gargalhada</li><li>Echar una mano = dar uma mão</li><li>Aguafiestas = Estraga prazeres</li><li>Estar Fregado = Estar ferrado</li><li>Extranãr / Echar de menos a Alguien= Sentir saudades</li><li>Hacer (un) Lío = Fazer confusão</li><li>Hacer Furor = Fazer muito sucesso</li><li>Tomarlo en Broma = Levar na Brincadeira</li><li>Pasarse de la Raya = Passar do limite</li><li>A Regañadientes = Contra a Vontade</li><li>A Simple vista = A Primeira Vista</li><li>Cabeza de Chorlito = Cabeça de Vento</li><li>Devolver la pelota = Responder da mesma maneira</li><li>Jarabe de Pico = Tagarela</li></ol><div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img alt="" class="wp-image-778" data-attachment-id="778" data-comments-opened="1" data-image-caption="" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="jergas" data-large-file="https://vamosaestudiarespanol.files.wordpress.com/2021/02/jergas.jpg?w=400" data-medium-file="https://vamosaestudiarespanol.files.wordpress.com/2021/02/jergas.jpg?w=300" data-orig-file="https://vamosaestudiarespanol.files.wordpress.com/2021/02/jergas.jpg" data-orig-size="400,291" data-permalink="https://vamosaestudiarespanol.wordpress.com/jergas/" decoding="async" loading="lazy" sizes="(max-width: 514px) 100vw, 514px" src="/assets/media/2022/03/15-expresiones-y-jergas-en-espanol-02-cdfc7cb8.webp" srcset="https://vamosaestudiarespanol.files.wordpress.com/2021/02/jergas.jpg 400w, https://vamosaestudiarespanol.files.wordpress.com/2021/02/jergas.jpg?w=150 150w, https://vamosaestudiarespanol.files.wordpress.com/2021/02/jergas.jpg?w=300 300w"/></figure></div><p class="has-text-align-justify">Gostou de conhecer essas 15 Expressões e Gírias em Espanhol? Conta-nos se conhece alguma Expresiones y Jergas del Español que não mencionamos acima, vamos adorar saber se conhece algumas e quais!</p>

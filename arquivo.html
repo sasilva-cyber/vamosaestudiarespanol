@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Arquivo do blog"
+description: "Todas as postagens do Vamos a Estudiar Español organizadas por mês e ano."
+permalink: /arquivo/
+---
+<header class="page-header">
+  <p class="eyebrow">Todo o acervo</p>
+  <h1>Arquivo do blog</h1>
+  <p>Encontre conteúdos antigos e recentes organizados cronologicamente.</p>
+</header>
+
+{% if site.posts.size > 0 %}
+  {% assign archive_month = '' %}
+  {% for post in site.posts %}
+    {% assign post_month = post.date | date: '%Y-%m' %}
+    {% if post_month != archive_month %}
+      {% unless forloop.first %}</div>{% endunless %}
+      <h2 class="archive-month" id="{{ post_month }}">{{ post.date | date: '%m/%Y' }}</h2>
+      <div class="archive-list">
+      {% assign archive_month = post_month %}
+    {% endif %}
+      <a class="archive-item" href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d/%m' }}</time>
+        <strong>{{ post.title }}</strong>
+      </a>
+    {% if forloop.last %}</div>{% endif %}
+  {% endfor %}
+{% else %}
+  <div class="empty-state">O arquivo será preenchido automaticamente quando as postagens do Blogger forem adicionadas à pasta <code>_posts</code>.</div>
+{% endif %}

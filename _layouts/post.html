@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <nav class="breadcrumbs" aria-label="Caminho">
+      <a href="{{ '/' | relative_url }}">Início</a><span aria-hidden="true">/</span><span>{{ page.category | default: 'Blog' }}</span>
+    </nav>
+    {% if page.category %}<p class="eyebrow">{{ page.category }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="post-lead">{{ page.description }}</p>{% elsif page.excerpt %}<p class="post-lead">{{ page.excerpt | strip_html | truncate: 220 }}</p>{% endif %}
+    <div class="post-meta">
+      <span>Por {{ page.author }}</span><span aria-hidden="true">•</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time>
+      {% if page.reading_time %}<span aria-hidden="true">•</span><span>{{ page.reading_time }} min de leitura</span>{% endif %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <figure class="post-cover">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" fetchpriority="high">
+    {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  {% if page.tags.size > 0 %}
+  <div class="post-tags" aria-label="Tags">
+    {% for tag in page.tags %}<span>#{{ tag }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  <section class="share-section" aria-labelledby="share-title">
+    <div><p class="eyebrow">Gostou do conteúdo?</p><h2 id="share-title">Compartilhe esta postagem</h2></div>
+    <div class="share-buttons">
+      <button class="share-button share-whatsapp" type="button" data-share="whatsapp" aria-label="Compartilhar no WhatsApp">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.6 2.3A7.7 7.7 0 0 0 8.1 0a7.8 7.8 0 0 0-6.7 11.7L.3 16l4.4-1.1A7.8 7.8 0 0 0 16 8.1c0-2.2-.9-4.2-2.4-5.8ZM8.1 14.4c-1.2 0-2.4-.3-3.4-.9l-.2-.1-2.6.7.7-2.5-.2-.3A6.3 6.3 0 1 1 8.1 14.4Zm3.5-4.7c-.2-.1-1.1-.5-1.3-.6-.2-.1-.3-.1-.5.1l-.6.8c-.1.2-.3.2-.5.1-.2-.1-.8-.3-1.6-1-.6-.5-1-1.2-1.1-1.4-.1-.2 0-.3.1-.4l.3-.4.2-.3c.1-.1 0-.3 0-.4L6 5c-.1-.3-.3-.3-.5-.3h-.4c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.3.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.1-.5 1.3-.9.2-.5.2-.9.1-1 0-.1-.2-.2-.4-.3l-.6-.3Z"/></svg><span>WhatsApp</span>
+      </button>
+      <button class="share-button share-facebook" type="button" data-share="facebook" aria-label="Compartilhar no Facebook">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M16 8.05A8 8 0 1 0 6.75 16v-5.62H4.72V8.05h2.03V6.27c0-2.02 1.2-3.13 3.02-3.13.87 0 1.78.16 1.78.16v1.96h-1c-.99 0-1.3.62-1.3 1.25v1.54h2.21l-.35 2.33H9.25V16A8 8 0 0 0 16 8.05Z"/></svg><span>Facebook</span>
+      </button>
+      <button class="share-button share-pinterest" type="button" data-share="pinterest" data-image="{{ page.image | absolute_url }}" aria-label="Compartilhar no Pinterest">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0a8 8 0 0 0-2.9 15.45c-.07-1.26-.01-2.77.31-4.14l1.03-4.36s-.26-.53-.26-1.31c0-1.23.71-2.15 1.6-2.15.76 0 1.12.57 1.12 1.25 0 .76-.48 1.89-.73 2.94-.21.88.44 1.6 1.31 1.6 1.57 0 2.78-1.66 2.78-4.05 0-2.12-1.52-3.6-3.7-3.6-2.52 0-4 1.89-4 3.84 0 .76.29 1.58.66 2.02.07.09.08.16.06.25l-.24.98c-.04.16-.13.2-.3.12-1.12-.52-1.82-2.16-1.82-3.48 0-2.83 2.05-5.43 5.93-5.43 3.11 0 5.53 2.22 5.53 5.18 0 3.09-1.95 5.58-4.65 5.58-.91 0-1.76-.47-2.05-1.03l-.56 2.12c-.2.78-.75 1.76-1.12 2.36.84.26 1.73.4 2.66.4a8 8 0 0 0 0-16Z"/></svg><span>Pinterest</span>
+      </button>
+      <button class="share-button share-instagram" type="button" data-share="instagram" aria-label="Compartilhar no Instagram">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.44c2.14 0 2.39.01 3.23.05.78.03 1.21.16 1.49.27.38.15.65.32.93.6.28.28.45.55.6.93.11.28.24.71.27 1.49.04.84.05 1.09.05 3.23s-.01 2.39-.05 3.23c-.03.78-.16 1.21-.27 1.49-.15.38-.32.65-.6.93-.28.28-.55.45-.93.6-.28.11-.71.24-1.49.27-.84.04-1.09.05-3.23.05s-2.39-.01-3.23-.05c-.78-.03-1.21-.16-1.49-.27a2.5 2.5 0 0 1-.93-.6 2.5 2.5 0 0 1-.6-.93c-.11-.28-.24-.71-.27-1.49-.04-.84-.05-1.09-.05-3.23s.01-2.39.05-3.23c.03-.78.16-1.21.27-1.49.15-.38.32-.65.6-.93.28-.28.55-.45.93-.6.28-.11.71-.24 1.49-.27C5.61 1.45 5.86 1.44 8 1.44ZM8 0C5.83 0 5.56.01 4.71.05 3.86.09 3.28.22 2.77.42A3.9 3.9 0 0 0 1.35 1.35 3.9 3.9 0 0 0 .42 2.77c-.2.51-.33 1.09-.37 1.94C.01 5.56 0 5.83 0 8s.01 2.44.05 3.29c.04.85.17 1.43.37 1.94.21.53.49.98.93 1.42.44.44.89.72 1.42.93.51.2 1.09.33 1.94.37.85.04 1.12.05 3.29.05s2.44-.01 3.29-.05c.85-.04 1.43-.17 1.94-.37.53-.21.98-.49 1.42-.93.44-.44.72-.89.93-1.42.2-.51.33-1.09.37-1.94.04-.85.05-1.12.05-3.29s-.01-2.44-.05-3.29c-.04-.85-.17-1.43-.37-1.94a3.9 3.9 0 0 0-.93-1.42A3.9 3.9 0 0 0 13.23.42c-.51-.2-1.09-.33-1.94-.37C10.44.01 10.17 0 8 0Zm0 3.89A4.11 4.11 0 1 0 8 12.11 4.11 4.11 0 0 0 8 3.89Zm0 6.78A2.67 2.67 0 1 1 8 5.33a2.67 2.67 0 0 1 0 5.34Zm5.23-6.94a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0Z"/></svg><span>Instagram</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="related-posts" aria-labelledby="related-title">
+    <p class="eyebrow">Continue aprendendo</p>
+    <h2 id="related-title">Postagens relacionadas</h2>
+    <div class="related-grid">
+      {% assign shown = 0 %}
+      {% for related in site.related_posts %}
+        {% if shown < 3 %}
+        <article class="related-card">
+          {% if related.image %}<a class="related-image" href="{{ related.url | relative_url }}"><img src="{{ related.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+          <div><small>{{ related.category | default: 'Blog' }}</small><h3><a href="{{ related.url | relative_url }}">{{ related.title }}</a></h3><p>{{ related.excerpt | strip_html | truncate: 110 }}</p></div>
+        </article>
+        {% assign shown = shown | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% if shown == 0 %}<p class="empty-related">As sugestões relacionadas aparecerão aqui conforme o acervo for migrado.</p>{% endif %}
+    </div>
+  </section>
+</article>

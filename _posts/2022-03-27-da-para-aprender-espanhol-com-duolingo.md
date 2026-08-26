@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Da para Aprender Espanhol com Duolingo?"
+description: "Da para aprender Espanhol com o Duolingo? "
+date: 2022-03-27 14:02:00 -0300
+last_modified_at: 2022-03-27 14:02:18 -0300
+permalink: "/2022/03/da-para-aprender-espanhol-com-duolingo.html"
+category: "Dicas"
+categories: ["Dicas"]
+image: "/assets/media/2022/03/da-para-aprender-espanhol-com-duolingo-01-16953343.webp"
+image_alt: "Da para Aprender Espanhol com Duolingo?"
+reading_time: 2
+blogger_id: "tag:blogger.com,1999:blog-3745886708439851129.post-2278449104902256671"
+blogger_status: "LIVE"
+---
+<h1><span><span><span>Da para aprender Espanhol com o Duolingo?</span> </span></span></h1><h3><span><span>Criado em 2011, o aplicativo disponível está disponível para android, Ios e desktop.</span></span></h3><div><span><div><a href="/assets/media/2022/03/da-para-aprender-espanhol-com-duolingo-01-16953343.webp" imageanchor="1" rel="noopener noreferrer"><img alt="" decoding="async" loading="lazy" src="/assets/media/2022/03/da-para-aprender-espanhol-com-duolingo-01-16953343.webp"/></a></div><br/><span><br/></span></span></div><div><span>Criado para proporciona uma forma de ensino de idiomas para diversas plataformas, o Duolingo é um aplicativo de sucesso. No entanto, é possível aprender espanhol com Duolingo?</span></div><span><div><br/></div><div>A resposta para essa pergunta é: Depende. Pois, tudo dependerá, primeiro do comprometimento do estudante, nada é milagroso, nem é santo para efetuar milagre. Entretanto, o Duolingo é uma plataforma que oferece diversos recursos que outros aplicativos não oferecem, exemplo: Stories (para espanhol essa função não encontra-se disponível ainda), vocabulário, dicionário. Além das palavras básicas que você consegue aprender jogando.</div><div><br/></div><div>Com mais de 300 milhões de usuários o Duolingo é um aplicativo/site que oferece diversos cursos, para além do espanhol (estudo inglês pelo Duolingo) com diversos níveis para serem desbloqueados a plataforma criada em novembro de 2011, sendo lançado oficialmente em 2012, traz uma interatividade através dos jogos que tornam o aplicativo interessante ao passo que, você aprende os quatro passos importantes para a fluência: leer, escribir, escuchar y hablar. Afinal você escreve, você lê antes de responder e você ouve e também fala. Há também a repetição constante o que para alguns é chato, para outros torna-se uma grande fonte de aprendizado, visto que, a repetição faz com que você memorize mais rápido determinadas palavras, ou frases.</div><div><br/></div><div>Uma dica que damos aos estudantes de Duolingo é que, faço com calma, sem pressa de concluir, leia com atenção, ouça e reouça os áudios e busque anotar sempre que vier uma palavra nova e interessante que considera em seu caderno/bloco de notas de palavras novas (palabras nuevas), assim você não vai esquecer caso passe de modulo no Duolingo.</div><div><br/></div><div>Mas respondendo a pergunta título dessa postagem: Sim, é possível aprender com o Duolingo. Ficar fluente? Não. Porém lhe proporcionar uma base para uma conversação básica, sim. Sempre que possível recomendo o duolingo e vários aplicativos de estudos de idiomas (confira aqui), pois são ferramentas que facilitam o aprendizado que você encontra diretamente na palma da sua mão.</div></span><!-- /wp:paragraph -->
