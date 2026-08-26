@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Palabras y Expresiones que Resuenan en el Día a Día en Español"
-description: "Me complace compartir con ustedes una guía vibrante y práctica sobre el vocabulario cotidiano del español. Ahora que tenemos una idea de la importancia del…"
+description: "Me complace compartir con ustedes una guía vibrante y práctica sobre el vocabulario cotidiano del español."
 date: 2024-11-11 09:47:00 -0300
 last_modified_at: 2024-11-11 09:47:30 -0300
 permalink: "/2024/11/palabras-y-expresiones-que-resuenan-en.html"

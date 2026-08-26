@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Español entre Páginas #01:  Pedro Páramo – Juan Rulfo"
-description: "Aprender espanhol pode ser uma experiência ainda mais enriquecedora quando mergulhamos na literatura. Através dos livros, não apenas ampliamos nosso vocabulário…"
+description: "Nesta primeira edição da série “Español entre Páginas”, convidamos você a explorar Pedro Páramo, obra-prima de Juan Rulfo."
 date: 2026-02-17 10:04:00 -0300
 last_modified_at: 2026-02-17 10:06:56 -0300
 permalink: "/2026/02/espanol-entre-paginas-01-pedro-paramo.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Substantivos Derivados em Espanhol"
-description: "Há uma grande variedade de padrões e regras que podem ser aplicados para formar novos substantivos a partir de raízes ou palavras existentes. Os substantivos…"
+description: "Os substantivos derivados em espanhol são formados a partir de outras palavras ou raízes através de diversos processos de formação de palavras,"
 date: 2023-05-24 11:56:00 -0300
 last_modified_at: 2023-09-05 11:59:48 -0300
 permalink: "/2023/05/substantivos-derivados-em-espanhol.html"

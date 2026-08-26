@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como usar a Netflix para Estudar Espanhol"
-description: "A Netflix é uma ferramenta de diversão, lazer, mas também de estudo. Como? Simples, se você está estudando Espanhol, mas não consegue assistir a produções do…"
+description: "A Netflix é uma ferramenta de diversão, lazer, mas também de estudo. Como? "
 date: 2022-11-01 11:52:00 -0300
 last_modified_at: 2022-11-02 11:51:58 -0300
 permalink: "/2022/11/como-usar-netflix-para-estudar-espanhol.html"

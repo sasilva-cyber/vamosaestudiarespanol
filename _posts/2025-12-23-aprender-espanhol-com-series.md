@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Aprender Espanhol com Séries"
-description: "Aprender um novo idioma pode parecer um desafio complexo, especialmente quando se trata de manter a constância e a motivação ao longo do tempo. No entanto, nos…"
+description: "Aprenda espanhol com séries e descubra como estudar do básico ao avançado em casa usando séries em espanhol de forma prática e eficaz."
 date: 2025-12-23 09:24:00 -0300
 last_modified_at: 2025-12-26 10:05:35 -0300
 permalink: "/2025/12/aprender-espanhol-com-series.html"

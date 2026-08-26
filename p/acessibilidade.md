@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Acessibilidade"
-description: "ACESSIBILIDADE Respeitando a sua privacidade e a proteção dos seus dados pessoais, elaboramos esta Política de Privacidade e Termos de Uso para que você compreenda…"
+description: "Acessibilidade"
 date: 2024-01-10 10:48:00 -0300
 last_modified_at: 2024-01-10 10:57:17 -0300
 permalink: "/p/acessibilidade.html"

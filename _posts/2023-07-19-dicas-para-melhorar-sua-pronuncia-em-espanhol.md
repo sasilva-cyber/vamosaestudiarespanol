@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Dicas para Melhorar Sua Pronúncia em Espanhol"
-description: "Melhorar sua pronúncia em espanhol é essencial para se comunicar com confiança e fluência nesse idioma cativante. Se você está buscando dicas práticas para…"
+description: "Melhorar sua pronúncia em espanhol é essencial para se comunicar com confiança e fluência nesse idioma cativante"
 date: 2023-07-19 10:59:00 -0300
 last_modified_at: 2023-07-19 11:04:21 -0300
 permalink: "/2023/07/dicas-para-melhorar-sua-pronuncia-em-espanhol.html"

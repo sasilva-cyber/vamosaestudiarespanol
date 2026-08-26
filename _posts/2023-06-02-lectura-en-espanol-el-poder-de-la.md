@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lectura en Español (Nível C2): El poder de la perseverancia"
-description: "Vamos prática a leitura em espanhol com este pequeno texto sobre o poder da perseverança. O texto está em nível C2, ou seja, avançado. La perseverancia es una…"
+description: "Vamos prática a leitura em espanhol com este pequeno texto sobre o poder da perseverança. "
 date: 2023-06-02 19:21:00 -0300
 last_modified_at: 2024-06-08 10:20:14 -0300
 permalink: "/2023/06/lectura-en-espanol-el-poder-de-la.html"

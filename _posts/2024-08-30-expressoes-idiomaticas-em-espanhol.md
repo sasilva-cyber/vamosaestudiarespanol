@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Expressões Idiomáticas em Espanhol"
-description: "Aprender um idioma vai muito além de conhecer o vocabulário e a gramática. As expressões idiomáticas, também conhecidas como “modismos” ou “frases feitas”, são…"
+description: "Aprender um idioma vai muito além de conhecer o vocabulário e a gramática."
 date: 2024-08-30 14:07:00 -0300
 last_modified_at: 2024-08-30 14:07:00 -0300
 permalink: "/2024/08/expressoes-idiomaticas-em-espanhol.html"

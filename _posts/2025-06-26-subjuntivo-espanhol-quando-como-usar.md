@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "O Subjuntivo em Espanhol: Quando e Como Usar?"
-description: "Se você está aprendendo espanhol, provavelmente já se deparou com o subjuntivo e pensou: \" Mas para que serve isso? \" Não se preocupe, você não está sozinho! O…"
+description: "Desmistifique o subjuntivo em espanhol! Aprenda quando e como usar esse modo verbal essencial com exemplos claros e dicas práticas."
 date: 2025-06-26 12:20:00 -0300
 last_modified_at: 2025-07-25 10:48:57 -0300
 permalink: "/2025/06/subjuntivo-espanhol-quando-como-usar.html"

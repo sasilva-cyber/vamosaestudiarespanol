@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tempos Verbais em Espanhol: Guia  Prático com Exemplos"
-description: "Dominar os tempos verbais é como desvendar um intricado quebra-cabeça linguístico. Nesta postagem, mergulharemos profundamente nos tempos verbais em espanhol…"
+description: "Dominar os tempos verbais é como desvendar um intricado quebra-cabeça linguístico."
 date: 2024-01-18 10:22:00 -0300
 last_modified_at: 2024-01-18 10:23:13 -0300
 permalink: "/2024/01/tempos-verbais-em-espanhol-guia.html"

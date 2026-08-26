@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dominar a Conjugação de Verbos em Espanhol: Dicas e Estratégias"
-description: "A conjugação de verbos em espanhol pode parecer uma tarefa complicada à primeira vista, mas com o auxílio de exemplos claros e algumas estratégias eficazes, você…"
+description: "Neste artigo, vamos compartilhar dicas práticas com exemplos para ajudá-lo a dominar a conjugação de verbos em espanhol."
 date: 2023-11-03 10:31:00 -0300
 last_modified_at: 2023-11-03 10:31:03 -0300
 permalink: "/2023/11/dominar-conjugacao-de-verbos-em.html"

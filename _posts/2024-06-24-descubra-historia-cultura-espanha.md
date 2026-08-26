@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Descubra a História e Cultura da Espanha"
-description: "A Espanha é um país rico em história e cultura, cujas raízes remontam a tempos antigos. Essa herança histórica é fundamental para entender a vibrante cultura…"
+description: "Explore a rica história e vibrante cultura da Espanha conosco. Descubra os principais pontos históricos e tradições que moldaram este país fascinante."
 date: 2024-06-24 11:00:00 -0300
 last_modified_at: 2024-06-24 11:00:00 -0300
 permalink: "/2024/06/descubra-historia-cultura-espanha.html"

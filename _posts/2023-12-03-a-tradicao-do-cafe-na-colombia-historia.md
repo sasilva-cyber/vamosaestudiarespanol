@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Tradição do Café na Colômbia: História, Cultura e Sabor"
-description: "A Colômbia é mundialmente conhecida por produzir um dos cafés mais saborosos e refinados do mundo. Neste artigo, exploraremos a rica tradição do café na Colômbia…"
+description: "A Colômbia é mundialmente conhecida por produzir um dos cafés mais saborosos e refinados do mundo. "
 date: 2023-12-03 18:50:00 -0300
 last_modified_at: 2023-12-03 18:50:39 -0300
 permalink: "/2023/11/a-tradicao-do-cafe-na-colombia-historia.html"

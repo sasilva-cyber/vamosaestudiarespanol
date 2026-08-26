@@ -26,8 +26,10 @@ social:
 
 youtube_latest_api: "https://clfwoywzalttkvhstsgh.supabase.co/functions/v1/youtube-latest"
 
-# Pode ser preenchido depois com um endpoint de analytics/Supabase.
-popular_posts_api: ""
+# Credenciais públicas de baixo privilégio para os RPCs de popularidade.
+# A chave publishable é própria para clientes web; nunca usar service_role aqui.
+supabase_url: "https://clfwoywzalttkvhstsgh.supabase.co"
+supabase_publishable_key: "sb_publishable_QylDT7fw_RktIiSApbHkLA_w6PHRjmH"
 
 defaults:
   - scope:

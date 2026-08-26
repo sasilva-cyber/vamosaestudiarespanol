@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Termos e Condições"
-description: "Termos e Condições Bem-vindo aos Termos e Condições do \"Vamos a Estudiar Español\". Ao utilizar nossos serviços online, você concorda com as condições descritas…"
+description: "Termos e Condições"
 date: 2024-01-10 10:54:00 -0300
 last_modified_at: 2024-01-10 10:56:47 -0300
 permalink: "/p/termos-e-condicoes.html"

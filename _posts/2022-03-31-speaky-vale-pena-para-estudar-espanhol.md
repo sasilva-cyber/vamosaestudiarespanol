@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Speaky – Vale a pena para Estudar Espanhol? | Análise"
-description: "Celular na mão é… Estudar espanhol na mente! Com a chegada da era digital, tornou-se cada vez, mas fácil aprender e estudar um novo idioma sem sair de casa. Há…"
+description: "Há vários aplicativos no PlayStore para explorar é recentemente descobrimos o Speaky. Mas será que, ele vale a pena para estudar Espanhol? Descubra ab"
 date: 2022-03-31 17:18:00 -0300
 last_modified_at: 2022-03-31 17:18:04 -0300
 permalink: "/2022/03/speaky-vale-pena-para-estudar-espanhol.html"

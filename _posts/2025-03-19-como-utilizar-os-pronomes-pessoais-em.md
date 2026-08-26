@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Utilizar os Pronomes Pessoais em Espanhol"
-description: "Entenda de forma clara e objetiva o uso dos pronomes pessoais em espanhol e melhore sua comunicação na língua. A língua espanhola, assim como o português, possui um…"
+description: "Aprenda como usar os pronomes pessoais em espanhol com dicas, exemplos e explicações claras para brasileiros aprenderem a língua corretamente."
 date: 2025-03-19 10:26:00 -0300
 last_modified_at: 2025-03-19 10:35:50 -0300
 permalink: "/2025/03/como-utilizar-os-pronomes-pessoais-em.html"

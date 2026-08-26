@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Los encantos del aprendizaje del español"
-description: "Ya sea que estés empezando desde cero o busques perfeccionar tus habilidades existentes, este blog será tu compañero de viaje en el fascinante mundo del español.…"
+description: "Ya sea que estés empezando desde cero o busques perfeccionar tus habilidades existentes"
 date: 2023-06-15 11:32:00 -0300
 last_modified_at: 2024-06-08 10:18:49 -0300
 permalink: "/2023/06/los-encantos-del-aprendizaje-del-espanol.html"

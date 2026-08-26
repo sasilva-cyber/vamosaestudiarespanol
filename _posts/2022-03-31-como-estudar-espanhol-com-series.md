@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Estudar Espanhol com Séries?"
-description: "Estudar assistindo aquela série favorita, é maravilhoso. Quem não gosta de estudar, enquanto assiste “ Oscuro Deseo\" , por exemplo? Mas estudar e assistir séries…"
+description: "Estudar assistindo aquela série favorita, é maravilhoso."
 date: 2022-03-31 17:21:00 -0300
 last_modified_at: 2022-05-10 09:44:02 -0300
 permalink: "/2022/03/como-estudar-espanhol-com-series.html"

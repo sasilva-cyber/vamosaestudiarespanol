@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tempos Verbais no Passado em Espanhol: Pretérito Perfeito e Imperfeito"
-description: "Se você está mergulhando no estudo da língua espanhola, é essencial compreender os tempos verbais no passado , particularmente o pretérito perfeito e o pretérito…"
+description: "Exploração dos tempos verbais no passado em espanhol: pretérito perfeito e imperfeito, com exemplos e dicas para prática eficaz"
 date: 2024-08-16 10:53:00 -0300
 last_modified_at: 2024-08-16 10:53:00 -0300
 permalink: "/2024/08/tempos-verbais-no-passado-em-espanhol.html"

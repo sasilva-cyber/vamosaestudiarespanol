@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Consejos Prácticos para Mejora tu Escritura en Español"
-description: "Descubre las Claves para Dominar la Lengua Española y Potenciar tu Escritura ¿Quieres mejorar tus habilidades de escritura en español y destacarte en tus…"
+description: "Descubre las Claves para Dominar la Lengua Española y Potenciar tu Escritura"
 date: 2024-04-01 10:00:00 -0300
 last_modified_at: 2024-05-29 11:26:10 -0300
 permalink: "/2024/04/conejos-practicos-para-mejora-tu-escritura-en-espanol.html"

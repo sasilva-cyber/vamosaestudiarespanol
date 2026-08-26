@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Política de Privacidade"
-description: "Política de Privacidade Esta Política de Privacidade e Termos de Uso foi criada para explicar como tratamos as informações que recebemos de você através de nossos…"
+description: "Política de Privacidade"
 date: 2023-09-05 09:52:00 -0300
 last_modified_at: 2024-01-10 10:58:22 -0300
 permalink: "/p/politica-de-privacidade.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dicas Práticas para Aprofundar seus Conhecimentos no Espanhol"
-description: "El aprendizaje de un nuevo idioma es un viaje fascinante que abre puertas a diversas culturas y oportunidades. En esta entrada, te ofreceré algunas estrategias…"
+description: "Descubra dicas práticas e estratégias eficazes para aprimorar seu espanhol, desde a imersão até a prática escrita. Aprenda com prazer!"
 date: 2024-10-25 09:37:00 -0300
 last_modified_at: 2024-10-25 10:21:29 -0300
 permalink: "/2024/10/aprendendo-espanhol-dicas-praticas-para.html"

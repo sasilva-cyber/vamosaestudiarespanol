@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Verbos Intermediários da Língua Espanhola"
-description: "Os verbos são fundamentais para a comunicação em qualquer idioma, e no espanhol não é diferente. Se você já domina os tempos verbais básicos , agora é hora de…"
+description: "Aprenda os verbos intermediários do espanhol com exemplos práticos! "
 date: 2025-06-20 09:52:00 -0300
 last_modified_at: 2025-06-20 09:55:55 -0300
 permalink: "/2025/06/verbos-intermediarios-da-lingua.html"

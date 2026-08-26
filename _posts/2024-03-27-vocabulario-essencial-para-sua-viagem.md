@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vocabulário Essencial para Sua Viagem em Espanhol"
-description: "Domine Frases Básicas e Seja um Viajante Preparado ¡Hola viajeros! Se você está planejando uma aventura na Espanha, é essencial ter algumas frases espanholas na…"
+description: "Domine Frases Básicas e Seja um Viajante Preparado"
 date: 2024-03-27 11:00:00 -0300
 last_modified_at: 2024-03-27 11:00:00 -0300
 permalink: "/2024/03/vocabulario-essencial-para-sua-viagem.html"

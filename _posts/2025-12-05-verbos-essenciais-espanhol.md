@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Verbos Essenciais do Espanhol: Guia para Aprender e Praticar"
-description: "Aprender os verbos essenciais do espanhol é o primeiro passo para se comunicar com confiança nesse idioma. Os verbos são a base de qualquer frase, e conhecer os…"
+description: "Aprenda os verbos essenciais do espanhol com exemplos, dicas e práticas para dominar a língua rapidamente e falar com confiança."
 date: 2025-12-05 09:59:00 -0300
 last_modified_at: 2025-12-05 10:07:52 -0300
 permalink: "/2025/12/verbos-essenciais-espanhol.html"

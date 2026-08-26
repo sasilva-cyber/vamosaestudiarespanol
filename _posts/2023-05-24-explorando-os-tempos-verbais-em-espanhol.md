@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Explorando os Tempos Verbais em Espanhol"
-description: "¡Hola a todos! Hoje, vamos mergulhar nos tempos verbais em espanhol, uma parte essencial da gramática que nos permite expressar ações e eventos no presente, passado…"
+description: "¡Hola a todos! Hoje, vamos mergulhar nos tempos verbais em espanhol, uma parte essencial da gramática que nos permite expressar ações"
 date: 2023-05-24 12:21:00 -0300
 last_modified_at: 2023-09-05 11:56:39 -0300
 permalink: "/2023/05/explorando-os-tempos-verbais-em-espanhol.html"

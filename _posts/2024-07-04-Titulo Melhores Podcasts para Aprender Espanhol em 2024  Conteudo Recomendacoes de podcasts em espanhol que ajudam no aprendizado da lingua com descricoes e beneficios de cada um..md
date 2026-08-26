@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A História da Língua Espanhola: Da Antiguidade aos Dias Atuais"
-description: "A língua espanhola, hoje falada por milhões de pessoas ao redor do mundo, possui uma rica e fascinante história que se estende desde os tempos antigos até os dias…"
+description: "Descubra a evolução histórica da língua espanhola, desde seus primórdios até seu papel contemporâneo global."
 date: 2024-07-04 09:00:00 -0300
 last_modified_at: 2024-07-04 09:00:00 -0300
 permalink: "/2024/07/Titulo Melhores Podcasts para Aprender Espanhol em 2024  Conteudo Recomendacoes de podcasts em espanhol que ajudam no aprendizado da lingua com descricoes e beneficios de cada um..html"

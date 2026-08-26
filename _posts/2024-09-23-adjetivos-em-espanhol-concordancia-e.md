@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adjetivos em Espanhol: Concordância e Posicionamento"
-description: "¡Hola a todos! Hoje vamos falar sobre os adjetivos em espanhol , que são essenciais para descrever pessoas, lugares e coisas. Vamos ver como usá-los corretamente…"
+description: "Hoje vamos falar sobre os adjetivos em espanhol, que são essenciais para descrever pessoas, lugares e coisas. "
 date: 2024-09-23 08:00:00 -0300
 last_modified_at: 2024-09-23 08:00:00 -0300
 permalink: "/2024/09/adjetivos-em-espanhol-concordancia-e.html"

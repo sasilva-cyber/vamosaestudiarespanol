@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Respira (2024): Série da Netflix que Ajuda a Aprender Espanhol"
-description: "Descubra como a nova série da Netflix está impactando o público e aprenda a aproveitar a trama para aprimorar seu espanhol! A saúde pública está em colapso e a…"
+description: "Descubra como a nova série da Netflix está impactando o público e aprenda a aproveitar a trama para aprimorar seu espanhol!"
 date: 2024-09-27 08:14:00 -0300
 last_modified_at: 2024-09-27 08:15:38 -0300
 permalink: "/2024/09/respira-2024-serie-da-netflix-que-ajuda-a-aprender-espanhol.html"

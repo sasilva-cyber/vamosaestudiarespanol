@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Aprender Espanhol Sozinho: Guia Prático e Completo"
-description: "Descubra estratégias eficazes e comprovadas para estudar espanhol por conta própria e acelerar o seu aprendizado. Aprender espanhol sozinho pode parecer desafiador…"
+description: "Descubra estratégias eficazes e comprovadas para estudar espanhol por conta própria e acelerar o seu aprendizado."
 date: 2025-02-03 10:25:00 -0300
 last_modified_at: 2025-02-03 10:31:25 -0300
 permalink: "/2025/02/como-aprender-espanhol-sozinho.html"

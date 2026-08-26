@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guia de Sobrevivência em Espanhol para Viagens: Frases Essenciais e Práticas"
-description: "Viajar para um destino de língua espanhola pode ser uma experiência emocionante, mas a comunicação pode ser um desafio se você não estiver familiarizado com o…"
+description: "Viajar para um destino de língua espanhola pode ser uma experiência emocionante, mas a comunicação pode ser um desafio se você não estiver familiariza"
 date: 2023-08-14 18:13:00 -0300
 last_modified_at: 2023-08-14 18:13:34 -0300
 permalink: "/2023/08/guia-de-sobrevivencia-em-espanhol-para.html"

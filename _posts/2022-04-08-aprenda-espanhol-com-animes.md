@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aprenda Espanhol com Animes | Dica de Espanhol #04"
-description: "E possível aprender espanhol de forma: descontraída, diverte e descomplicada? A resposta é sim. Confira a nossa “Dica de Espanhol” desta semana abaixo e descubra…"
+description: " E possível aprender espanhol de forma: descontraída, diverte e descomplicada? A resposta é sim. "
 date: 2022-04-08 15:24:00 -0300
 last_modified_at: 2022-07-28 11:13:49 -0300
 permalink: "/2022/04/aprenda-espanhol-com-animes.html"

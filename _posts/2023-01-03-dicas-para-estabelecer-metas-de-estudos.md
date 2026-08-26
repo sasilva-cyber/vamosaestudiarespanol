@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dicas para estabelecer metas de estudos em 2023"
-description: "Estabelecer metas nos ajuda a construir uma rotina de estudos efetiva. Contribuindo para que alcancemos os nossos objetivos. Com o início de um novo ano, novos…"
+description: "Estabelecer metas nos ajuda a construir uma rotina de estudos efetiva. Contribuindo para que alcancemos os nossos objetivos."
 date: 2023-01-03 10:51:00 -0300
 last_modified_at: 2023-09-05 11:57:52 -0300
 permalink: "/2023/01/dicas-para-estabelecer-metas-de-estudos.html"

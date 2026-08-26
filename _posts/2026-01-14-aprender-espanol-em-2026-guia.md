@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aprender Espanhol em 2026: um guia prático para quem estuda sozinho(a)"
-description: "Aprender espanhol por conta própria é uma realidade para muitas pessoas. Vídeos, podcasts, redes sociais e aplicativos estão por toda parte. Ainda assim, uma…"
+description: "Aprenda Espanhol com método, organização e constância. Um guia prático de 3 meses para quem estuda sozinho(a) e quer sair do improviso."
 date: 2026-01-14 21:58:00 -0300
 last_modified_at: 2026-01-18 18:58:50 -0300
 permalink: "/2026/01/aprender-espanol-em-2026-guia.html"

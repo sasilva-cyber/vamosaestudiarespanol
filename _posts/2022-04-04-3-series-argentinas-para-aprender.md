@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Séries Argentinas para Aprender Espanhol"
-description: "Utilizar seriados para o aprendizado da língua espanhola, tem sido uma forma prática e acessível para a maioria dos estudantes que preferem aprender, enquanto…"
+description: "Utilizar seriados para o aprendizado da língua espanhola, tem sido uma forma prática e acessível para a maioria dos estudantes que preferem aprender, "
 date: 2022-04-04 11:57:00 -0300
 last_modified_at: 2022-04-04 11:57:08 -0300
 permalink: "/2022/04/3-series-argentinas-para-aprender.html"

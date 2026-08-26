@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Melhorar Sua Pronúncia em Espanhol: Técnicas e Exercícios Práticos"
-description: "Você já está aprendendo espanhol , mas sente que sua pronúncia ainda precisa de melhorias? Neste post, vamos compartilhar técnicas e exercícios práticos que…"
+description: "Você já está aprendendo espanhol, mas sente que sua pronúncia ainda precisa de melhorias? "
 date: 2024-09-18 07:30:00 -0300
 last_modified_at: 2024-09-18 10:34:57 -0300
 permalink: "/2024/09/como-melhorar-sua-pronuncia-em-espanhol.html"

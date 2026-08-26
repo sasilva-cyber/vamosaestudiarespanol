@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "La Apócope en Español"
-description: "Em espanhol o uso da \" Apócope \" é muito comum. Mas quando devo ou como uso esse fenômeno? Veja abaixo: Quando a perda acontece no começo da palavra é denominada…"
+description: "Em espanhol o uso da \"Apócope\" é muito comum. Mas quando devo ou como uso esse fenômeno? "
 date: 2022-05-06 07:27:00 -0300
 last_modified_at: 2023-09-05 12:00:35 -0300
 permalink: "/2022/05/la-apocope-en-espanol-gramatica-da.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Principais Regras de Gramática Espanhola que Todo Estudante Deve Conhecer"
-description: "A língua espanhola é uma das mais faladas no mundo , e aprender a gramática espanhola é essencial para se comunicar efetivamente nesse idioma vibrante e…"
+description: "Neste artigo, exploraremos as principais regras de gramática espanhola que todo estudante deve conhecer."
 date: 2023-09-07 10:15:00 -0300
 last_modified_at: 2023-09-07 10:15:58 -0300
 permalink: "/2023/09/principais-regras-de-gramatica.html"

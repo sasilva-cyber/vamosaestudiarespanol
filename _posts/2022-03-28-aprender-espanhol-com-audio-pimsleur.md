@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aprender Espanhol com Áudio | Pimsleur (Análise)"
-description: "O método Pimsleur e conhecido por basear-se em um sistema de aprendizagem através de áudios; Um método que analisamos e viemos responder a pergunta chave: E…"
+description: "O método Pimsleur e conhecido por basear-se em um sistema de aprendizagem através de áudios;"
 date: 2022-03-28 13:36:00 -0300
 last_modified_at: 2022-03-28 13:37:46 -0300
 permalink: "/2022/03/aprender-espanhol-com-audio-pimsleur.html"

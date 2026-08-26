@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Aprender Espanhol do Zero: Guia Completo para Iniciantes"
-description: "O espanhol é uma das línguas mais faladas do mundo, sendo oficial em mais de 20 países e amplamente utilizada em contextos acadêmicos, profissionais e turísticos.…"
+description: "Descubra um guia completo para aprender espanhol do zero com métodos eficazes, dicas de estudo e estratégias para alcançar a fluência."
 date: 2025-03-01 13:57:00 -0300
 last_modified_at: 2025-03-01 13:59:23 -0300
 permalink: "/2025/03/como-aprender-espanhol-do-zero.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "¿Quién lo mató? - Un Misterio Biográfico sobre el Asesinato de Paco Stanley"
-description: "¿Quién lo mató? \", una serie biográfica que investiga el impactante asesinato de Paco Stanley en México. En 1999, México quedó en shock con el asesinato de Paco…"
+description: "¿Quién lo mató?\", una serie biográfica que investiga el impactante asesinato de Paco Stanley en México."
 date: 2024-10-04 08:16:00 -0300
 last_modified_at: 2024-10-04 08:19:59 -0300
 permalink: "/2024/10/quien-lo-mato-un-misterio-biografico.html"

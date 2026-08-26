@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "La anteposición del adjetivo en español: una cuestión de estilo y énfasis"
-description: "Cuando hablamos o escribimos en español, una de las decisiones que debemos tomar es la posición del adjetivo. En la mayoría de los casos, los adjetivos se colocan…"
+description: "Cuando hablamos o escribimos en español, una de las decisiones que debemos tomar es la posición del adjetivo. "
 date: 2023-06-09 18:45:00 -0300
 last_modified_at: 2023-06-09 18:45:13 -0300
 permalink: "/2023/06/la-anteposicion-del-adjetivo-en-espanol.html"

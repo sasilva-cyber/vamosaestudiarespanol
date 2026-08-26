@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como começar a aprender espanhol em 2026: Estudando em casa"
-description: "Como começar a aprender espanhol em 2026: Guia completo para estudar em casa e do zero. Aprender espanhol em 2026 tornou-se mais acessível, rápido e eficiente do…"
+description: "Guia completo para aprender espanhol em 2026, com dicas práticas, passos iniciais e estratégias para estudar do zero sem sair de casa."
 date: 2025-12-10 10:22:00 -0300
 last_modified_at: 2025-12-10 10:24:08 -0300
 permalink: "/2025/12/como-comecar-a-aprender-espanhol-2026.html"

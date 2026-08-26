@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Fale Conosco"
-description: "Queremos ouvir você! Entre em contato conosco sempre que precisar de suporte, tiver perguntas ou quiser compartilhar suas ideias. A equipe do Vamos a Estudiar…"
+description: "Fale Conosco"
 date: 2022-08-21 10:39:00 -0300
 last_modified_at: 2026-08-04 17:10:43 -0300
 permalink: "/p/contato.html"

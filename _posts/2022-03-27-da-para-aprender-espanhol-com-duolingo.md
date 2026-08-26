@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Da para Aprender Espanhol com Duolingo?"
-description: "Da para aprender Espanhol com o Duolingo? Criado em 2011, o aplicativo disponível está disponível para android, Ios e desktop. Criado para proporciona uma forma de…"
+description: "Da para aprender Espanhol com o Duolingo? "
 date: 2022-03-27 14:02:00 -0300
 last_modified_at: 2022-03-27 14:02:18 -0300
 permalink: "/2022/03/da-para-aprender-espanhol-com-duolingo.html"

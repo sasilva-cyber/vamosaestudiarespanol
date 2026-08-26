@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Estratégias para transformar seu Estudo de Espanhol"
-description: "O aprendizado de um novo idioma é uma jornada fascinante e enriquecedora, e o espanhol, com sua rica herança cultural e vasta comunidade de falantes, é uma escolha…"
+description: "Pensando nisso, preparamos este guia completo com estratégias inovadoras para transformar seu estudo de espanhol em uma experiência mais eficiente"
 date: 2024-08-26 12:02:00 -0300
 last_modified_at: 2024-08-26 12:02:00 -0300
 permalink: "/2024/08/estrategias-para-transformar-seu-estudo.html"

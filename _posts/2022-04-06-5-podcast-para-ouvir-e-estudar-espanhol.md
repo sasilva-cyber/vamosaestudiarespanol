@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Podcast para Ouvir e Estudar Espanhol | Dica de Espanhol #5"
-description: "A era do podcast chegou e com ela surgem novas formas de aprendizado de um idioma. Afinal como sempre mencionamos no ¡ Vamos a Estudiar Español ! utilizar a…"
+description: "A era do podcast chegou e com ela surgem novas formas de aprendizado de um idioma. Afinal como sempre mencionamos no ¡Vamos a Estudiar Español! "
 date: 2022-04-06 11:41:00 -0300
 last_modified_at: 2022-04-06 11:41:38 -0300
 permalink: "/2022/04/5-podcast-para-ouvir-e-estudar-espanhol.html"

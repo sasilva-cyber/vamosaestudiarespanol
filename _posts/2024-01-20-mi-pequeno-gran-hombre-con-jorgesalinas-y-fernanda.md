@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mi Pequeño Gran Hombre con Jorge Salinas y Fernanda Castillo"
-description: "En el \"Cine Español\" de esta semana, destaco la producción mexicana \"Mi Pequeño Gran Hombre\" con Jorge Salinas y Fernanda Castillo. ¿Es posible estudiar español…"
+description: "En el \"Cine Español\" de esta semana, destaco la producción mexicana \"Mi Pequeño Gran Hombre\" con Jorge Salinas y Fernanda Castillo."
 date: 2024-01-20 10:02:00 -0300
 last_modified_at: 2024-06-08 10:38:39 -0300
 permalink: "/2024/01/mi-pequeno-gran-hombre-con-jorgesalinas-y-fernanda.html"

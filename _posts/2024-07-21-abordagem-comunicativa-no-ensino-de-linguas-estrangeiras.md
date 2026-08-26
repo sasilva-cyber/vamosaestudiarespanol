@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Abordagem Comunicativa no Ensino de Línguas Estrangeiras"
-description: "A abordagem comunicativa tem ganhado destaque no ensino de línguas estrangeiras por sua ênfase na comunicação eficaz. Com foco na interação e no uso real da língua…"
+description: "Descubra como a abordagem comunicativa no ensino de línguas estrangeiras pode melhorar a fluência e a interação dos alunos."
 date: 2024-07-21 11:58:00 -0300
 last_modified_at: 2024-07-21 12:02:33 -0300
 permalink: "/2024/07/abordagem-comunicativa-no-ensino-de-linguas-estrangeiras.html"

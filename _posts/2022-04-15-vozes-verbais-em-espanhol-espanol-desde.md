@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vozes verbais em Espanhol"
-description: "As Vozes verbais ( Las voces del verbo ) em espanhol encontra-se em: Pasiva y Activa . Sendo a voz do verbo que vai indicar se o sujeito pratica a ação ( voz ativa…"
+description: "A voz ativa indica que o sujeito gramatical coincide com o agente da ação expressada pelo verbo, ação que é realizada sobre um objeto"
 date: 2022-04-15 15:26:00 -0300
 last_modified_at: 2023-09-05 12:00:13 -0300
 permalink: "/2022/04/vozes-verbais-em-espanhol-espanol-desde.html"

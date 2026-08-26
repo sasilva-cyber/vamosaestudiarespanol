@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Os Dias da Semana em Espanhol"
-description: "Aprenda os dias da semana em espanhol com dicas práticas e exemplos para facilitar sua memorização e uso no dia a dia. Aprender os dias da semana em espanhol é…"
+description: "Aprenda os dias da semana em espanhol com dicas práticas e exemplos para facilitar sua memorização e uso no dia a dia."
 date: 2024-10-02 11:16:00 -0300
 last_modified_at: 2024-10-02 11:21:25 -0300
 permalink: "/2024/10/os-dias-da-semana-em-espanhol.html"

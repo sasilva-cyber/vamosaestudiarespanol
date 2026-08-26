@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Lectura] Vivir sin redes sociales: ¿una nueva libertad? (nível B2)"
-description: "Texto de leitura em espanhol nível B2 sobre redes sociais. Com vocabulário, compreensão e atividade final. Ideal para praticar leitura! Vivir sin redes sociales…"
+description: "Texto de leitura em espanhol nível B2 sobre redes sociais. Com vocabulário, compreensão e atividade final. Ideal para praticar leitura!"
 date: 2025-05-02 10:28:00 -0300
 last_modified_at: 2025-05-04 09:53:56 -0300
 permalink: "/2025/05/lectura-vivir-sin-redes-sociales-una.html"

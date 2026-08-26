@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A História da Língua Espanhola no ENEM"
-description: "O espanhol começou a ser incluído no ENEM (Exame Nacional do Ensino Médio) a partir de 2009, como uma das opções de língua estrangeira que os estudantes poderiam…"
+description: "O espanhol começou a ser incluído no ENEM (Exame Nacional do Ensino Médio) a partir de 2009, "
 date: 2023-05-09 09:49:00 -0300
 last_modified_at: 2023-05-09 09:49:26 -0300
 permalink: "/2023/05/a-historia-da-lingua-espanhola-no-enem.html"

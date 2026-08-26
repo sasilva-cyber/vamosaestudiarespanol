@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aprender Con Eddie – El Dinosaurio Travieso | Dica de Espanhol #1"
-description: "Hoje a nossa dica rápida de espanhol e o canal “Aprender Con Eddie – El Dinosaurio Travieso ” que traz um conteúdo didático e infantil, mas que serve também para…"
+description: "Hoje a nossa dica rápida de espanhol e o canal “Aprender Con Eddie – El Dinosaurio Travieso” que traz um conteúdo didático e infantil"
 date: 2022-07-25 11:33:00 -0300
 last_modified_at: 2022-07-25 11:33:56 -0300
 permalink: "/2022/07/aprender-con-eddie-el-dinosaurio.html"

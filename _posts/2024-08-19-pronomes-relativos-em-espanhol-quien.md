@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pronomes Relativos em Espanhol: Quién, Qué, Cual e Onde"
-description: "Hoje vamos explorar um aspecto fundamental da gramática espanhola: os pronomes relativos . Eles são essenciais para a construção de frases complexas e coesas…"
+description: "\"Exploração dos pronomes relativos em espanhol: quién, qué, cuál e dónde, com exemplos e dicas para uso correto em frases complexas"
 date: 2024-08-19 11:00:00 -0300
 last_modified_at: 2024-08-19 11:00:00 -0300
 permalink: "/2024/08/pronomes-relativos-em-espanhol-quien.html"

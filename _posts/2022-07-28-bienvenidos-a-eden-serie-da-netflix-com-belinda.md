@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bienvenidos a Edén série da Netflix com Belinda"
-description: "Bienvenidos a Edén é uma série espanhola da Netflix que conta com atriz/cantora Belinda no elenco principal. Com uma atmosfera que encanta aos fãs de outras séries…"
+description: "Bienvenidos a Edén é uma série espanhola da Netflix que conta com atriz/cantora Belinda no elenco principal. "
 date: 2022-07-28 11:09:00 -0300
 last_modified_at: 2022-07-28 11:11:58 -0300
 permalink: "/2022/07/bienvenidos-a-eden-serie-da-netflix-com-belinda.html"

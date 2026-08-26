@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Formas de Tratamento: FORMAL e INFORMAL no Espanhol"
-description: "Em nossa segunda aula do “ Español desde Cero ” vamos aprender algo muito importante. Como é o trato: “Formal” e o “Informal” do Espanhol. Em português quando não…"
+description: "Em nossa segunda aula do “Español desde Cero” vamos aprender algo muito importante. Como é o trato: “Formal” e o “Informal” do Espanhol."
 date: 2023-02-26 10:33:00 -0300
 last_modified_at: 2023-09-05 11:57:12 -0300
 permalink: "/2023/01/formas-de-tratamento-formal-e-informal.html"

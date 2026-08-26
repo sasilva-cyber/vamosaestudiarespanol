@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Livros Clássicos em Espanhol para Iniciantes (Nível B1/B2)"
-description: "Para estudantes de espanhol nos níveis B1/B2, explorar a literatura clássica é uma maneira empolgante de aprimorar suas habilidades no idioma. Nesta postagem…"
+description: "Descubra 5 livros clássicos em espanhol para iniciantes nos níveis B1/B2."
 date: 2024-06-19 09:00:00 -0300
 last_modified_at: 2024-06-23 12:25:13 -0300
 permalink: "/2024/06/livros-classicos-espanhol-iniciantes-b1-b2.html"

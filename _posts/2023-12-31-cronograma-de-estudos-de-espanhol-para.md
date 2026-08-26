@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cronograma de Estudos de Espanhol para as Férias 2024"
-description: "As férias estão se aproximando, e que tal aproveitar esse tempo para aprimorar suas habilidades em espanhol ? Seja para enriquecer sua experiência em futuras…"
+description: "As férias estão se aproximando, e que tal aproveitar esse tempo para aprimorar suas habilidades em espanhol? "
 date: 2023-12-31 09:45:00 -0300
 last_modified_at: 2023-12-31 09:50:41 -0300
 permalink: "/2023/12/cronograma-de-estudos-de-espanhol-para.html"

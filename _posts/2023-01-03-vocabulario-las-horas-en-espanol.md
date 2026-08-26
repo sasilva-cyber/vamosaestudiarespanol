@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vocabulário: Las Horas en Español"
-description: "Em espanhol, diferentemente do português, as horas são expressas de maneira diferente. Vejamos algumas expressões usadas e a regra para perguntar as horas em…"
+description: "Em espanhol, diferentemente do português, as horas são expressas de maneira diferente. "
 date: 2023-01-03 11:36:00 -0300
 last_modified_at: 2023-01-06 12:42:05 -0300
 permalink: "/2023/01/vocabulario-las-horas-en-espanol.html"

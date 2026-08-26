@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Las Estaciones del Año en Español"
-description: "Vamos aprender um pouco mais de vocabulário aprendendo as estações do ano em Espanhol ? A palavra estação vem do latim statio, composto de status, \"imóvel\", e -tio…"
+description: "Vamos aprender um pouco mais de vocabulário aprendendo as estações do ano em Espanhol? "
 date: 2022-09-04 09:41:00 -0300
 last_modified_at: 2022-09-04 09:41:55 -0300
 permalink: "/2022/09/las-estaciones-del-ano-en-espanol.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Dicas Essenciais para Aprender Espanhol"
-description: "Está buscando aprender espanhol de maneira rápida e eficiente ? No post de hoje, vamos compartilhar cinco dicas essenciais que vão transformar sua jornada no…"
+description: "Está buscando aprender espanhol de maneira rápida e eficiente? "
 date: 2024-09-17 09:17:00 -0300
 last_modified_at: 2024-09-17 09:21:21 -0300
 permalink: "/2024/09/5-dicas-essenciais-para-aprender.html"

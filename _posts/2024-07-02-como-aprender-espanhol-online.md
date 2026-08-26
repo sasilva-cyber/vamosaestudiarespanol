@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Aprender Espanhol Online Rapidamente"
-description: "Aprender espanhol online pode ser uma experiência gratificante e eficiente, especialmente quando você utiliza os recursos certos e segue um plano estruturado. Neste…"
+description: "Descubra dicas práticas e recursos eficazes para aprender espanhol de forma rápida."
 date: 2024-07-02 13:05:00 -0300
 last_modified_at: 2024-07-02 13:05:33 -0300
 permalink: "/2024/07/como-aprender-espanhol-online.html"

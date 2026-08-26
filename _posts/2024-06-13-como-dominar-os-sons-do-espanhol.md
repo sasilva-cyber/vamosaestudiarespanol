@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Dominar os Sons Mais Desafiadores do Espanhol"
-description: "Aprender espanhol vai além de memorizar vocabulário e entender a gramática. A pronúncia correta é essencial para ser compreendido e para se comunicar com fluência.…"
+description: "Descubra como dominar os sons mais desafiadores do espanhol com nosso guia de pronúncia."
 date: 2024-06-13 10:09:00 -0300
 last_modified_at: 2024-06-18 08:04:05 -0300
 permalink: "/2024/06/como-dominar-os-sons-do-espanhol.html"

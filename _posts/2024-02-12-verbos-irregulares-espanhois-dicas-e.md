@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Verbos Irregulares Espanhóis: Dicas e Exemplos para Memorização"
-description: "Os verbos irregulares espanhóis podem parecer uma selva linguística, mas não tema! Nesta postagem, vamos explorar os mais comuns e fornecer dicas práticas para…"
+description: "Os verbos irregulares espanhóis podem parecer uma selva linguística, mas não tema!"
 date: 2024-02-12 10:52:00 -0300
 last_modified_at: 2024-02-12 10:52:30 -0300
 permalink: "/2024/02/verbos-irregulares-espanhois-dicas-e.html"

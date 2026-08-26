@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Lectura] La Persuasión en la Comunicación (nível C1)"
-description: "Este artículo explora las técnicas más efectivas para persuadir, desde la importancia de la empatía hasta el uso estratégico de la retórica y el lenguaje corporal.…"
+description: "Este artículo explora las técnicas más efectivas para persuadir, desde la importancia de la empatía hasta el uso estratégico de la retórica"
 date: 2024-10-22 10:10:00 -0300
 last_modified_at: 2025-05-04 09:53:37 -0300
 permalink: "/2024/10/lectura-en-espanol-nivel-c2-la.html"

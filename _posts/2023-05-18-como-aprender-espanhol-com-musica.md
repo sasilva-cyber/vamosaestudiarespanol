@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como aprender Espanhol com Música?"
-description: "Aprender espanhol com música pode ser uma forma divertida e eficaz de melhorar suas habilidades no idioma. Vejamos 8 dicas para que você possa aprender espanhol…"
+description: "Aprender espanhol com música pode ser uma forma divertida e eficaz de melhorar suas habilidades no idioma. "
 date: 2023-05-18 10:10:00 -0300
 last_modified_at: 2023-05-18 10:11:59 -0300
 permalink: "/2023/05/como-aprender-espanhol-com-musica.html"

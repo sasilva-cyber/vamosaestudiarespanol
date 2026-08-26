@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Saludos y Despedidas en Español"
-description: "Hola, a todos! Sea muy Bienvenidos. Hoje em nosso terceiro encontro do “ Español desde Cero ” vamos aprender formas básicas de saudações e despedidas em espanhol.…"
+description: "Hola, a todos! Sea muy Bienvenidos. Hoje em nosso terceiro encontro do “Español desde Cero” vamos aprender formas básicas de saudações e despedidas em"
 date: 2023-02-18 10:24:00 -0300
 last_modified_at: 2023-09-05 11:57:32 -0300
 permalink: "/2023/01/saludos-y-despedidas-en-espanol-espanol.html"

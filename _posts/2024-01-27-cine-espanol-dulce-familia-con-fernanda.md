@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cine Español: Dulce Familia con Fernanda Castillo"
-description: "\" Dulce Familia \" protagonizada por la talentosa Fernanda Castillo . Esta película nos sumerge en un mundo de hilaridad y reflexión mientras explora la vida de una…"
+description: "\"Dulce Familia\" protagonizada por la talentosa Fernanda Castillo."
 date: 2024-01-27 09:22:00 -0300
 last_modified_at: 2024-06-08 10:33:11 -0300
 permalink: "/2024/01/cine-espanol-dulce-familia-con-fernanda.html"

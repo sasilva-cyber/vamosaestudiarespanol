@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "La Historia de México: Una Mirada a Través del Tiempo"
-description: "¡Hola estudiantes! En nuestro viaje a través de la historia de los países latinoamericanos, no podemos pasar por alto la fascinante y rica historia de México. Este…"
+description: "¡Hola estudiantes! En nuestro viaje a través de la historia de los países latinoamericanos, no podemos pasar por alto la fascinante y rica historia"
 date: 2024-03-31 10:00:00 -0300
 last_modified_at: 2024-03-31 10:00:00 -0300
 permalink: "/2024/03/la-historia-de-mexico.html"

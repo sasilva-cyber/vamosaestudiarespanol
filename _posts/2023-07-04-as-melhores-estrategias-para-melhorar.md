@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 estratégias para melhorar a escrita em um novo idioma"
-description: "Escrever em um novo idioma pode ser um desafio, mas com as estratégias certas, você pode aprimorar suas habilidades de escrita e se comunicar com mais eficácia.…"
+description: "Escrever em um novo idioma pode ser um desafio, mas com as estratégias certas, você pode aprimorar suas habilidades de escrita e se comunicar com mais"
 date: 2023-07-04 20:27:00 -0300
 last_modified_at: 2023-07-04 20:28:55 -0300
 permalink: "/2023/07/as-melhores-estrategias-para-melhorar.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cronograma de Estudos do Espanhol 2023"
-description: "Como aprender espanhol sozinho(a) em 2023 sem sair de casa! O Vamos a Estudiar Español criou um novo cronograma para aprender espanhol sozinho neste ano de 2023…"
+description: "Como aprender espanhol sozinho(a) em 2023 sem sair de casa!"
 date: 2023-02-03 10:48:00 -0300
 last_modified_at: 2023-03-20 11:30:56 -0300
 permalink: "/2023/02/cronograma-de-estudos-do-espanhol-2023.html"

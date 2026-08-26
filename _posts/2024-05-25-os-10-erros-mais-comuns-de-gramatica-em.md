@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Erros Mais Comuns de Gramática em Espanhol"
-description: "Aprender um novo idioma é uma jornada repleta de desafios, e o espanhol não é exceção. Muitas vezes, mesmo os estudantes mais dedicados acabam cometendo erros…"
+description: "Para ajudá-lo a evitar equívocos comuns, identificamos os 10 erros de gramática em espanhol mais frequentes e fornecemos dicas práticas"
 date: 2024-05-25 13:17:00 -0300
 last_modified_at: 2024-05-29 11:26:45 -0300
 permalink: "/2024/05/os-10-erros-mais-comuns-de-gramatica-em.html"

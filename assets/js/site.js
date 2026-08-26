@@ -126,7 +126,7 @@
   function popularCard(post, index) {
     const link = document.createElement('a');
     link.className = 'sidebar-post sidebar-post--ranked';
-    link.href = post.url || '#';
+    link.href = post.url || post.path || '#';
     const rank = document.createElement('span');
     rank.className = 'rank';
     rank.textContent = String(index + 1);
@@ -140,22 +140,79 @@
     return link;
   }
 
+  const POST_PATH = /^\/\d{4}\/\d{2}\/[^/?#]+\.html$/;
+  const OFFICIAL_HOSTS = new Set([
+    'vamosaestudiarespanol.com.br',
+    'www.vamosaestudiarespanol.com.br'
+  ]);
+
+  function supabaseConfig() {
+    const url = String(window.VAE_BLOG?.supabaseUrl || '').replace(/\/+$/, '');
+    const key = String(window.VAE_BLOG?.supabaseKey || '');
+    return url && key ? { url, key } : null;
+  }
+
+  async function supabaseRpc(name, payload) {
+    const config = supabaseConfig();
+    if (!config) throw new Error('Supabase não configurado');
+    const response = await fetch(`${config.url}/rest/v1/rpc/${name}`, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        apikey: config.key
+      },
+      body: JSON.stringify(payload),
+      cache: 'no-store'
+    });
+    if (!response.ok) throw new Error(`Supabase ${response.status}`);
+    return response.json();
+  }
+
+  async function recordBlogPostView() {
+    if (!OFFICIAL_HOSTS.has(window.location.hostname) || !POST_PATH.test(window.location.pathname)) return;
+    if (!supabaseConfig()) return;
+
+    const storageKey = `vae:blog-view:${window.location.pathname}`;
+    try {
+      if (window.sessionStorage.getItem(storageKey)) return;
+    } catch (_) {
+      // Alguns navegadores podem bloquear sessionStorage; a contagem continua sem identificador persistente.
+    }
+
+    const title = qs('.post-header h1')?.textContent?.trim()
+      || document.title.replace(/\s*[|–—-]\s*Vamos a Estudiar Español.*$/i, '').trim()
+      || 'Postagem';
+
+    try {
+      await supabaseRpc('record_blog_post_view', {
+        p_path: window.location.pathname,
+        p_title: title
+      });
+      try {
+        window.sessionStorage.setItem(storageKey, '1');
+      } catch (_) {
+        // Sem impacto funcional.
+      }
+    } catch (_) {
+      // Analytics nunca deve bloquear a leitura do artigo.
+    }
+  }
+
   async function loadPopularPosts() {
     const root = qs('#popular-posts-list');
-    const endpoint = root?.dataset.endpoint?.trim();
-    if (!root || !endpoint) return;
+    if (!root || !supabaseConfig()) return;
     try {
-      const response = await fetch(endpoint, { headers: { Accept: 'application/json' } });
-      if (!response.ok) return;
-      const data = await response.json();
-      const posts = Array.isArray(data?.posts) ? data.posts.slice(0, 5) : [];
+      const data = await supabaseRpc('get_popular_blog_posts', { p_limit: 5 });
+      const payload = Array.isArray(data) && data.length === 1 ? data[0] : data;
+      const posts = Array.isArray(payload?.posts) ? payload.posts.slice(0, 5) : [];
       if (!posts.length) return;
       root.replaceChildren(...posts.map(popularCard));
     } catch (_) {
-      // Mantém o fallback gerado pelo Jekyll.
+      // Mantém o fallback editorial gerado pelo Jekyll.
     }
   }
 
   loadYoutube();
-  loadPopularPosts();
+  recordBlogPostView().finally(loadPopularPosts);
 })();

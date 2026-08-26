@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Origem da Língua Espanhola | História & Cultura"
-description: "O espanhol é um dos idiomas mais falados do mundo. Atualmente mais de 400 milhões de pessoas falam espanhol, sendo considerada a segunda língua mais falada em todo…"
+description: "O espanhol é um dos idiomas mais falados do mundo. Atualmente mais de 400 milhões de pessoas falam espanhol, sendo considerada a segunda língua mais f"
 date: 2022-11-12 10:07:00 -0300
 last_modified_at: 2022-11-12 10:07:06 -0300
 permalink: "/2022/11/a-origem-da-lingua-espanhola-historia.html"

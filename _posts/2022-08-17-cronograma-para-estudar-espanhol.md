@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cronograma para Estudar Espanhol Sozinho em Casa [2022]"
-description: "Como aprender espanhol sozinho em casa, online de modo prático e fácil! É possível utilizar o cronograma para estudar e aprender espanhol sozinho , sem ficar…"
+description: "Como aprender espanhol sozinho em casa, online de modo prático e fácil!"
 date: 2022-08-17 15:47:00 -0300
 last_modified_at: 2022-11-01 11:15:47 -0300
 permalink: "/2022/08/cronograma-para-estudar-espanhol.html"

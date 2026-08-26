@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Expressões Idiomáticas Espanholas"
-description: "As expressões idiomáticas são parte essencial de qualquer idioma, trazendo cor e vivacidade à comunicação. Se você está aprendendo espanhol, dominar algumas…"
+description: "As expressões idiomáticas são parte essencial de qualquer idioma, trazendo cor e vivacidade à comunicação. "
 date: 2023-08-08 22:47:00 -0300
 last_modified_at: 2023-08-08 22:47:08 -0300
 permalink: "/2023/08/expressoes-idiomaticas-espanholas.html"

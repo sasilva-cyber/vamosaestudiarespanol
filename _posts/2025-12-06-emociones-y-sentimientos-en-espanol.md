@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Emociones y Sentimientos en Español"
-description: "Entender emociones y sentimientos en español é essencial para quem deseja se comunicar com naturalidade, expressar vivências pessoais, descrever situações e…"
+description: "Aprenda emociones y sentimientos en español com exemplos, listas, frases e explicações fáceis para iniciantes e avançados."
 date: 2025-12-06 10:43:00 -0300
 last_modified_at: 2025-12-06 10:50:03 -0300
 permalink: "/2025/12/emociones-y-sentimientos-en-espanol.html"

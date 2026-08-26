@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dicas para expandir o seu vocabulário em espanhol de forma eficiente"
-description: "Ter um vocabulário amplo é essencial para se comunicar com confiança e precisão em espanhol. Se você está buscando maneiras eficientes de expandir seu vocabulário…"
+description: "Ter um vocabulário amplo é essencial para se comunicar com confiança e precisão em espanhol."
 date: 2023-07-20 12:15:00 -0300
 last_modified_at: 2023-07-20 12:15:30 -0300
 permalink: "/2023/07/dicas-para-expandir-o-seu-vocabulario.html"

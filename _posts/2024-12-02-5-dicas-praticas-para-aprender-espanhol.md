@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Dicas Práticas para Aprender Espanhol"
-description: "Hoje vou compartilhar algumas dicas práticas que podem ajudar você a aprender espanhol de maneira mais eficiente e prazerosa. Se você está no começo da jornada ou…"
+description: "Hoje vou compartilhar algumas dicas práticas que podem ajudar você a aprender espanhol de maneira mais eficiente e prazerosa. "
 date: 2024-12-02 14:34:00 -0300
 last_modified_at: 2024-12-02 17:18:15 -0300
 permalink: "/2024/12/5-dicas-praticas-para-aprender-espanhol.html"

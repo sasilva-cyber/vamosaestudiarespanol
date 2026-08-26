@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lectura en Español (Nível A1): Familia Pequeña"
-description: "Assim como a fala, a leitura de textos em espanhol também é essencial para o crescimento do seu vocabulário. Ler textos, notícias, contos ou poesias é extremamente…"
+description: "Lectura: Familia Pequeña | Texto para Praticar"
 date: 2022-06-16 10:44:00 -0300
 last_modified_at: 2024-06-08 10:23:04 -0300
 permalink: "/2022/06/lectura-familia-pequena-texto-para.html"

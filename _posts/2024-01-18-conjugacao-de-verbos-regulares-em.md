@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conjugação de Verbos Regulares em Espanhol"
-description: "Se você está embarcando na jornada do aprendizado da língua espanhola, compreender a conjugação de verbos é um passo crucial. Neste guia prático, vamos desvendar os…"
+description: " Se você está embarcando na jornada do aprendizado da língua espanhola, compreender a conjugação de verbos é um passo crucial. "
 date: 2024-01-18 10:34:00 -0300
 last_modified_at: 2024-01-21 09:51:35 -0300
 permalink: "/2024/01/conjugacao-de-verbos-regulares-em.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "15 Expresiones y Jergas en Español"
-description: "Vamos aprender algumas expressões e gírias do Espanhol? Separamos 15 “Expresiones y Jergas” del español para que você aprenda e acrescente ao seu vocabulário! Veja…"
+description: " Vamos aprender algumas expressões e gírias do Espanhol? Separamos 15 “Expresiones y Jergas” del español para que você aprenda e acrescente ao seu voc"
 date: 2022-03-29 17:01:00 -0300
 last_modified_at: 2022-03-29 17:02:31 -0300
 permalink: "/2022/03/15-expresiones-y-jergas-en-espanol.html"

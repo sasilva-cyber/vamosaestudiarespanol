@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Livros Clássicos em Espanhol para Iniciantes (Nível A1/A2)"
-description: "Como estudante iniciante de espanhol, mergulhar na literatura clássica pode ser uma forma emocionante e enriquecedora de aprimorar suas habilidades no idioma. Nesta…"
+description: "Descubra 5 livros clássicos em espanhol perfeitos para iniciantes (nível A1/A2). Leituras envolventes para expandir seu vocabulário!"
 date: 2024-06-15 12:53:00 -0300
 last_modified_at: 2024-06-15 12:53:00 -0300
 permalink: "/2024/06/livros-classicos-espanhol-iniciantes-a1-a2.html"

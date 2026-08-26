@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como utilizar os Verbos: Haber e Tener"
-description: "Bienvenidos a nuestra primera clase de “ Español desde Cero “. Hoy aprenderá a usar los verbos Haber y Tener. Em nossa primeira aula do “ Español desde Cero “…"
+description: "Bienvenidos a nuestra primera clase de “Español desde Cero“. Hoy aprenderá a usar los verbos Haber y Tener."
 date: 2023-01-03 11:31:00 -0300
 last_modified_at: 2023-09-05 11:57:44 -0300
 permalink: "/2023/01/como-utilizar-os-verbos-haber-e-tener.html"

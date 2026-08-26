@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lectura en Español (Nível A2): Un día en la montaña"
-description: "Hoje em mais uma postagem do “ Textos para Praticar “, trouxemos o texto intitulado “Un día en la montaña” do site Estoy Ready . O texto é especifico para…"
+description: "Hoje em mais uma postagem do “Textos para Praticar“, trouxemos o texto intitulado “Un día en la montaña” do site Estoy Ready. "
 date: 2022-04-08 15:29:00 -0300
 last_modified_at: 2024-06-08 10:23:36 -0300
 permalink: "/2022/04/lectura-un-dia-en-la-montana-textos.html"

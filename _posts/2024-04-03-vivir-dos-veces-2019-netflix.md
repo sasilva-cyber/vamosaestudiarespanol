@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cine Español: Vivir dos Veces (2019)"
-description: "Queridos estudantes de espanhol, procurando uma maneira emocionante e comovente de melhorar o seu espanhol enquanto desfrutam de um bom filme? Então \"Vivir dos…"
+description: "Vivir dos Veces da Netflix é  filme espanhol, dirigido por María Ripoll, nos leva em uma jornada cheia de emoções através da vida de Emilio."
 date: 2024-04-03 14:48:00 -0300
 last_modified_at: 2024-06-08 10:37:34 -0300
 permalink: "/2024/04/vivir-dos-veces-2019-netflix.html"

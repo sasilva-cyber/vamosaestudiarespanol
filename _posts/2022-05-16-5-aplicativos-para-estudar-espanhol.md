@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Aplicativos para Estudar Espanhol"
-description: "Hola estudiantes, Sea bienvenidos, hoje vamos conhecer 5 aplicativos que podem te ajudar durante o estudo do espanhol. Afinal, nada como aprender é estudar um novo…"
+description: "Hola estudiantes, Sea bienvenidos, hoje vamos conhecer 5 aplicativos que podem te ajudar durante o estudo do espanhol. "
 date: 2022-05-16 13:44:00 -0300
 last_modified_at: 2022-05-16 13:44:47 -0300
 permalink: "/2022/05/5-aplicativos-para-estudar-espanhol.html"

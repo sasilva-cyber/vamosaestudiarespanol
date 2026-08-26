@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "'El Fin del Amor' com Lali Espósito"
-description: "\"El Fin del Amor\" segue a trajetória de Tamara, uma jovem desafiando normas em busca de sua verdadeira identidade em uma comunidade judaica ortodoxa. \" El Fin del…"
+description: "\"El Fin del Amor\" é uma produção argentina que não só irá aprimorar suas habilidades linguísticas, mas também proporcionará uma experiência emocional"
 date: 2024-03-29 17:58:00 -0300
 last_modified_at: 2024-08-06 12:15:22 -0300
 permalink: "/2024/03/el-fin-del-amor-com-lali-esposito.html"

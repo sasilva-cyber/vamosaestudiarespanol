@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spanish Sitcom | Dica de Espanhol #07"
-description: "Nossa dica de espanhol desta semana é o “ Spanish Sitcom ” que traz situações do cotidiano de fácil compreensão para vocês estudantes de nível A1 da língua…"
+description: " Nossa dica de espanhol desta semana é o “Spanish Sitcom” que traz situações do cotidiano de fácil compreensão para vocês estudantes de nível A1 da lí"
 date: 2022-03-31 17:19:00 -0300
 last_modified_at: 2022-03-31 17:19:42 -0300
 permalink: "/2022/03/spanish-sitcom-dica-de-espanhol-07.html"

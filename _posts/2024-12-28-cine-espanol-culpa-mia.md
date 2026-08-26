@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Culpa Mía: Aprenda Espanhol com o Filme que Conquistou o Amazon Prime Video"
-description: "Culpa Mía o filme que conquistou os assinantes do Amazon Prime Video Descubra como aprender espanhol de forma divertida assistindo ao filme \"Culpa Mía\". Uma…"
+description: "Descubra como aprender espanhol de forma divertida assistindo ao filme \"Culpa Mía\". "
 date: 2024-12-28 11:00:00 -0300
 last_modified_at: 2024-12-28 11:00:00 -0300
 permalink: "/2024/12/cine-espanol-culpa-mia.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vocabulário: Profissões em Espanhol"
-description: "Com a proximidade da língua espanhola com a nossa acaba por confundir muitos estudantes que creem estar “hablando en español” , porém ampliar o seu vocabulário é…"
+description: "Com a proximidade da língua espanhola com a nossa acaba por confundir muitos estudantes que creem estar “hablando en español”, porém ampliar o seu voc"
 date: 2023-01-03 11:38:00 -0300
 last_modified_at: 2023-01-05 18:14:35 -0300
 permalink: "/2023/01/vocabulario-profissoes-em-espanhol.html"

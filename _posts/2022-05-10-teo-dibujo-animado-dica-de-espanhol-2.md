@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TEO dibujo animado"
-description: "O caminho para a fluência e uma caminhada longa, porém recompensadora quando alcançamos nossos objetivos. E nada como utilizar todos os recursos que a internet pode…"
+description: "Nele você encontra todos os tipos de conteúdos, mas para você estudante o tema principal e o Espanhol. Por isso, a nossa dica de espanhol desta semana"
 date: 2022-05-10 09:34:00 -0300
 last_modified_at: 2022-11-01 11:47:19 -0300
 permalink: "/2022/05/teo-dibujo-animado-dica-de-espanhol-2.html"

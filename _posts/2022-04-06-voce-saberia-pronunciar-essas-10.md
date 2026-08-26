@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Trava-línguas em Espanhol: Pratique o Idioma de forma Divertida"
-description: "Você saberia pronunciar essas 10 palavras sem travar a língua? Confira abaixo algumas frases para praticar sua pronúncia neste divertido trava-línguas em Espanhol!…"
+description: "O espanhol é conhecido como trabalenguas e podem ser praticados de acordo com o seu nível de conhecimento do idioma. "
 date: 2022-04-06 11:37:00 -0300
 last_modified_at: 2022-05-09 15:58:56 -0300
 permalink: "/2022/04/voce-saberia-pronunciar-essas-10.html"

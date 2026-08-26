@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Filmes Clássicos Espanhóis que Todo Estudante de Espanhol Deve Assistir"
-description: "Como estudante de espanhol, assistir a filmes clássicos espanhóis não só é uma maneira divertida de praticar o idioma, mas também uma forma eficaz de mergulhar na…"
+description: "Explore 5 filmes clássicos espanhóis essenciais para estudantes de espanhol. Uma jornada cultural e linguística imperdível"
 date: 2024-06-14 13:00:00 -0300
 last_modified_at: 2024-06-14 13:00:00 -0300
 permalink: "/2024/06/filmes-classicos-espanhois-estudantes-espanhol.html"

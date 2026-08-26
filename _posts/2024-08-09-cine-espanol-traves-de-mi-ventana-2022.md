@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cine Español: A Traves de Mi Ventana (2022)"
-description: "A Través de Mi Ventana : Filme Espanhol na Netflix Baseado em Obra Literária. Nesta semana, nossa série de Cine Español traz uma produção que você não pode perder…"
+description: "Assista 'A Través de Mi Ventana' na Netflix: uma adaptação espanhola emocionante que combina romance e drama com uma trama envolvente e cativante."
 date: 2024-08-09 17:00:00 -0300
 last_modified_at: 2024-08-09 17:00:00 -0300
 permalink: "/2024/08/cine-espanol-traves-de-mi-ventana-2022.html"

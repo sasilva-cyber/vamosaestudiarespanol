@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Por que aprender o básico do espanhol é essencial (mesmo parecendo fácil)"
-description: "Quem começa a estudar espanhol , muitas vezes, se sente confiante por já entender boa parte das palavras. E essa sensação inicial é real: português e espanhol…"
+description: "Quem começa a estudar espanhol, muitas vezes, se sente confiante por já entender boa parte das palavras"
 date: 2025-05-11 09:53:00 -0300
 last_modified_at: 2025-05-11 09:53:57 -0300
 permalink: "/2025/05/por-que-aprender-o-basico-do-espanhol-e.html"

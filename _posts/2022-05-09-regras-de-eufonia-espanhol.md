@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Regras de Eufonia (Espanhol)"
-description: "As regras de Eufonia na língua espanhola servem para evitar \"La Cacofonía\" e a ajudar na pronunciação de algumas palavras. Existem 3 regras básicas da Eufonia no…"
+description: "As regras de Eufonia na língua espanhola servem para evitar \"La Cacofonía\" e a ajudar na pronunciação de algumas palavras."
 date: 2022-05-09 15:57:00 -0300
 last_modified_at: 2022-05-09 15:57:34 -0300
 permalink: "/2022/05/regras-de-eufonia-espanhol.html"

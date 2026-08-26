@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7 Formas para Superar o Medo de Falar em Espanhol"
-description: "Falar em um novo idioma pode ser uma experiência desafiadora, especialmente quando o medo e a ansiedade entram em cena. Se você está buscando superar o medo de…"
+description: "Descubra técnicas eficazes para superar o medo de falar em espanhol e comunicar-se com confiança. Aprenda a melhorar sua fluência agora!"
 date: 2024-08-06 10:29:00 -0300
 last_modified_at: 2024-08-06 10:37:33 -0300
 permalink: "/2024/08/7-formas-para-superar-o-medo-de-falar.html"

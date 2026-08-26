@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lectura en Español (Nível C1): La Riqueza Cultural de Argentina"
-description: "Argentina, un país ubicado en el extremo sur de América del Sur, es reconocido por su riqueza cultural y diversidad. Desde las majestuosas montañas de los Andes…"
+description: "Argentina, un país ubicado en el extremo sur de América del Sur, es reconocido por su riqueza cultural y diversidad. "
 date: 2024-03-30 14:26:00 -0300
 last_modified_at: 2024-06-08 10:16:40 -0300
 permalink: "/2024/03/lectura-en-espanol-la-riqueza-cultural-de-argentina.html"

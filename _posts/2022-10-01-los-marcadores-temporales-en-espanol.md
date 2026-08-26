@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Los Marcadores Temporales en Español"
-description: "Hoy nos vamos a centrar en los marcadores temporales (os marcadores temporais) são palavras que determinam o tempo em que se realiza a ação. Os marcadores temporais…"
+description: "Hoy nos vamos a centrar en los marcadores temporales (os marcadores temporais) são palavras que determinam o tempo em que se realiza a ação."
 date: 2022-10-01 09:53:00 -0300
 last_modified_at: 2022-10-01 09:53:19 -0300
 permalink: "/2022/10/los-marcadores-temporales-en-espanol.html"

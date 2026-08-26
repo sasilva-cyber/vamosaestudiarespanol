@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Espanhol do Zero: Guia Inicial para Iniciantes"
-description: "Quer aprender espanhol , mas não sabe por onde começar? O Espanhol do Zero foi criado para quem deseja iniciar no idioma de forma organizada, prática e sem…"
+description: "Quer aprender espanhol, mas não sabe por onde começar? O Espanhol do Zero foi criado para quem deseja iniciar no idioma de forma organizada."
 date: 2026-03-02 10:49:00 -0300
 last_modified_at: 2026-03-02 10:50:36 -0300
 permalink: "/2026/03/espanhol-do-zero-guia-inicial-para-iniciantes.html"

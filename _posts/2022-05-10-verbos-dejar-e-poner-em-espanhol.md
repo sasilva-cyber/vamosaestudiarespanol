@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Verbos: Dejar e Poner em Espanhol"
-description: "Graças a semelhança do espanhol com a língua portuguesa que possuímos a facilidade de aprender o idioma. Entretanto, tal similaridade não significa que seja igual.…"
+description: "Graças a semelhança do espanhol com a língua portuguesa que possuímos a facilidade de aprender o idioma. "
 date: 2022-05-10 09:31:00 -0300
 last_modified_at: 2023-09-05 12:00:22 -0300
 permalink: "/2022/05/verbos-dejar-e-poner-em-espanhol.html"

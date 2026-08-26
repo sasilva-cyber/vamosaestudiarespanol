@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Regras de Acentuação Gráfica"
-description: "A fim de indicar sua correta TONICIDADE , certas palavras espanholas são acentuadas. O sinal de acentuação chama-se, em espanhol, acento ortográfico ou…"
+description: "A fim de indicar sua correta TONICIDADE, certas palavras espanholas são acentuadas. O sinal de acentuação chama-se, em espanhol, acento ortográfico ou"
 date: 2022-05-14 12:17:00 -0300
 last_modified_at: 2023-09-05 12:00:45 -0300
 permalink: "/2022/05/regras-de-acentuacao-grafica-gramatica.html"

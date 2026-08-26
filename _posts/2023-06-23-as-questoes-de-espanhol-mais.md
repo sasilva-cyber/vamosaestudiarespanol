@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "As Questões de Espanhol mais recorrentes no ENEM"
-description: "O Exame Nacional do Ensino Médio (ENEM) é uma prova abrangente que avalia as habilidades e conhecimentos dos estudantes brasileiros. Embora a língua espanhola não…"
+description: "O Exame Nacional do Ensino Médio (ENEM) é uma prova abrangente que avalia as habilidades e conhecimentos dos estudantes brasileiros."
 date: 2023-06-23 20:07:00 -0300
 last_modified_at: 2023-06-23 20:07:22 -0300
 permalink: "/2023/06/as-questoes-de-espanhol-mais.html"

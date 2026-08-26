@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dicas Essenciais para Expandir seu Repertório Linguístico"
-description: "Nossa jornada para dominar um novo idioma vai além da simples aprendizagem de vocabulário. É um processo que envolve estratégias eficazes e práticas consistentes.…"
+description: "Descubra as melhores dicas para ampliar seu vocabulário em espanhol de maneira eficaz."
 date: 2024-06-25 12:18:00 -0300
 last_modified_at: 2024-06-25 12:18:00 -0300
 permalink: "/2024/06/dicas-essenciais-expandir-repertorio-linguistico-espanhol.html"

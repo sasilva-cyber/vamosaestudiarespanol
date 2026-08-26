@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como melhorar a minha escrita em Espanhol"
-description: "Como melhorar a escrita em espanhol? Confiram algumas dicas para escrever textos em espanhol, e assim, melhorar a sua escrita no idioma. O aperfeiçoamento em…"
+description: "Confiram algumas dicas para escrever textos em espanhol, e assim, melhorar a sua escrita no idioma."
 date: 2023-03-30 12:51:00 -0300
 last_modified_at: 2023-03-30 12:51:43 -0300
 permalink: "/2023/03/como-melhorar-minha-escrita-em-espanhol.html"

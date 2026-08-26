@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Estratégias para ampliar seu Vocabulário em Espanhol"
-description: "Se você está em busca de ampliar seu vocabulário e se comunicar com mais fluência, está no lugar certo. Adquirir e reter vocabulário novo pode ser um desafio, mas…"
+description: "Se você está em busca de ampliar seu vocabulário e se comunicar com mais fluência, está no lugar certo. "
 date: 2024-08-20 09:00:00 -0300
 last_modified_at: 2024-08-22 17:52:20 -0300
 permalink: "/2024/08/estrategias-para-ampliar-seu-vocabulario-em-espanhol.html"

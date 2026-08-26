@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cuidados com essas Palavras em Espanhol!"
-description: "5 Palavras em Espanhol com significado diferente em português Muita atenção com essas cinco palavras que existem tanto no espanhol quando no português, mas que…"
+description: "5 Palavras em Espanhol com significado diferente em português"
 date: 2022-03-28 13:44:00 -0300
 last_modified_at: 2022-03-28 13:44:48 -0300
 permalink: "/2022/03/cuidados-com-essas-palavras-em-espanhol.html"

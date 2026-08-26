@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Séries para estudar Espanhol na Netflix"
-description: "A tualmente quando o assunto é estudar um novo idioma, ou aprimorar o que já sabemos, a internet tornou-se uma grande aliada. A Netflix é um ótimo mecanismo de…"
+description: "3 Séries para estudar Espanhol na Netflix"
 date: 2022-11-01 11:07:00 -0300
 last_modified_at: 2022-11-01 11:35:57 -0300
 permalink: "/2022/11/3-series-para-estudar-espanhol-na.html"

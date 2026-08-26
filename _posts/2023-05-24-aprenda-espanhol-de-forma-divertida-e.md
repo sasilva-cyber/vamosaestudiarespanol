@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aprenda espanhol de forma divertida e eficiente: Dicas e truques infalíveis!"
-description: "¡Hola a todos! Se você está procurando uma maneira divertida e eficiente de aprender espanhol, você veio ao lugar certo. O espanhol é uma língua rica e vibrante…"
+description: "¡Hola a todos! Se você está procurando uma maneira divertida e eficiente de aprender espanhol, você veio ao lugar certo. "
 date: 2023-05-24 12:19:00 -0300
 last_modified_at: 2023-05-30 11:58:58 -0300
 permalink: "/2023/05/aprenda-espanhol-de-forma-divertida-e.html"

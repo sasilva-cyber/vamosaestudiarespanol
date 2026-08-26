@@ -1,0 +1,6 @@
+/* Camada de compatibilidade para HTML legado importado do Blogger. */
+.post-body{overflow-wrap:anywhere}
+.post-body iframe[src*="youtube.com"],.post-body iframe[src*="youtube-nocookie.com"],.post-body iframe[src*="youtu.be"]{display:block;width:100%;height:auto;aspect-ratio:16/9}
+.post-body table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.post-body pre{max-width:100%;overflow-x:auto}
+.post-body img{height:auto}

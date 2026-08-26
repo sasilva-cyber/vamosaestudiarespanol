@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aprenda a Usar Ser e Estar em Espanhol"
-description: "Ser e Estar em Espanhol: Quando Usar Cada Um? Guia Completo e Descomplicado O uso correto dos verbos ser e estar é um dos maiores desafios enfrentados por…"
+description: "Descubra como usar corretamente ser e estar em espanhol com dicas simples, exemplos práticos e explicações claras."
 date: 2025-04-29 10:22:00 -0300
 last_modified_at: 2025-05-02 09:52:01 -0300
 permalink: "/2025/04/aprenda-usar-ser-e-estar-em-espanhol.html"

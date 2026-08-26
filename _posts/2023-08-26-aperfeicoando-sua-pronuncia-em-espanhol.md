@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aperfeiçoando Sua Pronúncia em Espanhol: Dominando os Sons Únicos"
-description: "Dominar a pronúncia em espanhol é um passo crucial para alcançar a fluência. Entre os desafios mais notáveis estão os sons específicos do espanhol, que podem…"
+description: "Dominar a pronúncia em espanhol é um passo crucial para alcançar a fluência. "
 date: 2023-08-26 15:22:00 -0300
 last_modified_at: 2023-08-26 15:22:28 -0300
 permalink: "/2023/08/aperfeicoando-sua-pronuncia-em-espanhol.html"

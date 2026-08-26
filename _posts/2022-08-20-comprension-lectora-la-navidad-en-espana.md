@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lectura en Español (Nível B2): La Navidad en España"
-description: "Comprensión lectora en español para el nivel A2 La Navidad en España A finales de noviembre se llenan las calles españolas de luces navideñas. En los centros…"
+description: "Comprensión lectora en español para el nivel A2: La Navidad en España"
 date: 2022-08-20 10:48:00 -0300
 last_modified_at: 2024-06-08 10:22:00 -0300
 permalink: "/2022/08/comprension-lectora-la-navidad-en-espana.html"

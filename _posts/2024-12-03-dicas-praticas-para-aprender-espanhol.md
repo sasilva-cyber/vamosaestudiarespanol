@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dicas Práticas para Aprender Espanhol Ainda em 2024"
-description: "Se você quer aprender espanhol de forma eficiente e sem enrolação, 2024 ainda é o ano perfeito para começar! Seja para viagens, estudos ou crescimento profissional…"
+description: "Se você quer aprender espanhol de forma eficiente e sem enrolação, 2024 ainda é o ano perfeito para começar! "
 date: 2024-12-03 22:05:00 -0300
 last_modified_at: 2024-12-03 22:06:49 -0300
 permalink: "/2024/12/dicas-praticas-para-aprender-espanhol.html"

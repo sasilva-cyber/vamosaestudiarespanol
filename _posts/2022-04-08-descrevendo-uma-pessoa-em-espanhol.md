@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Descrevendo uma Pessoa em Espanhol"
-description: "Vejamos como descrever uma pessoa (persona) em espanhol. Vamos aprender aspectos físicos e o caráter de uma pessoa abaixo: Para descrever os cabelos: Tiene el pelo…"
+description: " Vejamos como descrever uma pessoa (persona) em espanhol. Vamos aprender aspectos físicos e o caráter de uma pessoa abaixo:"
 date: 2022-04-08 15:22:00 -0300
 last_modified_at: 2022-04-08 15:22:33 -0300
 permalink: "/2022/04/descrevendo-uma-pessoa-em-espanhol.html"

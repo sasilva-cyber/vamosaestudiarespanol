@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Quem somos"
-description: "Bem-vindo ao \" Vamos a Estudiar Español \" Aqui, vivenciamos a língua e cultura espanhola, proporcionando uma experiência única de aprendizado. Mais do que apenas um…"
+description: "Quem somos"
 date: 2021-10-30 11:04:00 -0300
 last_modified_at: 2024-01-10 10:58:57 -0300
 permalink: "/p/sobre.html"

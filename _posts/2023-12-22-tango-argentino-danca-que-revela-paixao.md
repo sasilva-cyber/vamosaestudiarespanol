@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tango Argentino: A Dança que Revela Paixão e Melancolia"
-description: "O Tango Argentino, uma dança cheia de história e emoção, transcende fronteiras e tempo, transmitindo paixão e melancolia por meio de seus movimentos envolventes e…"
+description: "O Tango Argentino, uma dança cheia de história e emoção, transcende fronteiras e tempo, transmitindo paixão e melancolia por meio de seus movimentos"
 date: 2023-12-22 16:08:00 -0300
 last_modified_at: 2023-12-22 16:09:44 -0300
 permalink: "/2023/12/tango-argentino-danca-que-revela-paixao.html"

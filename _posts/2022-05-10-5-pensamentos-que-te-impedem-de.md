@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Pensamentos que te impedem de Aprender Espanhol"
-description: "A prender um novo idioma não é uma tarefa fácil, exige disciplina, constância e dedicação. Mas o maior vilão do nosso aprendizado, somos nós mesmos que colocamos…"
+description: "E é alguns desses pensamentos listados abaixo que você deve buscar combater, vencer e superar para ao final, alcançar a desejada fluência em Espanhol."
 date: 2022-05-10 09:36:00 -0300
 last_modified_at: 2022-05-10 09:36:11 -0300
 permalink: "/2022/05/5-pensamentos-que-te-impedem-de.html"

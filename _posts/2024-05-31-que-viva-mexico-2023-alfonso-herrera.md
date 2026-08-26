@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "¡Que viva México! (2023) com Alfonso Herrera"
-description: "Prepare-se para uma dose de risadas e reflexões nesta obra-prima cinematográfica mexicana! Dirigido por Luis Estrada e escrito em colaboração com Jaime Sampietro…"
+description: "Que Viva México, Dirigido por Luis Estrada este filme não apenas entrega momentos de comédia hilariantes"
 date: 2024-05-31 14:00:00 -0300
 last_modified_at: 2024-06-23 12:29:32 -0300
 permalink: "/2024/05/que-viva-mexico-2023-alfonso-herrera.html"

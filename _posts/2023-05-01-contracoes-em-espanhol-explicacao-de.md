@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Contrações em Espanhol  | Explicação de como usar o DEL e AL no idioma"
-description: "A contração é uma fusão de duas palavras em uma só, normalmente ocorre quando a última letra da primeira palavra é igual à primeira letra da segunda palavra. Você…"
+description: "Você sabe o que são as \"contrações\" em Espanhol? Não? Veja a explicação de como usar o DEL e AL no idioma"
 date: 2023-05-01 22:11:00 -0300
 last_modified_at: 2023-09-05 11:56:56 -0300
 permalink: "/2023/05/contracoes-em-espanhol-explicacao-de.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Dicas Práticas para Iniciantes: Descomplicando o Aprendizado do Espanhol"
-description: "Se você já se deparou com o desafio de aprender um novo idioma e se sentiu perdido diante da complexidade da gramática, vocabulário e pronúncia, saiba que não está…"
+description: "Aprender espanhol pode parecer uma tarefa assustadora inicialmente, mas com as estratégias certas e um pouco de prática"
 date: 2024-05-28 10:52:00 -0300
 last_modified_at: 2024-05-29 11:10:29 -0300
 permalink: "/2024/05/5-dicas-praticas-para-iniciantes.html"

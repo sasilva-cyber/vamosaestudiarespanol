@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Artigos Definidos e Indefinidos em Espanhol"
-description: "Hoje, vamos explorar um aspecto fundamental da língua: os artigos definidos e indefinidos . Compreender como e quando usar esses artigos é essencial para construir…"
+description: "Hoje, vamos explorar um aspecto fundamental da língua: os artigos definidos e indefinidos."
 date: 2024-09-19 10:00:00 -0300
 last_modified_at: 2024-09-19 10:00:00 -0300
 permalink: "/2024/09/artigos-definidos-e-indefinidos-em.html"

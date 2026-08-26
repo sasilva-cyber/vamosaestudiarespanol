@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pronomes Pessoais em Espanhol"
-description: "Você já se perguntou como expressar quem está fazendo o quê em espanhol? Os pronomes pessoais são a chave para isso! Vamos explorar os pronomes pessoais em espanhol…"
+description: "Você já se perguntou como expressar quem está fazendo o quê em espanhol? Os pronomes pessoais são a chave para isso! "
 date: 2024-03-25 12:00:00 -0300
 last_modified_at: 2024-03-25 12:00:00 -0300
 permalink: "/2024/03/pronomes-pessoais-em-espanhol.html"

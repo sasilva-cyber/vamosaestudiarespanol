@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Espanhol Online: Os Melhores Recursos e Plataformas para o Aprendizado"
-description: "Aprender espanhol online nunca foi tão acessível e eficaz como nos dias de hoje. Com uma infinidade de recursos e plataformas disponíveis, qualquer pessoa pode…"
+description: "Neste artigo, exploraremos os melhores recursos e plataformas online para o aprendizado do espanhol"
 date: 2023-10-14 09:45:00 -0300
 last_modified_at: 2023-10-14 09:45:09 -0300
 permalink: "/2023/10/espanhol-online-os-melhores-recursos-e.html"

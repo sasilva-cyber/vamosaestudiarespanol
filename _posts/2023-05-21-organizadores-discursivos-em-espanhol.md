@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Organizadores discursivos em espanhol: Conectando suas ideias com fluidez"
-description: "Você já se perguntou como tornar seu discurso mais coerente e estruturado em espanhol? Os organizadores discursivos são ferramentas linguísticas essenciais que…"
+description: "Você já se perguntou como tornar seu discurso mais coerente e estruturado em espanhol? "
 date: 2023-05-21 18:07:00 -0300
 last_modified_at: 2023-05-21 18:07:50 -0300
 permalink: "/2023/05/organizadores-discursivos-em-espanhol.html"

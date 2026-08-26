@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Expressões Idiomáticas em Espanhol que Você Precisa Conhecer"
-description: "Hoje vamos a dar um passo além no nosso aprendizado com uma imersão nas expressões idiomáticas que fazem o idioma espanhol ser tão colorido e vibrante. Conhecer e…"
+description: "Descubra 10 expressões idiomáticas em espanhol que farão você expandir o seu vocabulário"
 date: 2024-12-27 11:28:00 -0300
 last_modified_at: 2024-12-27 11:29:25 -0300
 permalink: "/2024/12/10-expressoes-idiomaticas-em-espanhol.html"

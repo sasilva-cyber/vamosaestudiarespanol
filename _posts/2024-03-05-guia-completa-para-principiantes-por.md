@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guía Completa para Principiantes: Por Dónde Empezar a Estudiar Español"
-description: "En este artículo, te proporcionaremos una guía paso a paso para comenzar tus estudios de español de manera efectiva y divertida. Dominando los Fundamentos con 5…"
+description: "En este artículo, te proporcionaremos una guía paso a paso para comenzar tus estudios de español de manera efectiva y divertida."
 date: 2024-03-05 10:00:00 -0300
 last_modified_at: 2024-03-05 10:00:00 -0300
 permalink: "/2024/03/guia-completa-para-principiantes-por.html"

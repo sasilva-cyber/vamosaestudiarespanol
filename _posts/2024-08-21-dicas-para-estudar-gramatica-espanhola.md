@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dicas para Estudar Gramática Espanhola: Transforme Seus Estudos do Espanhol"
-description: "Se você está se dedicando ao estudo da gramática espanhola, sabe que pode ser um desafio dominar todos os aspectos do idioma. Para ajudá-lo a tornar seus estudos…"
+description: "Se você está se dedicando ao estudo da gramática espanhola, sabe que pode ser um desafio dominar todos os aspectos do idioma."
 date: 2024-08-21 11:14:00 -0300
 last_modified_at: 2024-08-22 17:51:34 -0300
 permalink: "/2024/08/dicas-para-estudar-gramatica-espanhola.html"

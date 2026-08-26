@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pronomes Pessoais em Espanhol"
-description: "¡Hola, estudiantes! Hoje vamos explorar um componente essencial da gramática espanhola: os pronomes pessoais. Eles são fundamentais para construir frases e…"
+description: "Hoje vamos explorar um componente essencial da gramática espanhola: os pronomes pessoais. "
 date: 2024-09-24 08:30:00 -0300
 last_modified_at: 2024-09-24 08:30:00 -0300
 permalink: "/2024/09/pronomes-pessoais-em-espanhol.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Séries da Netflix para Aprender Espanhol"
-description: "Nada como estudar espanhol com séries e filmes. Quem não gosta de assistir uma boa série e ainda assim estar estudando espanhol? Creio que todos gostamos de…"
+description: "Nada como estudar espanhol com séries e filmes. Quem não gosta de assistir uma boa série e ainda assim estar estudando espanhol?"
 date: 2022-03-31 17:11:00 -0300
 last_modified_at: 2024-08-06 12:24:48 -0300
 permalink: "/2022/03/3-series-da-netflix-para-aprender.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Despedidas y Saludos 2"
-description: "Hoje no “Español desde Cero” vamos aprender um pouco mais sobre “Despedidas y Saludos” Afinal aprender formas básicas de cumprimento e despedidas em Espanhol é…"
+description: "Hoje no “Español desde Cero” vamos aprender um pouco mais sobre “Despedidas y Saludos”"
 date: 2022-05-16 13:47:00 -0300
 last_modified_at: 2023-09-05 11:58:56 -0300
 permalink: "/2022/05/despedidas-y-saludos-2-espanol-desde.html"

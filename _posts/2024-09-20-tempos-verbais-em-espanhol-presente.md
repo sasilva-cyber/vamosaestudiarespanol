@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tempos Verbais em Espanhol: Presente Simples"
-description: "Hoje vamos focar no tempo verbal mais usado : o presente simples . É fundamental para descrever ações que ocorrem no momento atual ou hábitos diários. Vamos…"
+description: "Hoje vamos focar no tempo verbal mais usado: o presente simples. É fundamental para descrever ações que ocorrem no momento atual ou hábitos diários. "
 date: 2024-09-20 09:34:00 -0300
 last_modified_at: 2024-09-20 09:34:00 -0300
 permalink: "/2024/09/tempos-verbais-em-espanhol-presente.html"

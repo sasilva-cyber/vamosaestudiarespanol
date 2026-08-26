@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como se preparar para o Enem 2023 em espanhol"
-description: "Se você está se preparando para o ENEM 2023 , você precisa conferir essas dicas e recursos que poderá ajudá-lo(a) a se preparar para a prova mais aguardado pelos…"
+description: "Se você está se preparando para o ENEM 2023, você precisa conferir essas dicas e recursos que poderá ajudá-lo(a) a se preparar"
 date: 2023-05-02 09:49:00 -0300
 last_modified_at: 2023-05-05 18:39:39 -0300
 permalink: "/2023/05/como-se-preparar-para-o-enem-2023.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vocabulário Essencial de Espanhol para Iniciantes"
-description: "Aprender um novo idioma pode ser uma jornada desafiadora, mas ter uma base sólida de vocabulário pode fazer toda a diferença. Se você está começando a aprender…"
+description: "Aprender um novo idioma pode ser uma jornada desafiadora, mas ter uma base sólida de vocabulário pode fazer toda a diferença. "
 date: 2024-08-28 08:00:00 -0300
 last_modified_at: 2024-08-28 08:00:00 -0300
 permalink: "/2024/08/vocabulario-essencial-de-espanhol-para.html"

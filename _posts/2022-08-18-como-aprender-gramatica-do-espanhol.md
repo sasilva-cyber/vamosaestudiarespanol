@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como aprender a gramática da Língua Espanhola?"
-description: "Aprender a gramática da Língua Espanhola pode ser considerado uma tarefa difícil e complexa. Esse idioma mesmo possuindo similaridade com o português possui também…"
+description: "Aprender a gramática da Língua Espanhola pode ser considerado uma tarefa difícil e complexa. "
 date: 2022-08-18 12:00:00 -0300
 last_modified_at: 2022-11-01 11:16:56 -0300
 permalink: "/2022/08/como-aprender-gramatica-do-espanhol.html"

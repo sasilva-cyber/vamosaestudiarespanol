@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Passos para organizar os estudos"
-description: "Organizar os seus estudos antes de iniciá-los é de extrema importância. Afinal, se você está se preparando para realizar uma prova, ou o ENEM você precisa se…"
+description: "Organizar os seus estudos antes de iniciá-los é de extrema importância. "
 date: 2023-03-20 10:54:00 -0300
 last_modified_at: 2023-03-20 11:09:58 -0300
 permalink: "/2023/03/3-passos-para-organizar-os-estudos.html"

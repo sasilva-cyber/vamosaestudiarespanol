@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Tips para Aprender Espanhol | ¡Vamos a Estudiar Español!"
-description: "H ola, todos! Hoje o Dica de Espanhol traz 5 Tips (Dicas) para ajudar você no aprendizado do Espanhol! ¿ Vamos a estudiar ? Manter uma rotina de estudos é…"
+description: " Hola, todos! Hoje o Dica de Espanhol traz 5 Tips (Dicas) para ajudar você no aprendizado do Espanhol! ¿Vamos a estudiar? "
 date: 2022-04-08 15:19:00 -0300
 last_modified_at: 2022-04-08 15:19:53 -0300
 permalink: "/2022/04/5-tips-para-aprender-espanhol-vamos.html"

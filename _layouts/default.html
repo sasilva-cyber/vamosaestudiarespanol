@@ -7,6 +7,7 @@
   {% seo %}
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/content.css' | relative_url }}">
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -38,7 +39,7 @@
       <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
         <a href="{{ '/' | relative_url }}">Início</a>
         <a href="{{ '/arquivo/' | relative_url }}">Arquivo</a>
-        <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
+        <a href="{{ '/p/sobre.html' | relative_url }}">Sobre</a>
         <a class="nav-practice" href="{{ site.social.practice }}">Espaço de prática <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
@@ -94,7 +95,7 @@
       <section class="sidebar-card">
         <p class="sidebar-kicker">Leituras em destaque</p>
         <h2>Mais visualizadas</h2>
-        <div class="sidebar-post-list" id="popular-posts-list" data-endpoint="{{ site.popular_posts_api }}">
+        <div class="sidebar-post-list" id="popular-posts-list">
           {% assign popular_posts = site.posts | where: 'popular', true %}
           {% if popular_posts.size == 0 %}{% assign popular_posts = site.posts %}{% endif %}
           {% for post in popular_posts limit: 5 %}
@@ -140,7 +141,10 @@
         <h2>Explore</h2>
         <a href="{{ '/' | relative_url }}">Início</a>
         <a href="{{ '/arquivo/' | relative_url }}">Arquivo</a>
-        <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
+        <a href="{{ '/p/sobre.html' | relative_url }}">Sobre</a>
+        <a href="{{ '/p/contato.html' | relative_url }}">Contato</a>
+        <a href="{{ '/p/politica-de-privacidade.html' | relative_url }}">Privacidade</a>
+        <a href="{{ '/p/termos-e-condicoes.html' | relative_url }}">Termos</a>
         <a href="{{ site.social.practice }}">Espaço de Prática</a>
       </div>
 
@@ -162,6 +166,8 @@
     window.VAE_BLOG = {
       youtubeApi: {{ site.youtube_latest_api | jsonify }},
       youtubeChannel: {{ site.social.youtube | jsonify }},
+      supabaseUrl: {{ site.supabase_url | jsonify }},
+      supabaseKey: {{ site.supabase_publishable_key | jsonify }},
       baseUrl: {{ site.url | jsonify }}
     };
   </script>

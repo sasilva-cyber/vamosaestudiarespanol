@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Estudando Espanhol com Masterchef"
-description: "MasterChef é um programa conhecido do público brasileiro. Mas você sabia que esta competição culinária também existe em outros países da América Latina? E que você…"
+description: "MasterChef você sabia que esta competição culinária também existe em outros países da América Latina?"
 date: 2023-01-07 10:25:00 -0300
 last_modified_at: 2023-01-07 10:30:16 -0300
 permalink: "/2023/01/estudando-espanhol-com-masterchef.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Expressões Idiomáticas em Espanhol e Como Usá-las no Dia a Dia"
-description: "Se você deseja falar espanhol de forma mais natural, aprender expressões idiomáticas é essencial. Elas não apenas ampliam o vocabulário, mas também ajudam a…"
+description: "Aprenda expressões idiomáticas em espanhol para enriquecer seu vocabulário e soar mais natural ao falar o idioma."
 date: 2025-01-28 10:09:00 -0300
 last_modified_at: 2025-01-28 10:09:39 -0300
 permalink: "/2025/01/expressoes-idiomaticas-espanhol.html"

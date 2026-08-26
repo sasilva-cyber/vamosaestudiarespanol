@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Passos para Deixar de Procrastinar nos Estudos | ¡Vamos a Estudiar Español!"
-description: "Procrastinação (Significado: ato ou efeito de procrastinar; adiamento, demora, delonga). Se você sente que está em procrastinação com seus estudos do Espanhol…"
+description: "Se você sente que está em procrastinação com seus estudos do Espanhol, continue lendo essa postagem do ¡Vamos a Estudiar Español!"
 date: 2022-07-19 16:11:00 -0300
 last_modified_at: 2022-07-19 16:11:33 -0300
 permalink: "/2022/07/3-passos-para-deixar-de-procrastinar.html"

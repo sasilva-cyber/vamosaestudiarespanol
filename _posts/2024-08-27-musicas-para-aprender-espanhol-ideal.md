@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Músicas para Aprender Espanhol: Ideal para Cada Nível de Estudo"
-description: "Aprender espanhol com música é uma maneira eficaz e divertida de aprimorar suas habilidades linguísticas. Através das letras das canções, você pode melhorar sua…"
+description: "Aprender espanhol com música é uma maneira eficaz e divertida de aprimorar suas habilidades linguísticas. "
 date: 2024-08-27 10:00:00 -0300
 last_modified_at: 2025-07-25 10:06:00 -0300
 permalink: "/2024/08/musicas-para-aprender-espanhol-ideal.html"

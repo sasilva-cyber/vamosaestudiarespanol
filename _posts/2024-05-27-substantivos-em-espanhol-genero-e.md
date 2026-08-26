@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Substantivos em Espanhol: Gênero e Número de Forma Simples"
-description: "Entender as regras básicas de gênero e número dos substantivos em espanhol é fundamental para construir uma base sólida no idioma. Nesta postagem, vamos explorar de…"
+description: "Entender as regras básicas de gênero e número dos substantivos em espanhol é fundamental para construir uma base sólida no idioma. "
 date: 2024-05-27 11:00:00 -0300
 last_modified_at: 2024-05-29 11:18:09 -0300
 permalink: "/2024/05/substantivos-em-espanhol-genero-e.html"

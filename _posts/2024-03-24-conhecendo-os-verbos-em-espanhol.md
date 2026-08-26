@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conhecendo os Verbos em Espanhol: Regulares e Irregulares"
-description: "Os verbos são peças essenciais da gramática espanhola, sendo responsáveis por expressar ações, estados ou processos. Neste guia abrangente, vamos mergulhar na…"
+description: "Os verbos são peças essenciais da gramática espanhola, sendo responsáveis por expressar ações, estados ou processos. "
 date: 2024-03-24 10:00:00 -0300
 last_modified_at: 2024-03-24 10:00:00 -0300
 permalink: "/2024/03/conhecendo-os-verbos-em-espanhol.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Sites para Estudar Espanhol em Casa | Dica de Espanhol #03"
-description: "Hola joven estudiante de la lengua española . Hoje a dica de espanhol e trazendo “ 3 Sites para Estudar Espanhol em Casa “. Afinal estudar espanhol tornou-se cada…"
+description: " Hola joven estudiante de la lengua española. Hoje a dica de espanhol e trazendo “3 Sites para Estudar Espanhol em Casa“. "
 date: 2022-04-08 15:31:00 -0300
 last_modified_at: 2022-04-10 09:39:00 -0300
 permalink: "/2022/04/3-sites-para-estudar-espanhol-em-casa.html"

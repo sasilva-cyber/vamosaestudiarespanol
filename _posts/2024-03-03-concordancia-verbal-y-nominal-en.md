@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Concordancia Verbal y Nominal en Español: Gramática Española"
-description: "¡Hola a todos! En el día de hoy vamos a adentrarnos en el fascinante mundo de la concordancia verbal y nominal en español. Este aspecto gramatical es esencial para…"
+description: "¡Hola a todos! En el día de hoy vamos a adentrarnos en el fascinante mundo de la concordancia verbal y nominal en español. "
 date: 2024-03-03 10:57:00 -0300
 last_modified_at: 2024-03-03 11:03:09 -0300
 permalink: "/2024/03/concordancia-verbal-y-nominal-en.html"

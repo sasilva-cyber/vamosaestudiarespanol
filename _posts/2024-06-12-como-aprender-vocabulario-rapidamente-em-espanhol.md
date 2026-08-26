@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Aprender Vocabulário Rapidamente em Espanhol"
-description: "Aprender vocabulário é uma das partes mais importantes do estudo de qualquer língua. No espanhol, um vasto vocabulário pode abrir portas para uma comunicação mais…"
+description: "Aprenda a expandir seu vocabulário em espanhol de maneira rápida e divertida com estas técnicas eficazes."
 date: 2024-06-12 10:39:00 -0300
 last_modified_at: 2024-06-12 10:39:22 -0300
 permalink: "/2024/06/como-aprender-vocabulario-rapidamente-em-espanhol.html"

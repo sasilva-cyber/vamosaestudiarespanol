@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cronograma de Estudos de Espanhol Durante as Férias de Julho!"
-description: "As férias de julho estão chegando, mas isso não significa que seu aprendizado de espanhol precise tirar uma pausa. Com nosso cronograma de estudos cuidadosamente…"
+description: "As férias de julho estão chegando, mas isso não significa que seu aprendizado de espanhol precise tirar uma pausa"
 date: 2024-07-01 12:00:00 -0300
 last_modified_at: 2024-07-01 12:00:00 -0300
 permalink: "/2024/07/cronograma-de-estudos-de-espanhol.html"

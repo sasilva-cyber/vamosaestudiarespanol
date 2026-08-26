@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vocabulário Essencial para Negócios em Español"
-description: "Dominar o vocabulário de negócios em espanhol pode abrir portas para oportunidades profissionais e facilitar a comunicação em contextos empresariais. Neste guia…"
+description: "Descubra o vocabulário essencial em espanhol para negócios. "
 date: 2024-08-01 10:05:00 -0300
 last_modified_at: 2024-08-01 10:07:02 -0300
 permalink: "/2024/07/vocabulario-essencial-para-negocios-em.html"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pronomes Pessoais em Espanhol: Dicas de Uso e Pronúncia"
-description: "Olá, estudantes de espanhol! Hoje, vamos mergulhar no mundo dos pronomes pessoais em espanhol , um pilar essencial para a comunicação fluente. Se você está…"
+description: "Domine os pronomes pessoais em espanhol com exercícios práticos e dicas de pronúncia. Aprofunde seu conhecimento e pratique agora!"
 date: 2024-12-26 11:06:00 -0300
 last_modified_at: 2024-12-27 11:29:42 -0300
 permalink: "/2024/12/pronomes-pessoais-em-espanhol-dicas-de.html"

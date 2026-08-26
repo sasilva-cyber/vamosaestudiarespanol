@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dicas para Arrasar no ENEM 2024: Espanhol em Foco"
-description: "O ENEM é uma oportunidade única para mostrar seus conhecimentos em várias disciplinas, e o Espanhol é uma delas! Vamos abordar algumas estratégias e exemplos de…"
+description: "Pesquisa sobre estratégias de estudo e tipos de questões de Espanhol para ajudar estudantes a se prepararem para o ENEM 2024."
 date: 2024-10-26 10:00:00 -0300
 last_modified_at: 2024-10-26 10:00:00 -0300
 permalink: "/2024/10/dicas-para-arrasar-no-enem-2024.html"

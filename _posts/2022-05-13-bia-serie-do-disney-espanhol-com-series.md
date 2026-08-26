@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bia série disponível no Disney +"
-description: "Bia é uma série Argentina protagonizada pela brasileira Isabela Souza . Coproduzida pelo grupo Disney Channel América Latina, a série adolescente é excelente para…"
+description: "Bia é uma série Argentina protagonizada pela brasileira Isabela Souza. Coproduzida pelo grupo Disney Channel América Latina, a série adolescente é exc"
 date: 2022-05-13 11:49:00 -0300
 last_modified_at: 2024-08-06 12:16:00 -0300
 permalink: "/2022/05/bia-serie-do-disney-espanhol-com-series.html"

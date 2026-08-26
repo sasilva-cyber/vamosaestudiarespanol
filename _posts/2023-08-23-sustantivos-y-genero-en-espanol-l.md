@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sustantivos y género en Español"
-description: "La gramática de la lengua española es una fascinante combinación de reglas y estructuras que hacen que este idioma sea tan rico y expresivo. Uno de los elementos…"
+description: "La gramática de la lengua española es una fascinante combinación de reglas y estructuras que hacen que este idioma sea tan rico y expresivo. "
 date: 2023-08-23 09:38:00 -0300
 last_modified_at: 2023-09-05 11:59:35 -0300
 permalink: "/2023/08/sustantivos-y-genero-en-espanol-l.html"

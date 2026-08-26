@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lectura en Español (Nível C2): El Parque de los Sueños"
-description: "¿Listos para un poco de práctica de lectura? ¡Perfecto! Hoy les traemos un texto corto para que pongan a prueba sus habilidades de comprensión lectora en español.…"
+description: "¿Listos para un poco de práctica de lectura? ¡Perfecto!"
 date: 2024-06-03 13:58:00 -0300
 last_modified_at: 2024-06-23 12:28:34 -0300
 permalink: "/2024/06/lectura-espanol-nivel-c2-el-parque-de-los-suenos.html"

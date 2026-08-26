@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "As Telefonistas (2020) - Netflix"
-description: "Se você é fã de bastidores do mundo do entretenimento, precisa conhecer \" Telefonistas \", a série que está fazendo sucesso na Netflix! Em um panorama saturado de…"
+description: "\"Telefonistas\" é uma série espanhola na Netflix que mistura comédia e drama"
 date: 2024-08-08 18:00:00 -0300
 last_modified_at: 2024-08-08 18:00:00 -0300
 permalink: "/2024/08/as-telefonistas-2020-netflix.html"
