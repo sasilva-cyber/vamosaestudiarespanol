@@ -1,0 +1,44 @@
+/* Linguagem visual inspirada em layouts editoriais premium: composição original do Vamos a Estudiar Español. */
+body{background:#fffdf9}
+.topline{background:#fff;color:#4b4748;border-bottom:1px solid #ece8e2;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase}
+.topline__inner{min-height:48px;width:min(1460px,calc(100% - 48px))}
+.topline p{color:#817a7c}
+.topline nav{gap:16px}
+.topline a{color:#4e484a;opacity:1;font-weight:720;letter-spacing:.09em}
+.topline a:hover{color:var(--red);text-decoration:none}
+.site-header{position:relative;top:auto;z-index:100;background:#fff;border:0;box-shadow:none;backdrop-filter:none}
+.header-inner{width:min(1460px,calc(100% - 48px));min-height:0;margin:auto;padding:22px 0 50px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0}
+.main-nav{order:1;width:100%;display:flex;justify-content:center;align-items:center;gap:38px;margin:0 0 48px}
+.main-nav a{padding:7px 0;color:#514c4e;font-size:.66rem;font-weight:720;letter-spacing:.17em;text-transform:uppercase}
+.main-nav a:not(.nav-practice):after{left:0;right:0;bottom:0;height:1px;background:var(--red)}
+.main-nav .nav-practice{margin-left:0;padding:7px 0;background:transparent;color:var(--red);border-radius:0;box-shadow:none}
+.main-nav .nav-practice:hover{background:transparent;color:var(--red-dark)}
+.brand{order:2;display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center}
+.brand-mark{width:auto;height:auto;flex:0 0 auto;display:block;background:transparent;color:var(--red);border:0;border-radius:0;box-shadow:none;font-family:Georgia,"Times New Roman",serif;font-size:.9rem;font-weight:700;letter-spacing:.28em;line-height:1}
+.brand-mark:before,.brand-mark:after{content:"";display:inline-block;width:28px;height:1px;margin:0 12px 4px;background:var(--gold)}
+.brand-copy{align-items:center;line-height:1.03}
+.brand-copy strong{font-family:Georgia,"Times New Roman",serif;color:#351216;font-size:clamp(2.6rem,4.8vw,5.1rem);font-weight:400;letter-spacing:-.045em;white-space:normal}
+.brand-copy small{margin-top:10px;color:#8c8486;font-family:Georgia,"Times New Roman",serif;font-size:.83rem;font-style:italic;letter-spacing:.045em}
+.heritage-stripe{display:none}
+.home-page .site-shell{padding-top:0}
+.home-page .main-content{overflow:visible}
+@media(max-width:860px){
+  .topline{display:none}
+  .site-header{position:sticky;top:0;border-bottom:1px solid #eee9e3}
+  .header-inner{width:calc(100% - 28px);min-height:70px;padding:10px 0;display:flex;flex-direction:row;justify-content:space-between;gap:18px}
+  .brand{order:1;flex-direction:row;gap:9px;text-align:left;min-width:0}
+  .brand-mark{display:grid;width:40px;height:40px;place-items:center;background:var(--red);color:#fff;border-radius:50%;font-size:1.2rem;letter-spacing:0}
+  .brand-mark:before,.brand-mark:after{display:none}
+  .brand-copy{align-items:flex-start}
+  .brand-copy strong{font-size:1.05rem;white-space:nowrap}
+  .brand-copy small{display:none}
+  .menu-toggle{order:2;display:block;border:0;background:transparent}
+  .main-nav{order:3;display:none;position:absolute;left:14px;right:14px;top:70px;width:auto;margin:0;padding:16px;background:#fff;border:1px solid #e5ddd3;box-shadow:0 16px 40px rgba(45,33,29,.12);flex-direction:column;align-items:stretch;gap:0}
+  .main-nav.open{display:flex}
+  .main-nav a{padding:12px 10px;font-size:.72rem}
+  .main-nav .nav-practice{padding:12px 10px;text-align:left}
+}
+@media(max-width:600px){
+  .site-header .header-inner{width:calc(100% - 24px)}
+  .brand-copy strong{font-size:.96rem}
+}
