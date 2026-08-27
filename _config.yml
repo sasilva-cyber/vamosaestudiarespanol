@@ -15,13 +15,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# O acervo importado do Blogger contém HTML legado, inclusive combinações
-# antigas de tags inline e de bloco. Impedimos o Kramdown de reinterpretar
-# esse HTML para preservar a marcação original em vez de exibi-la como texto.
-kramdown:
-  parse_block_html: false
-  parse_span_html: false
-
 feed:
   path: feed.xml
 
