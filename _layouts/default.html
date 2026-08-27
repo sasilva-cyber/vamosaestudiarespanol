@@ -127,39 +127,7 @@
     {% endunless %}
   </div>
 
-  <footer class="site-footer">
-    <div class="footer-main">
-      <div class="footer-brand">
-        <span class="brand-mark" aria-hidden="true">Ñ</span>
-        <div>
-          <strong>{{ site.title }}</strong>
-          <p>Espanhol com língua, cultura e contexto para estudantes brasileiros.</p>
-        </div>
-      </div>
-
-      <div class="footer-column">
-        <h2>Explore</h2>
-        <a href="{{ '/' | relative_url }}">Início</a>
-        <a href="{{ '/arquivo/' | relative_url }}">Arquivo</a>
-        <a href="{{ '/p/sobre.html' | relative_url }}">Sobre</a>
-        <a href="{{ '/p/contato.html' | relative_url }}">Contato</a>
-        <a href="{{ '/p/politica-de-privacidade.html' | relative_url }}">Privacidade</a>
-        <a href="{{ '/p/termos-e-condicoes.html' | relative_url }}">Termos</a>
-        <a href="{{ site.social.practice }}">Espaço de Prática</a>
-      </div>
-
-      <div class="footer-column">
-        <h2>Acompanhe</h2>
-        <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="{{ site.social.facebook }}" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer">YouTube</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© {{ 'now' | date: '%Y' }} {{ site.title }}.</p>
-      <p>¡Aprende, practica y avanza!</p>
-    </div>
-  </footer>
+  {% include footer-editorial.html %}
 
   <div class="toast" id="site-toast" role="status" aria-live="polite"></div>
   <script>
