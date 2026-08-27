@@ -1,6 +1,9 @@
 name: Publicar GitHub Pages
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -19,11 +22,31 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build Jekyll para Pages
-        uses: actions/jekyll-build-pages@v1
+      - name: Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build Jekyll para Pages
+        env:
+          JEKYLL_ENV: production
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          PAGES_ORIGIN: ${{ steps.pages.outputs.origin }}
+        run: bundle exec jekyll build --trace --baseurl "$PAGES_BASE_PATH" --url "$PAGES_ORIGIN"
+
+      - name: Validar caminhos da publicação
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f _site/index.html
+          test -f _site/assets/css/style.css
+          test -f _site/assets/css/content.css
+          test -f _site/assets/js/site.js
+          grep -F "href=\"${PAGES_BASE_PATH}/assets/css/style.css\"" _site/index.html
+          grep -F "src=\"${PAGES_BASE_PATH}/assets/js/site.js\"" _site/index.html
 
       - name: Enviar artefato do site
         uses: actions/upload-pages-artifact@v4
