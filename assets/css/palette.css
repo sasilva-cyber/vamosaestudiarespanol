@@ -1,0 +1,108 @@
+/* Paleta oficial do Vamos a Estudiar Español
+   Vinho #4B0D16 · Dourado #E0A329 · Off-white #FFFDF9 */
+:root{
+  --wine:#4b0d16;
+  --wine-soft:#65131e;
+  --wine-muted:#7a3943;
+  --gold:#e0a329;
+  --gold-soft:#f4dfab;
+  --gold-pale:#fbf1d7;
+  --cream:#fff9ed;
+  --paper:#fffdf9;
+  --surface:#ffffff;
+  --ink:#30272a;
+  --ink-soft:#51474a;
+  --muted:#7d7175;
+  --line:#eadfda;
+  --line-strong:#dccbc6;
+  --red:var(--wine);
+  --red-dark:var(--wine-soft);
+  --red-deep:var(--wine);
+}
+html{background:var(--paper)}
+body{background:var(--paper);color:var(--ink)}
+::selection{background:var(--gold-soft);color:var(--wine)}
+
+/* Cabeçalho e navegação */
+.topline{background:var(--wine);color:#fff;border-bottom:2px solid var(--gold)}
+.topline p,.topline a{color:#fff}
+.topline a:hover{color:var(--gold-soft)}
+.site-header{background:var(--paper);border-color:var(--line)}
+.main-nav a{color:var(--wine)}
+.main-nav a:not(.nav-practice):after{background:var(--gold)}
+.main-nav a:hover,.main-nav a:focus-visible{color:var(--wine-soft)}
+.main-nav .nav-practice{color:var(--wine);border-color:transparent}
+.main-nav .nav-practice:hover{color:var(--gold)}
+.brand-copy strong{color:var(--wine)}
+.brand-copy small{color:var(--wine-muted)}
+.brand-mark{color:var(--wine)}
+.brand-mark:before,.brand-mark:after{background:var(--gold)}
+.menu-toggle>span:not(.sr-only){background:var(--wine)}
+
+/* Tipografia e links */
+h1,h2,h3,h4,h5,h6,.page-header h1,.post-header h1,.section-heading h2{color:var(--wine)}
+.text-link,.sidebar-link,.breadcrumbs a,.post-body a,.archive-item time{color:var(--wine)}
+.text-link:hover,.sidebar-link:hover,.post-body a:hover{color:var(--wine-soft)}
+.eyebrow,.sidebar-kicker,.story-meta span,.post-card-category{color:var(--wine)}
+.eyebrow:before,.sidebar-kicker:before{background:var(--gold)}
+
+/* Cartões e superfícies */
+.sidebar-card,.post-card,.blog-hero{background:var(--surface);border-color:var(--line)}
+.sidebar-card{border-top-color:var(--gold)}
+.sidebar-card h2,.sidebar-post strong{color:var(--wine)}
+.sidebar-post,.archive-item,.post-header,.post-tags,.share-section{border-color:var(--line)}
+.rank{background:var(--wine);color:#fff}
+.media-placeholder{background:linear-gradient(135deg,var(--gold-pale),var(--cream));color:rgba(75,13,22,.38)}
+
+/* Botões e chamadas */
+.button-primary{background:var(--wine);color:#fff}
+.button-primary:hover{background:var(--wine-soft)}
+.button-secondary{background:var(--surface);border-color:var(--gold);color:var(--wine)}
+.practice-panel,.sidebar-card--practice{background:var(--wine);border-color:var(--wine);border-top-color:var(--gold);color:#fff}
+.practice-panel__mark{color:var(--gold)}
+.practice-panel__copy h2,.sidebar-card--practice h2{color:#fff}
+.practice-panel__copy>p:last-child,.sidebar-card--practice p:not(.sidebar-kicker){color:#f3e6e2}
+.practice-panel__cta{background:#fff;color:var(--wine);border:1px solid #fff}
+.practice-panel__cta:hover{background:var(--gold);border-color:var(--gold);color:var(--wine)}
+.sidebar-card--practice .sidebar-kicker,.eyebrow--light{color:var(--gold-soft)}
+
+/* Artigos */
+.post-body{color:var(--ink)}
+.post-body h2,.post-body h3,.post-body h4{color:var(--wine)}
+.post-body blockquote{border-left-color:var(--gold);color:var(--ink-soft)}
+.post-body th{background:var(--gold-pale);color:var(--wine)}
+.post-body th,.post-body td{border-color:var(--line)}
+.post-tags span{border-color:var(--gold);color:var(--wine)}
+.share-button{border-color:var(--line-strong);background:#fff;color:var(--wine)}
+.share-button svg{fill:var(--wine)}
+.share-button:hover,.share-button:focus-visible{border-color:var(--gold);color:var(--wine)}
+
+/* Arquivo e páginas temáticas */
+.page-header,.section-heading,.related-posts>h2{border-color:var(--wine)}
+.archive-month{color:var(--wine);border-color:var(--line)}
+.archive-item:hover strong,.related-card h3 a:hover,.editorial-card h3 a:hover{color:var(--wine)}
+
+/* Formulários */
+.archive-card select{background:#fff;border-color:var(--line-strong);color:var(--wine)}
+.archive-card select:focus{outline:2px solid var(--gold);outline-offset:2px}
+
+/* Rodapé editorial */
+.site-footer{background:var(--paper);color:var(--ink);border-top:4px solid var(--gold)}
+.footer-intro__hello,.footer-nav-column h2{color:var(--wine)}
+.footer-intro p,.footer-nav-column a{color:var(--ink-soft)}
+.footer-nav-column h2,.footer-meta{border-color:var(--line)}
+.footer-nav-column a:hover,.footer-nav-column a:focus-visible,.footer-nav-column a.footer-accent{color:var(--wine)}
+.footer-social a{background:var(--wine);color:#fff}
+.footer-social a:hover,.footer-social a:focus-visible{background:var(--gold);color:var(--wine)}
+.footer-meta{color:var(--muted)}
+.footer-gallery{background:var(--cream);border-top:4px solid var(--gold)}
+.footer-gallery a:focus-visible{outline-color:var(--gold)}
+
+/* Estados de foco */
+a:focus-visible,button:focus-visible,select:focus-visible{outline-color:var(--gold)}
+
+@media(max-width:860px){
+  .site-header{background:var(--paper)}
+  .main-nav{background:var(--paper);border-color:var(--line)}
+  .brand-mark{background:var(--wine);color:#fff}
+}
