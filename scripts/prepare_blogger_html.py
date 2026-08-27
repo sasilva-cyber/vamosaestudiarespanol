@@ -7,6 +7,10 @@ como texto. Durante o build, este script cria cópias temporárias .html dos
 conteúdos Blogger e remove apenas as cópias .md do worktree efêmero do Actions.
 Assim Jekyll aplica Liquid/front matter/layout, mas não passa o corpo pelo
 conversor Markdown.
+
+Quando a imagem usada como capa no front matter também aparece no HTML legado,
+a primeira ocorrência idêntica é removida do corpo para evitar que a mesma capa
+seja exibida duas vezes pelo layout do post.
 """
 
 from __future__ import annotations
@@ -22,6 +26,11 @@ ESCAPED_STRUCTURAL_RE = re.compile(
     r"blockquote|h[1-6]|p|figure|figcaption)\b",
     re.I,
 )
+COVER_IMAGE_RE = re.compile(
+    r'<figure\s+class=["\']post-cover["\'][^>]*>.*?<img\b[^>]*\bsrc=["\']([^"\']+)["\']',
+    re.I | re.S,
+)
+BODY_IMAGE_SRC_RE = re.compile(r'<img\b[^>]*\bsrc=["\']([^"\']+)["\']', re.I)
 
 
 def split_document(path: Path) -> tuple[str, str]:
@@ -34,6 +43,63 @@ def split_document(path: Path) -> tuple[str, str]:
 
 def is_blogger(front_matter: str) -> bool:
     return bool(re.search(r"^blogger_id:\s*", front_matter, re.M))
+
+
+def front_matter_image(front_matter: str) -> str | None:
+    match = re.search(
+        r'^image:\s*(?:"([^"]+)"|\'([^\']+)\'|(\S+))\s*$',
+        front_matter,
+        re.M,
+    )
+    if not match:
+        return None
+    return next((value for value in match.groups() if value is not None), None)
+
+
+def strip_duplicate_featured_image(front_matter: str, body: str) -> tuple[str, bool]:
+    """Remove do HTML legado a primeira imagem idêntica à capa do post.
+
+    A remoção é deliberadamente conservadora: exige igualdade exata do ``src``
+    com o campo ``image`` do front matter. Se a imagem estiver sozinha em um
+    wrapper típico do Blogger, o wrapper vazio também é removido. Qualquer outra
+    imagem permanece intocada.
+    """
+    image = front_matter_image(front_matter)
+    if not image:
+        return body, False
+
+    escaped = re.escape(image)
+    img_pattern = rf'<img\b[^>]*\bsrc=(?:"{escaped}"|\'{escaped}\')[^>]*\/?>'
+    anchor_image_re = re.compile(rf'<a\b[^>]*>\s*{img_pattern}\s*</a>', re.I)
+    image_re = re.compile(img_pattern, re.I)
+
+    match = anchor_image_re.search(body) or image_re.search(body)
+    if not match:
+        return body, False
+
+    sentinel = "__BLOGGER_FEATURED_IMAGE__"
+    body = body[: match.start()] + sentinel + body[match.end() :]
+
+    attrs = r'(?:\s+[^>]*)?'
+    wrapper_patterns = (
+        # Estrutura frequente do Blogger: div > div > imagem > /div > br > /div
+        re.compile(
+            rf'<div{attrs}>\s*<div{attrs}>\s*{sentinel}\s*</div>\s*'
+            rf'(?:<span{attrs}>\s*<br\s*/?>\s*</span>\s*)?</div>',
+            re.I,
+        ),
+        # Estrutura simples: div > imagem > /div
+        re.compile(rf'<div{attrs}>\s*{sentinel}\s*</div>', re.I),
+    )
+
+    for pattern in wrapper_patterns:
+        body, removed = pattern.subn("", body, count=1)
+        if removed:
+            break
+
+    # Caso a imagem estivesse misturada a outros elementos, remove somente ela.
+    body = body.replace(sentinel, "", 1)
+    return body, True
 
 
 def normalize_baseurl(value: str) -> str:
@@ -61,6 +127,7 @@ def prepare(baseurl: str, expected: int | None) -> int:
     baseurl = normalize_baseurl(baseurl)
     candidates = list(Path("_posts").glob("*.md")) + list(Path("p").glob("*.md"))
     converted = 0
+    duplicate_covers_removed = 0
 
     for source in candidates:
         front_matter, body = split_document(source)
@@ -71,6 +138,9 @@ def prepare(baseurl: str, expected: int | None) -> int:
         if destination.exists():
             raise SystemExit(f"Destino já existe; abortando para evitar sobrescrita: {destination}")
 
+        body, removed_cover = strip_duplicate_featured_image(front_matter, body)
+        if removed_cover:
+            duplicate_covers_removed += 1
         body = prefix_root_urls(body, baseurl)
         destination.write_text(f"---\n{front_matter}\n---\n{body}", encoding="utf-8")
         source.unlink()
@@ -79,7 +149,10 @@ def prepare(baseurl: str, expected: int | None) -> int:
     if expected is not None and converted != expected:
         raise SystemExit(f"Esperados {expected} conteúdos Blogger; preparados {converted}")
 
-    print(f"HTML Blogger preparado: {converted} conteúdos; baseurl={baseurl or '/'}")
+    print(
+        f"HTML Blogger preparado: {converted} conteúdos; "
+        f"capas duplicadas removidas: {duplicate_covers_removed}; baseurl={baseurl or '/'}"
+    )
     return converted
 
 
@@ -105,27 +178,46 @@ def validate_site(site_dir: Path, expected_posts: int | None) -> int:
         raise SystemExit(f"Diretório do site não encontrado: {site_dir}")
 
     checked = 0
-    failures: list[str] = []
+    escaped_failures: list[str] = []
+    duplicate_cover_failures: list[str] = []
+
     for path in site_dir.rglob("*.html"):
         html = path.read_text(encoding="utf-8", errors="replace")
         body = extract_post_body(html)
         if body is None:
             continue
         checked += 1
-        match = ESCAPED_STRUCTURAL_RE.search(body)
-        if match:
-            failures.append(f"{path}: {match.group(0)}")
+
+        escaped_match = ESCAPED_STRUCTURAL_RE.search(body)
+        if escaped_match:
+            escaped_failures.append(f"{path}: {escaped_match.group(0)}")
+
+        cover_match = COVER_IMAGE_RE.search(html)
+        if cover_match:
+            cover_src = cover_match.group(1)
+            body_sources = BODY_IMAGE_SRC_RE.findall(body)
+            if cover_src in body_sources:
+                duplicate_cover_failures.append(f"{path}: {cover_src}")
 
     if expected_posts is not None and checked < expected_posts:
         raise SystemExit(f"Esperados ao menos {expected_posts} corpos de posts; encontrados {checked}")
 
-    if failures:
-        preview = "\n".join(failures[:20])
+    if escaped_failures:
+        preview = "\n".join(escaped_failures[:20])
         raise SystemExit(
-            f"HTML estrutural escapado encontrado em {len(failures)} post(s):\n{preview}"
+            f"HTML estrutural escapado encontrado em {len(escaped_failures)} post(s):\n{preview}"
         )
 
-    print(f"HTML renderizado validado: {checked} corpos de posts sem tags estruturais escapadas")
+    if duplicate_cover_failures:
+        preview = "\n".join(duplicate_cover_failures[:20])
+        raise SystemExit(
+            f"Imagem de capa duplicada no corpo de {len(duplicate_cover_failures)} post(s):\n{preview}"
+        )
+
+    print(
+        f"HTML renderizado validado: {checked} corpos de posts sem tags estruturais "
+        "escapadas e sem capas duplicadas"
+    )
     return checked
 
 
