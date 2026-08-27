@@ -1,0 +1,71 @@
+<footer class="site-footer">
+  <div class="footer-editorial">
+    <section class="footer-intro" aria-labelledby="footer-intro-title">
+      <h2 class="footer-intro__hello" id="footer-intro-title">¡Hola!</h2>
+      <p>Este é o Vamos a Estudiar Español: um espaço para estudar a língua com gramática, vocabulário, cultura e literatura em contexto. Obrigada por fazer parte desta comunidade de aprendizagem.</p>
+      <nav class="footer-social" aria-label="Redes sociais">
+        <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+        <a href="{{ site.social.facebook }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+        <a href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YT</a>
+      </nav>
+    </section>
+
+    <section class="footer-nav-column">
+      <h2>Estude por tema</h2>
+      <nav aria-label="Estude por tema">
+        <a href="{{ '/gramatica/' | relative_url }}">Gramática</a>
+        <a href="{{ '/vocabulario/' | relative_url }}">Vocabulário</a>
+        <a href="{{ '/cultura-literatura/' | relative_url }}">Cultura & Literatura</a>
+        <a href="{{ '/arquivo/' | relative_url }}">Aprendizagem</a>
+      </nav>
+    </section>
+
+    <section class="footer-nav-column">
+      <h2>Navegue</h2>
+      <nav aria-label="Navegação do rodapé">
+        <a href="{{ '/' | relative_url }}">Início</a>
+        <a href="{{ '/arquivo/' | relative_url }}">Arquivo</a>
+        <a href="{{ '/p/sobre.html' | relative_url }}">Sobre</a>
+        <a class="footer-accent" href="{{ site.social.practice }}">Espaço de Prática ↗</a>
+      </nav>
+    </section>
+
+    <section class="footer-nav-column">
+      <h2>Acompanhe</h2>
+      <nav aria-label="Acompanhe o projeto">
+        <a href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="{{ site.social.facebook }}" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="{{ '/feed.xml' | relative_url }}">Feed do blog</a>
+      </nav>
+    </section>
+
+    <section class="footer-nav-column">
+      <h2>Institucional</h2>
+      <nav aria-label="Informações institucionais">
+        <a href="{{ '/p/contato.html' | relative_url }}">Contato</a>
+        <a href="{{ '/p/politica-de-privacidade.html' | relative_url }}">Privacidade</a>
+        <a href="{{ '/p/termos-e-condicoes.html' | relative_url }}">Termos</a>
+        <a href="{{ '/p/acessibilidade.html' | relative_url }}">Acessibilidade</a>
+      </nav>
+    </section>
+  </div>
+
+  <div class="footer-meta">
+    <p>© {{ 'now' | date: '%Y' }} {{ site.title }}.</p>
+    <p>¡Aprende, practica y avanza!</p>
+  </div>
+
+  <div class="footer-gallery" aria-label="Postagens recentes em imagens">
+    {% assign footer_images = 0 %}
+    {% for post in site.posts %}
+      {% if post.image and footer_images < 8 %}
+      <a href="{{ post.url | relative_url }}" aria-label="Ler {{ post.title }}">
+        <img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
+      </a>
+      {% assign footer_images = footer_images | plus: 1 %}
+      {% endif %}
+      {% if footer_images >= 8 %}{% break %}{% endif %}
+    {% endfor %}
+  </div>
+</footer>
