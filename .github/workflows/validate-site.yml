@@ -56,21 +56,28 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
+      - name: Preparar HTML legado do Blogger
+        run: python3 scripts/prepare_blogger_html.py --expect 194
+
       - name: Build Jekyll
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --trace
 
-      - name: Verificar URLs essenciais
+      - name: Verificar URLs essenciais e HTML legado
         shell: bash
         run: |
           set -euo pipefail
           test -f _site/index.html
           test -f _site/arquivo/index.html
           test -f _site/2024/12/cine-espanol-culpa-mia.html
+          test -f _site/2026/02/espanol-entre-paginas-01-pedro-paramo.html
           test -f _site/p/sobre.html
           test -f _site/p/contato.html
           test -f _site/p/politica-de-privacidade.html
           test -f _site/p/termos-e-condicoes.html
           test -f _site/sitemap.xml
           test -f _site/feed.xml
+          grep -F '<iframe' _site/2026/02/espanol-entre-paginas-01-pedro-paramo.html
+          grep -F 'youtube.com/embed/pdhJ50G0rjs' _site/2026/02/espanol-entre-paginas-01-pedro-paramo.html
+          python3 scripts/prepare_blogger_html.py --validate-site _site --expect-posts 189
