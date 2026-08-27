@@ -51,21 +51,22 @@
     </section>
   </div>
 
+  <section class="footer-instagram" aria-labelledby="footer-instagram-title">
+    <div class="footer-instagram__heading">
+      <div>
+        <p class="footer-instagram__kicker">Acompanhe no Instagram</p>
+        <h2 id="footer-instagram-title">@vamosaestudiarespanol</h2>
+      </div>
+      <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer">Seguir no Instagram <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="footer-instagram__feed">
+      <script src="https://snapwidget.com/js/snapwidget.js"></script>
+      <iframe src="https://snapwidget.com/embed/970463" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;" title="Posts do Instagram do Vamos a Estudiar Español"></iframe>
+    </div>
+  </section>
+
   <div class="footer-meta">
     <p>© {{ 'now' | date: '%Y' }} {{ site.title }}.</p>
     <p>¡Aprende, practica y avanza!</p>
-  </div>
-
-  <div class="footer-gallery" aria-label="Postagens recentes em imagens">
-    {% assign footer_images = 0 %}
-    {% for post in site.posts %}
-      {% if post.image and footer_images < 8 %}
-      <a href="{{ post.url | relative_url }}" aria-label="Ler {{ post.title }}">
-        <img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
-      </a>
-      {% assign footer_images = footer_images | plus: 1 %}
-      {% endif %}
-      {% if footer_images >= 8 %}{% break %}{% endif %}
-    {% endfor %}
   </div>
 </footer>
