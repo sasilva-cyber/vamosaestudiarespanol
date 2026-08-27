@@ -28,13 +28,18 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
+      - name: Preparar HTML legado do Blogger
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: python3 scripts/prepare_blogger_html.py --baseurl "$PAGES_BASE_PATH" --expect 194
+
       - name: Build Jekyll para Pages
         env:
           JEKYLL_ENV: production
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: bundle exec jekyll build --trace --baseurl "$PAGES_BASE_PATH"
 
-      - name: Validar caminhos da publicação
+      - name: Validar caminhos e HTML da publicação
         env:
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         shell: bash
@@ -44,8 +49,12 @@ jobs:
           test -f _site/assets/css/style.css
           test -f _site/assets/css/content.css
           test -f _site/assets/js/site.js
+          test -f _site/2026/02/espanol-entre-paginas-01-pedro-paramo.html
           grep -F "href=\"${PAGES_BASE_PATH}/assets/css/style.css\"" _site/index.html
           grep -F "src=\"${PAGES_BASE_PATH}/assets/js/site.js\"" _site/index.html
+          grep -F '<iframe' _site/2026/02/espanol-entre-paginas-01-pedro-paramo.html
+          grep -F 'youtube.com/embed/pdhJ50G0rjs' _site/2026/02/espanol-entre-paginas-01-pedro-paramo.html
+          python3 scripts/prepare_blogger_html.py --validate-site _site --expect-posts 189
 
       - name: Enviar artefato do site
         uses: actions/upload-pages-artifact@v4
