@@ -1,4 +1,5 @@
 @import url("./mia-theme.css");
+@import url("./footer-editorial.css");
 
 /* Camada de compatibilidade para HTML legado importado do Blogger. */
 .post-body{overflow-wrap:anywhere}
