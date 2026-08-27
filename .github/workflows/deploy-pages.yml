@@ -32,8 +32,7 @@ jobs:
         env:
           JEKYLL_ENV: production
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
-          PAGES_ORIGIN: ${{ steps.pages.outputs.origin }}
-        run: bundle exec jekyll build --trace --baseurl "$PAGES_BASE_PATH" --url "$PAGES_ORIGIN"
+        run: bundle exec jekyll build --trace --baseurl "$PAGES_BASE_PATH"
 
       - name: Validar caminhos da publicação
         env:
