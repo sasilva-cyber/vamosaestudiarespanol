@@ -126,7 +126,10 @@ def main() -> None:
     if "supabase_publishable_key:" not in config or "supabase_url:" not in config:
         raise SystemExit("Configuração pública do Supabase ausente")
 
+    # A navegação institucional está dividida entre o layout base e o footer incluído.
     layout = (ROOT / "_layouts" / "default.html").read_text(encoding="utf-8")
+    footer = (ROOT / "_includes" / "footer-editorial.html").read_text(encoding="utf-8")
+    shell = layout + "\n" + footer
     for required in (
         "/p/sobre.html",
         "/p/contato.html",
@@ -134,7 +137,7 @@ def main() -> None:
         "/p/termos-e-condicoes.html",
         "site.supabase_publishable_key",
     ):
-        if required not in layout:
+        if required not in shell:
             raise SystemExit(f"Layout final incompleto: {required}")
 
     print(f"Conteúdos: {EXPECTED_CONTENT}; URLs históricas preservadas; SHA-256 {actual_permalink_hash}")
