@@ -5,6 +5,21 @@ description: "Espanhol, cultura e aprendizagem em um blog feito para estudantes 
 sidebar: false
 ---
 
+<section class="mia-about" aria-labelledby="mia-about-title">
+  <div class="mia-wrap mia-about__grid">
+    <div class="mia-about__visual" aria-hidden="true">
+      <img class="mia-about__image-main" src="{{ '/assets/media/2024/03/la-historia-de-mexico-01-3bbd8601.webp' | relative_url }}" alt="" loading="lazy">
+      <img class="mia-about__image-small" src="{{ '/assets/media/2026/02/espanol-entre-paginas-01-pedro-paramo-01-a715fd29.webp' | relative_url }}" alt="" loading="lazy">
+    </div>
+    <div class="mia-about__copy">
+      <p class="mia-kicker">¡Hola, estudiante!</p>
+      <h2 id="mia-about-title">É um prazer estudar com você</h2>
+      <p>O Vamos a Estudiar Español nasceu para tornar o estudo do idioma mais rico, organizado e conectado à cultura. Aqui, a língua conversa com literatura, história, cinema e cotidiano.</p>
+      <a class="mia-link" href="{{ '/p/sobre.html' | relative_url }}">Conheça o projeto</a>
+    </div>
+  </div>
+</section>
+
 <section class="mia-featured" aria-labelledby="mia-featured-title">
   <div class="mia-wrap">
     <h2 class="mia-section-title mia-section-title--small" id="mia-featured-title">Em destaque no blog</h2>
@@ -49,21 +64,6 @@ sidebar: false
         {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="media-placeholder" aria-hidden="true">Ñ</span>{% endif %}
       </a>
       {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="mia-about" aria-labelledby="mia-about-title">
-  <div class="mia-wrap mia-about__grid">
-    <div class="mia-about__visual" aria-hidden="true">
-      <img class="mia-about__image-main" src="{{ '/assets/media/2024/03/la-historia-de-mexico-01-3bbd8601.webp' | relative_url }}" alt="" loading="lazy">
-      <img class="mia-about__image-small" src="{{ '/assets/media/2026/02/espanol-entre-paginas-01-pedro-paramo-01-a715fd29.webp' | relative_url }}" alt="" loading="lazy">
-    </div>
-    <div class="mia-about__copy">
-      <p class="mia-kicker">¡Hola, estudiante!</p>
-      <h2 id="mia-about-title">É um prazer estudar com você</h2>
-      <p>O Vamos a Estudiar Español nasceu para tornar o estudo do idioma mais rico, organizado e conectado à cultura. Aqui, a língua conversa com literatura, história, cinema e cotidiano.</p>
-      <a class="mia-link" href="{{ '/p/sobre.html' | relative_url }}">Conheça o projeto</a>
     </div>
   </div>
 </section>
