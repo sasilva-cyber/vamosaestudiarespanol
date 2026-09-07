@@ -5,21 +5,6 @@ description: "Espanhol, cultura e aprendizagem em um blog feito para estudantes 
 sidebar: false
 ---
 
-<section class="mia-guide" aria-labelledby="mia-guide-title">
-  <div class="mia-wrap mia-guide__inner">
-    <div class="mia-guide__copy">
-      <p class="mia-kicker">Comece por aqui</p>
-      <h1 id="mia-guide-title">Receba seu guia essencial de estudos</h1>
-      <p>Um roteiro simples para organizar gramática, vocabulário, leitura e prática na sua rotina de espanhol.</p>
-    </div>
-    <form class="mia-signup mia-signup--top" action="{{ '/p/contato.html' | relative_url }}" method="get" aria-label="Receber guia de estudos">
-      <label><span class="sr-only">Primeiro nome</span><input type="text" name="nome" placeholder="Primeiro nome" autocomplete="given-name"></label>
-      <label><span class="sr-only">E-mail</span><input type="email" name="email" placeholder="E-mail" autocomplete="email"></label>
-      <button type="submit">Quero receber</button>
-    </form>
-  </div>
-</section>
-
 <section class="mia-featured" aria-labelledby="mia-featured-title">
   <div class="mia-wrap">
     <h2 class="mia-section-title mia-section-title--small" id="mia-featured-title">Em destaque no blog</h2>
@@ -34,6 +19,21 @@ sidebar: false
       </article>
       {% endfor %}
     </div>
+  </div>
+</section>
+
+<section class="mia-guide" aria-labelledby="mia-guide-title">
+  <div class="mia-wrap mia-guide__inner">
+    <div class="mia-guide__copy">
+      <p class="mia-kicker">Comece por aqui</p>
+      <h1 id="mia-guide-title">Receba seu guia essencial de estudos</h1>
+      <p>Um roteiro simples para organizar gramática, vocabulário, leitura e prática na sua rotina de espanhol.</p>
+    </div>
+    <form class="mia-signup mia-signup--top" action="{{ '/p/contato.html' | relative_url }}" method="get" aria-label="Receber guia de estudos">
+      <label><span class="sr-only">Primeiro nome</span><input type="text" name="nome" placeholder="Primeiro nome" autocomplete="given-name"></label>
+      <label><span class="sr-only">E-mail</span><input type="email" name="email" placeholder="E-mail" autocomplete="email"></label>
+      <button type="submit">Quero receber</button>
+    </form>
   </div>
 </section>
 
