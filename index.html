@@ -5,34 +5,30 @@ description: "Espanhol, cultura e aprendizagem em um blog feito para estudantes 
 sidebar: false
 ---
 
-<section class="mia-guide">
+<section class="mia-guide" aria-labelledby="mia-guide-title">
   <div class="mia-wrap mia-guide__inner">
     <div class="mia-guide__copy">
-      <p class="mia-kicker">Aprenda espanhol com contexto</p>
-      <h1>Seu próximo passo no espanhol começa aqui.</h1>
-      <p>Gramática, vocabulário, leitura, cultura e recursos práticos reunidos em um espaço editorial para estudantes brasileiros.</p>
+      <p class="mia-kicker">Comece por aqui</p>
+      <h1 id="mia-guide-title">Receba seu guia essencial de estudos</h1>
+      <p>Um roteiro simples para organizar gramática, vocabulário, leitura e prática na sua rotina de espanhol.</p>
     </div>
-    <div class="mia-guide__actions">
-      <a class="mia-button" href="{{ site.social.practice }}">Acessar o Espaço de Prática</a>
-      <a class="mia-button mia-button--ghost" href="{{ '/arquivo/' | relative_url }}">Explorar o blog</a>
-    </div>
+    <form class="mia-signup mia-signup--top" action="{{ '/p/contato.html' | relative_url }}" method="get" aria-label="Receber guia de estudos">
+      <label><span class="sr-only">Primeiro nome</span><input type="text" name="nome" placeholder="Primeiro nome" autocomplete="given-name"></label>
+      <label><span class="sr-only">E-mail</span><input type="email" name="email" placeholder="E-mail" autocomplete="email"></label>
+      <button type="submit">Quero receber</button>
+    </form>
   </div>
 </section>
 
 <section class="mia-featured" aria-labelledby="mia-featured-title">
   <div class="mia-wrap">
-    <h2 class="mia-section-title" id="mia-featured-title"><span>Seleção editorial</span>Em destaque no blog</h2>
+    <h2 class="mia-section-title mia-section-title--small" id="mia-featured-title">Em destaque no blog</h2>
     <div class="mia-featured__grid">
       {% for post in site.posts limit: 8 %}
       <article class="mia-feature-card">
         <a class="mia-feature-card__media" href="{{ post.url | relative_url }}" aria-label="Ler {{ post.title }}">
-          {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: '' }}" {% if forloop.index <= 4 %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>
-          {% else %}
-          <span class="media-placeholder" aria-hidden="true">Ñ</span>
-          {% endif %}
+          {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: '' }}" {% if forloop.index <= 4 %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>{% else %}<span class="media-placeholder" aria-hidden="true">Ñ</span>{% endif %}
         </a>
-        <span class="mia-feature-card__category">{{ post.category | default: 'Espanhol' }}</span>
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time>
       </article>
@@ -44,26 +40,15 @@ sidebar: false
 <section class="mia-essentials" aria-labelledby="mia-essentials-title">
   <div class="mia-wrap">
     <div class="mia-essentials__head">
-      <h2 class="mia-section-title" id="mia-essentials-title"><span>Recursos essenciais</span>Continue aprendendo</h2>
-      <a class="mia-link" href="{{ '/arquivo/' | relative_url }}">Ver todos os recursos <span aria-hidden="true">→</span></a>
+      <h2 class="mia-section-title mia-section-title--small" id="mia-essentials-title">Essenciais para estudar espanhol</h2>
+      <a class="mia-link" href="{{ '/arquivo/' | relative_url }}">Ver todos</a>
     </div>
-    <div class="mia-essentials__grid">
-      <a class="mia-essential" href="{{ site.social.practice }}">
-        <img src="{{ '/assets/media/2026/03/espanhol-do-zero-guia-inicial-para-iniciantes-01-578dddf5.webp' | relative_url }}" alt="" loading="lazy">
-        <span class="mia-essential__label"><small>Prática</small><strong>Espaço de Prática</strong></span>
+    <div class="mia-essentials__rail" role="list" aria-label="Conteúdos essenciais">
+      {% for post in site.posts limit: 10 offset: 8 %}
+      <a class="mia-essential-tile" href="{{ post.url | relative_url }}" role="listitem" aria-label="{{ post.title }}">
+        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="media-placeholder" aria-hidden="true">Ñ</span>{% endif %}
       </a>
-      <a class="mia-essential" href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer">
-        <img src="{{ '/assets/media/2026/02/espanol-entre-paginas-01-pedro-paramo-01-a715fd29.webp' | relative_url }}" alt="" loading="lazy">
-        <span class="mia-essential__label"><small>Vídeos</small><strong>Canal no YouTube</strong></span>
-      </a>
-      <a class="mia-essential" href="{{ '/gramatica/' | relative_url }}">
-        <img src="{{ '/assets/media/2025/06/subjuntivo-espanhol-quando-como-usar-01-ec089b95.webp' | relative_url }}" alt="" loading="lazy">
-        <span class="mia-essential__label"><small>Estudo</small><strong>Gramática</strong></span>
-      </a>
-      <a class="mia-essential" href="{{ '/vocabulario/' | relative_url }}">
-        <img src="{{ '/assets/media/2025/12/emociones-y-sentimientos-en-espanol-01-e668d718.webp' | relative_url }}" alt="" loading="lazy">
-        <span class="mia-essential__label"><small>Estudo</small><strong>Vocabulário</strong></span>
-      </a>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -76,69 +61,50 @@ sidebar: false
     </div>
     <div class="mia-about__copy">
       <p class="mia-kicker">¡Hola, estudiante!</p>
-      <h2 id="mia-about-title">É um prazer estudar com você.</h2>
-      <p>O Vamos a Estudiar Español nasceu para tornar o estudo do idioma mais rico, organizado e conectado à cultura. Aqui, a língua não aparece isolada: ela conversa com literatura, história, cinema, cotidiano e aprendizagem.</p>
-      <a class="mia-link" href="{{ '/p/sobre.html' | relative_url }}">Conheça o projeto <span aria-hidden="true">→</span></a>
+      <h2 id="mia-about-title">É um prazer estudar com você</h2>
+      <p>O Vamos a Estudiar Español nasceu para tornar o estudo do idioma mais rico, organizado e conectado à cultura. Aqui, a língua conversa com literatura, história, cinema e cotidiano.</p>
+      <a class="mia-link" href="{{ '/p/sobre.html' | relative_url }}">Conheça o projeto</a>
     </div>
   </div>
 </section>
 
 <section class="mia-destinations" aria-labelledby="mia-destinations-title">
   <div class="mia-wrap">
-    <h2 class="mia-section-title" id="mia-destinations-title"><span>Escolha sua rota de estudo</span>Explore por tema</h2>
+    <h2 class="mia-section-title mia-section-title--small" id="mia-destinations-title">Explore por tema</h2>
     <div class="mia-destinations__grid">
       <article class="mia-destination">
-        <a href="{{ '/gramatica/' | relative_url }}">
-          <span class="mia-destination__media"><img src="{{ '/assets/media/2024/09/tempos-verbais-em-espanhol-presente-01-c2a629d8.webp' | relative_url }}" alt="" loading="lazy"></span>
-          <h3>Gramática</h3>
-        </a>
+        <a href="{{ '/gramatica/' | relative_url }}"><span class="mia-destination__media"><img src="{{ '/assets/media/2024/09/tempos-verbais-em-espanhol-presente-01-c2a629d8.webp' | relative_url }}" alt="" loading="lazy"></span><h3>Gramática</h3></a>
       </article>
       <article class="mia-destination">
-        <a href="{{ '/vocabulario/' | relative_url }}">
-          <span class="mia-destination__media"><img src="{{ '/assets/media/2024/03/vocabulario-essencial-para-sua-viagem-01-bee2af30.webp' | relative_url }}" alt="" loading="lazy"></span>
-          <h3>Vocabulário</h3>
-        </a>
+        <a href="{{ '/vocabulario/' | relative_url }}"><span class="mia-destination__media"><img src="{{ '/assets/media/2024/03/vocabulario-essencial-para-sua-viagem-01-bee2af30.webp' | relative_url }}" alt="" loading="lazy"></span><h3>Vocabulário</h3></a>
       </article>
       <article class="mia-destination">
-        <a href="{{ '/cultura-literatura/' | relative_url }}">
-          <span class="mia-destination__media"><img src="{{ '/assets/media/2023/12/tango-argentino-danca-que-revela-paixao-01-cf28f3f6.webp' | relative_url }}" alt="" loading="lazy"></span>
-          <h3>Cultura</h3>
-        </a>
+        <a href="{{ '/cultura-literatura/' | relative_url }}"><span class="mia-destination__media"><img src="{{ '/assets/media/2023/12/tango-argentino-danca-que-revela-paixao-01-cf28f3f6.webp' | relative_url }}" alt="" loading="lazy"></span><h3>Cultura</h3></a>
       </article>
       <article class="mia-destination">
-        <a href="{{ '/cultura-literatura/' | relative_url }}">
-          <span class="mia-destination__media"><img src="{{ '/assets/media/2024/06/livros-classicos-espanhol-iniciantes-b1-b2-01-c7eb5aef.webp' | relative_url }}" alt="" loading="lazy"></span>
-          <h3>Literatura</h3>
-        </a>
+        <a href="{{ '/cultura-literatura/' | relative_url }}"><span class="mia-destination__media"><img src="{{ '/assets/media/2024/06/livros-classicos-espanhol-iniciantes-b1-b2-01-c7eb5aef.webp' | relative_url }}" alt="" loading="lazy"></span><h3>Literatura</h3></a>
       </article>
     </div>
+    <div class="mia-destinations__more"><a class="mia-link" href="{{ '/arquivo/' | relative_url }}">Explorar mais conteúdos →</a></div>
   </div>
 </section>
 
 <section class="mia-feed" aria-labelledby="mia-feed-title">
   <div class="mia-wrap mia-feed__layout">
     <div class="mia-feed__main">
-      <div class="mia-feed__heading">
-        <div>
-          <p class="mia-kicker">Novidades</p>
-          <h2 id="mia-feed-title">Últimas postagens</h2>
-        </div>
-        <a class="mia-link" href="{{ '/arquivo/' | relative_url }}">Ver mais <span aria-hidden="true">→</span></a>
-      </div>
-
-      {% for post in site.posts limit: 6 offset: 8 %}
+      <h2 class="mia-feed__title" id="mia-feed-title">Últimas postagens</h2>
+      {% for post in site.posts limit: 5 offset: 18 %}
       <article class="mia-story">
-        <a class="mia-story__media" href="{{ post.url | relative_url }}" aria-label="Ler {{ post.title }}">
-          {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: '' }}" loading="lazy">{% else %}<span class="media-placeholder" aria-hidden="true">Ñ</span>{% endif %}
-        </a>
-        <div>
-          <p class="mia-story__meta">{{ post.category | default: 'Espanhol' }} · {{ post.date | date: '%d.%m.%Y' }}</p>
+        <a class="mia-story__media" href="{{ post.url | relative_url }}" aria-label="Ler {{ post.title }}">{% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: '' }}" loading="lazy">{% else %}<span class="media-placeholder" aria-hidden="true">Ñ</span>{% endif %}</a>
+        <div class="mia-story__copy">
+          <p class="mia-story__meta">{{ post.category | default: 'Espanhol' }}</p>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <p>{{ post.description | default: post.excerpt | strip_html | truncate: 165 }}</p>
+          <p>{{ post.description | default: post.excerpt | strip_html | truncate: 170 }}</p>
           <a class="mia-link" href="{{ post.url | relative_url }}">Ler mais</a>
         </div>
       </article>
       {% endfor %}
+      <a class="mia-button mia-button--outline" href="{{ '/arquivo/' | relative_url }}">Ver mais postagens</a>
     </div>
 
     <aside class="mia-home-sidebar" aria-label="Conteúdo complementar da página inicial">
@@ -146,40 +112,45 @@ sidebar: false
         <div class="mia-side-about__mark" aria-hidden="true">Ñ</div>
         <p class="mia-side-block__eyebrow">¡Hola!</p>
         <h3>Bem-vindo</h3>
-        <p>Um blog para aprender espanhol com explicações claras, repertório cultural e caminhos de estudo que você consegue levar para a rotina.</p>
-        <a class="mia-link" href="{{ '/p/sobre.html' | relative_url }}">Saiba mais</a>
+        <p>Um blog para aprender espanhol com explicações claras, repertório cultural e caminhos de estudo para a rotina.</p>
+        <a class="mia-link" href="{{ '/p/sobre.html' | relative_url }}">Mais sobre o projeto</a>
+      </section>
+
+      <section class="mia-side-block mia-side-signup">
+        <h3>Fique por dentro</h3>
+        <form class="mia-signup mia-signup--stack" action="{{ '/p/contato.html' | relative_url }}" method="get">
+          <label><span class="sr-only">Primeiro nome</span><input type="text" name="nome" placeholder="Primeiro nome" autocomplete="given-name"></label>
+          <label><span class="sr-only">E-mail</span><input type="email" name="email" placeholder="E-mail" autocomplete="email"></label>
+          <button type="submit">Continuar</button>
+        </form>
+      </section>
+
+      <section class="mia-side-block mia-side-search">
+        <h3>Buscar</h3>
+        <p class="mia-side-block__eyebrow">O que você procura?</p>
+        <form class="mia-search" action="https://www.google.com/search" method="get" target="_blank" rel="noopener">
+          <input type="hidden" name="sitesearch" value="vamosaestudiarespanol.com.br">
+          <label><span class="sr-only">Buscar no blog</span><input type="search" name="q" placeholder="Buscar..."></label>
+          <button type="submit" aria-label="Buscar">→</button>
+        </form>
       </section>
 
       <section class="mia-side-block">
-        <p class="mia-side-block__eyebrow">Continue estudando</p>
-        <h3>Pratique agora</h3>
-        <p>Transforme a leitura em exercício no Espaço de Prática.</p>
-        <a class="mia-button" href="{{ site.social.practice }}">Abrir prática</a>
-      </section>
-
-      <section class="mia-side-block">
-        <p class="mia-side-block__eyebrow">Navegue</p>
         <h3>Categorias</h3>
         <nav class="mia-side-categories" aria-label="Categorias do blog">
           <a href="{{ '/gramatica/' | relative_url }}"><span>Gramática</span><span>→</span></a>
           <a href="{{ '/vocabulario/' | relative_url }}"><span>Vocabulário</span><span>→</span></a>
           <a href="{{ '/cultura-literatura/' | relative_url }}"><span>Cultura</span><span>→</span></a>
           <a href="{{ '/cultura-literatura/' | relative_url }}"><span>Literatura</span><span>→</span></a>
-          <a href="{{ '/arquivo/' | relative_url }}"><span>Todos os posts</span><span>→</span></a>
         </nav>
       </section>
 
       <section class="mia-side-block">
         <p class="mia-side-block__eyebrow">Favoritos dos leitores</p>
         <h3>Mais visualizadas</h3>
-        <div class="mia-side-posts" id="popular-posts-home">
-          {% assign popular_posts = site.posts | where: 'popular', true %}
-          {% if popular_posts.size == 0 %}{% assign popular_posts = site.posts %}{% endif %}
-          {% for post in popular_posts limit: 3 %}
-          <a class="mia-side-post" href="{{ post.url | relative_url }}">
-            {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% endif %}
-            <span><strong>{{ post.title }}</strong><small>{{ post.category | default: 'Espanhol' }}</small></span>
-          </a>
+        <div class="mia-side-posts" id="popular-posts-list">
+          {% for post in site.posts limit: 3 %}
+          <a class="mia-side-post" href="{{ post.url | relative_url }}">{% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% endif %}<span><strong>{{ post.title }}</strong><small>{{ post.category | default: 'Espanhol' }}</small></span></a>
           {% endfor %}
         </div>
       </section>
@@ -189,10 +160,7 @@ sidebar: false
         <h3>Trending</h3>
         <div class="mia-side-posts">
           {% for post in site.posts limit: 3 offset: 3 %}
-          <a class="mia-side-post" href="{{ post.url | relative_url }}">
-            {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% endif %}
-            <span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%d.%m.%Y' }}</small></span>
-          </a>
+          <a class="mia-side-post" href="{{ post.url | relative_url }}">{% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% endif %}<span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%d.%m.%Y' }}</small></span></a>
           {% endfor %}
         </div>
       </section>
@@ -200,13 +168,21 @@ sidebar: false
   </div>
 </section>
 
-<section class="mia-insider">
+<section class="mia-insider" aria-labelledby="mia-insider-title">
   <div class="mia-wrap mia-insider__inner">
-    <div>
-      <p class="mia-kicker">Vamos estudar?</p>
-      <h2>Leve o espanhol para a prática.</h2>
-      <p>Continue sua jornada com atividades de revisão, compreensão e uso da língua no Espaço de Prática.</p>
+    <div class="mia-insider__copy">
+      <p class="mia-kicker">Continue estudando</p>
+      <h2 id="mia-insider-title">Entre para a comunidade</h2>
+      <p>Receba novidades e continue sua jornada pelo espanhol com conteúdos, cultura e prática.</p>
     </div>
-    <a class="mia-button" href="{{ site.social.practice }}">Começar a praticar <span aria-hidden="true">→</span></a>
+    <form class="mia-signup mia-signup--dark" action="{{ '/p/contato.html' | relative_url }}" method="get">
+      <label><span class="sr-only">Primeiro nome</span><input type="text" name="nome" placeholder="Primeiro nome" autocomplete="given-name"></label>
+      <label><span class="sr-only">E-mail</span><input type="email" name="email" placeholder="E-mail" autocomplete="email"></label>
+      <button type="submit">Quero participar</button>
+    </form>
   </div>
 </section>
+
+<script type="application/json" id="popular-image-catalog">[
+{% for post in site.posts %}{"path":{{ post.url | jsonify }},"image":{% if post.image %}{{ post.image | relative_url | jsonify }}{% else %}""{% endif %},"category":{{ post.category | default: 'Espanhol' | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+]</script>
