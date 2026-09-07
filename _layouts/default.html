@@ -6,20 +6,25 @@
   <meta name="theme-color" content="#4b0d16">
   {% seo %}
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/content.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/footer-editorial.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/palette.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/mia-travel.css' | relative_url }}">
 </head>
-<body>
+<body{% if page.url == '/' %} class="home-page"{% endif %}>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 
   <div class="topline">
     <div class="topline__inner">
-      <p>Conteúdo independente para quem estuda espanhol no Brasil.</p>
+      <p>Espanhol · cultura · contexto</p>
       <nav aria-label="Redes sociais">
         <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="{{ site.social.facebook }}" target="_blank" rel="noopener noreferrer">Facebook</a>
       </nav>
     </div>
   </div>
@@ -39,8 +44,10 @@
       </button>
 
       <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
-        <a href="{{ '/' | relative_url }}">Início</a>
-        <a href="{{ '/arquivo/' | relative_url }}">Arquivo</a>
+        <a href="{{ '/gramatica/' | relative_url }}">Gramática</a>
+        <a href="{{ '/vocabulario/' | relative_url }}">Vocabulário</a>
+        <a href="{{ '/cultura-literatura/' | relative_url }}">Cultura & Literatura</a>
+        <a href="{{ '/arquivo/' | relative_url }}">Blog</a>
         <a href="{{ '/p/sobre.html' | relative_url }}">Sobre</a>
         <a class="nav-practice" href="{{ site.social.practice }}">Espaço de prática <span aria-hidden="true">↗</span></a>
       </nav>
