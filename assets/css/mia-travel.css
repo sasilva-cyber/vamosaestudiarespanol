@@ -1,0 +1,247 @@
+/*
+ * Interface editorial própria do Vamos a Estudiar Español.
+ * Reproduz a arquitetura visual pública do Mia Travel com código original,
+ * preservando a identidade vinho/dourado do projeto.
+ */
+:root{
+  --mia-wine:#4b0d16;
+  --mia-wine-2:#65131e;
+  --mia-gold:#e0a329;
+  --mia-cream:#fff9ed;
+  --mia-sand:#f3eee7;
+  --mia-blush:#efe5e3;
+  --mia-white:#fff;
+  --mia-ink:#393332;
+  --mia-muted:#7b7471;
+  --mia-line:#e6dfd8;
+  --mia-max:1320px;
+  --mia-serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --mia-sans:"DM Sans",Inter,ui-sans-serif,system-ui,sans-serif;
+}
+
+body{background:#fff;color:var(--mia-ink)}
+body.home-page{font-family:var(--mia-sans);background:#fff}
+.home-page .site-shell{width:100%;max-width:none;margin:0;padding:0;display:block}
+.home-page .main-content{width:100%;overflow:visible}
+.mia-wrap{width:min(var(--mia-max),calc(100% - 56px));margin-inline:auto}
+.mia-kicker{margin:0 0 8px;color:var(--mia-wine);font-size:.61rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+.mia-link{display:inline-flex;align-items:center;color:var(--mia-wine);font-size:.66rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--mia-gold);padding-bottom:3px}
+.mia-link:hover{color:var(--mia-gold)}
+
+/* Cabeçalho */
+.topline{background:#fff;color:#817b78;border-bottom:1px solid #eee9e4;font-size:.62rem;letter-spacing:.13em;text-transform:uppercase}
+.topline__inner{width:min(var(--mia-max),calc(100% - 56px));min-height:42px}
+.topline p{color:#8c8581}
+.topline nav{gap:20px}
+.topline a{color:#66605e;opacity:1;text-decoration:none;font-weight:700}
+.topline a:hover{color:var(--mia-wine)}
+.site-header{position:relative;top:auto;background:#fff;border:0;box-shadow:none;backdrop-filter:none}
+.header-inner{width:min(var(--mia-max),calc(100% - 56px));min-height:0;margin:auto;padding:29px 0 0;display:flex;flex-direction:column;align-items:center;gap:0}
+.brand{order:1;display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center;text-decoration:none}
+.brand-mark{width:auto;height:auto;display:block;background:transparent;color:var(--mia-wine);border:0;border-radius:0;box-shadow:none;font-family:var(--mia-sans);font-size:.59rem;font-weight:800;letter-spacing:.34em;line-height:1;text-transform:uppercase}
+.brand-mark:before,.brand-mark:after{content:"";display:inline-block;width:34px;height:1px;margin:0 12px 4px;background:var(--mia-gold)}
+.brand-copy{align-items:center;line-height:1}
+.brand-copy strong{font-family:var(--mia-serif);font-size:clamp(3rem,5.2vw,5.6rem);font-weight:500;line-height:.88;letter-spacing:-.05em;color:#332d2c;white-space:normal}
+.brand-copy small{margin-top:11px;color:#8d8582;font-family:var(--mia-serif);font-size:.9rem;font-style:italic;letter-spacing:.04em}
+.main-nav{order:2;width:100%;margin-top:29px;padding:15px 0;border-top:1px solid var(--mia-line);border-bottom:1px solid var(--mia-line);display:flex;justify-content:center;align-items:center;gap:38px}
+.main-nav a{padding:5px 0;color:#57514f;font-size:.62rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;text-decoration:none}
+.main-nav a:not(.nav-practice):after{left:0;right:0;bottom:-3px;height:1px;background:var(--mia-wine)}
+.main-nav .nav-practice{margin:0;padding:5px 0;background:transparent;color:var(--mia-wine);border-radius:0;box-shadow:none}
+.main-nav .nav-practice:hover{background:transparent;color:var(--mia-gold)}
+.heritage-stripe{display:none}
+
+/* Guia / faixa de captura */
+.mia-guide{background:var(--mia-sand);border-bottom:1px solid #e7ded5}
+.mia-guide__inner{min-height:154px;display:grid;grid-template-columns:minmax(0,.82fr) minmax(520px,1.18fr);gap:70px;align-items:center;padding:31px 0}
+.mia-guide__copy h1{margin:0 0 7px;font-family:var(--mia-serif);font-size:clamp(2rem,3.2vw,3.15rem);font-weight:500;line-height:.98;letter-spacing:-.035em;color:#37302e}
+.mia-guide__copy p:last-child{max-width:570px;margin:0;color:#756e6b;font-family:var(--mia-serif);font-size:1.02rem;line-height:1.48}
+.mia-signup{display:grid;gap:10px}
+.mia-signup--top{grid-template-columns:1fr 1fr auto}
+.mia-signup label{min-width:0}
+.mia-signup input{width:100%;height:48px;padding:0 15px;border:1px solid #d7cfc8;background:#fff;color:#3c3634;font:500 .72rem var(--mia-sans);outline:none;border-radius:0}
+.mia-signup input:focus{border-color:var(--mia-gold);box-shadow:0 0 0 2px rgba(224,163,41,.13)}
+.mia-signup button{height:48px;padding:0 20px;border:1px solid var(--mia-wine);background:var(--mia-wine);color:#fff;font:800 .61rem var(--mia-sans);letter-spacing:.13em;text-transform:uppercase;cursor:pointer;border-radius:0}
+.mia-signup button:hover{background:var(--mia-gold);border-color:var(--mia-gold);color:#2d2523}
+
+/* Featured */
+.mia-featured{padding:66px 0 78px;background:#fff}
+.mia-section-title{margin:0 0 30px;text-align:center;font-family:var(--mia-serif);font-weight:500;line-height:1;color:#393130}
+.mia-section-title--small{font-size:clamp(1.8rem,2.6vw,2.55rem);letter-spacing:-.025em}
+.mia-featured__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:42px 25px}
+.mia-feature-card{text-align:center;min-width:0}
+.mia-feature-card__media{display:block;aspect-ratio:4/5;overflow:hidden;background:#eee8e0;text-decoration:none}
+.mia-feature-card__media img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.mia-feature-card:hover img{transform:scale(1.022)}
+.mia-feature-card h2{margin:14px auto 0;max-width:270px;font-family:var(--mia-serif);font-size:1.42rem;font-weight:500;line-height:1.05;letter-spacing:-.015em}
+.mia-feature-card h2 a{text-decoration:none}
+.mia-feature-card h2 a:hover{color:var(--mia-wine)}
+.mia-feature-card time{display:block;margin-top:7px;color:#9b9390;font-size:.57rem;letter-spacing:.06em;text-transform:uppercase}
+
+/* Essentials — faixa com dez imagens como no demo */
+.mia-essentials{padding:54px 0 60px;background:var(--mia-blush);border-top:1px solid #e7dcda;border-bottom:1px solid #e7dcda}
+.mia-essentials__head{display:flex;align-items:end;justify-content:space-between;gap:26px;margin-bottom:23px}
+.mia-essentials__head .mia-section-title{text-align:left;margin:0}
+.mia-essentials__rail{display:grid;grid-template-columns:repeat(10,minmax(92px,1fr));gap:9px;overflow:hidden}
+.mia-essential-tile{display:block;aspect-ratio:1/1;overflow:hidden;background:#ddd5cd;text-decoration:none}
+.mia-essential-tile img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease,filter .35s ease}
+.mia-essential-tile:hover img{transform:scale(1.04);filter:saturate(.92)}
+
+/* Apresentação */
+.mia-about{padding:92px 0 96px;background:#fff}
+.mia-about__grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(360px,.78fr);gap:104px;align-items:center}
+.mia-about__visual{position:relative;min-height:590px}
+.mia-about__image-main{position:absolute;left:0;top:0;width:76%;height:86%;object-fit:cover}
+.mia-about__image-small{position:absolute;right:0;bottom:0;width:49%;height:53%;object-fit:cover;border:13px solid #fff}
+.mia-about__copy{max-width:500px}
+.mia-about__copy h2{margin:4px 0 18px;font-family:var(--mia-serif);font-size:clamp(3.2rem,5.2vw,5.1rem);font-weight:500;line-height:.88;letter-spacing:-.05em;color:#37302e}
+.mia-about__copy p:not(.mia-kicker){margin:0 0 22px;color:#756d69;font-family:var(--mia-serif);font-size:1.19rem;line-height:1.58}
+
+/* Explore por tema */
+.mia-destinations{padding:68px 0 78px;background:#f7f4ef}
+.mia-destinations__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.mia-destination{text-align:center}
+.mia-destination a{text-decoration:none}
+.mia-destination__media{display:block;aspect-ratio:3/4;overflow:hidden;background:#e4ddd6}
+.mia-destination__media img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.mia-destination:hover img{transform:scale(1.028)}
+.mia-destination h3{margin:13px 0 0;font-family:var(--mia-serif);font-size:1.72rem;font-weight:500;line-height:1}
+.mia-destinations__more{text-align:center;margin-top:30px}
+
+/* Feed + sidebar */
+.mia-feed{padding:92px 0 100px;background:#fff}
+.mia-feed__layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:84px;align-items:start}
+.mia-feed__title{margin:0 0 34px;padding-bottom:15px;border-bottom:1px solid var(--mia-line);font-family:var(--mia-serif);font-size:clamp(2.6rem,4vw,3.8rem);font-weight:500;line-height:1;letter-spacing:-.04em}
+.mia-story{display:grid;grid-template-columns:44% minmax(0,1fr);gap:30px;align-items:center;padding:0 0 34px;margin:0 0 34px;border-bottom:1px solid var(--mia-line)}
+.mia-story__media{display:block;aspect-ratio:4/3;overflow:hidden;background:#eee8e2}
+.mia-story__media img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.mia-story:hover img{transform:scale(1.02)}
+.mia-story__meta{margin:0 0 7px;color:#8d837f;font-size:.57rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.mia-story h3{margin:0 0 11px;font-family:var(--mia-serif);font-size:clamp(1.8rem,2.55vw,2.45rem);font-weight:500;line-height:.98;letter-spacing:-.026em}
+.mia-story h3 a{text-decoration:none}
+.mia-story h3 a:hover{color:var(--mia-wine)}
+.mia-story__copy>p:not(.mia-story__meta){margin:0 0 14px;color:#77706d;font-family:var(--mia-serif);font-size:1.02rem;line-height:1.55}
+.mia-button{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:10px 19px;border:1px solid var(--mia-wine);background:var(--mia-wine);color:#fff;font-size:.61rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border-radius:0}
+.mia-button:hover{background:var(--mia-gold);border-color:var(--mia-gold);color:#2e2927}
+.mia-button--outline{background:#fff;color:var(--mia-wine)}
+
+.mia-home-sidebar{display:grid;gap:37px;position:sticky;top:22px}
+.mia-side-block{padding-bottom:30px;border-bottom:1px solid var(--mia-line)}
+.mia-side-block:last-child{border-bottom:0}
+.mia-side-block h3{margin:0 0 15px;font-family:var(--mia-serif);font-size:1.72rem;font-weight:500;line-height:1}
+.mia-side-block__eyebrow{margin:0 0 6px;color:#8f8581;font-size:.56rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+.mia-side-about__mark{width:92px;height:92px;margin-bottom:17px;border-radius:50%;display:grid;place-items:center;background:var(--mia-cream);color:var(--mia-wine);font-family:var(--mia-serif);font-size:3.2rem;font-weight:600;border:1px solid #eee1c6}
+.mia-side-block p:not(.mia-side-block__eyebrow){margin:0 0 14px;color:#77706d;font-family:var(--mia-serif);font-size:.98rem;line-height:1.52}
+.mia-signup--stack{grid-template-columns:1fr}
+.mia-signup--stack input,.mia-signup--stack button{height:43px}
+.mia-search{display:grid;grid-template-columns:1fr 44px;border:1px solid #d9d1ca;background:#fff}
+.mia-search input{width:100%;height:43px;padding:0 12px;border:0;background:transparent;font-size:.72rem;outline:none}
+.mia-search button{border:0;border-left:1px solid #d9d1ca;background:#fff;color:var(--mia-wine);cursor:pointer;font-size:1rem}
+.mia-search button:hover{background:var(--mia-cream)}
+.mia-side-categories{display:grid;border-top:1px solid var(--mia-line)}
+.mia-side-categories a{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--mia-line);font-size:.64rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+.mia-side-categories a:hover{color:var(--mia-wine)}
+.mia-side-posts{display:grid}
+.mia-side-post{display:grid;grid-template-columns:70px minmax(0,1fr);gap:12px;padding:11px 0;border-bottom:1px solid var(--mia-line);text-decoration:none;align-items:center}
+.mia-side-post:last-child{border-bottom:0}
+.mia-side-post img{width:70px;height:70px;object-fit:cover}
+.mia-side-post strong{display:block;font-family:var(--mia-serif);font-size:1.04rem;font-weight:500;line-height:1.05}
+.mia-side-post small{display:block;margin-top:5px;color:#9a918d;font-size:.55rem;letter-spacing:.08em;text-transform:uppercase}
+
+/* CTA final */
+.mia-insider{padding:70px 0;background:var(--mia-wine);color:#fff}
+.mia-insider__inner{display:grid;grid-template-columns:minmax(0,.82fr) minmax(520px,1.18fr);gap:72px;align-items:center}
+.mia-insider .mia-kicker{color:#f3cb79}
+.mia-insider h2{margin:0 0 7px;font-family:var(--mia-serif);font-size:clamp(3rem,4.8vw,4.8rem);font-weight:500;line-height:.9;letter-spacing:-.045em;color:#fff}
+.mia-insider p:last-child{max-width:580px;margin:0;color:#ebdfe1;font-family:var(--mia-serif);font-size:1.08rem;line-height:1.5}
+.mia-signup--dark{grid-template-columns:1fr 1fr auto}
+.mia-signup--dark input{border-color:rgba(255,255,255,.38);background:#fff;color:#332d2c}
+.mia-signup--dark button{background:var(--mia-gold);border-color:var(--mia-gold);color:#2d2523}
+.mia-signup--dark button:hover{background:#fff;border-color:#fff;color:var(--mia-wine)}
+
+/* Páginas internas e posts na mesma linguagem */
+body:not(.home-page) .site-shell{width:min(1180px,calc(100% - 56px));gap:70px;padding-top:58px}
+.post-header{text-align:center;max-width:920px;margin:0 auto 34px}
+.post-header .breadcrumbs{justify-content:center}
+.post-header .eyebrow{justify-content:center}
+.post-header .eyebrow:before{display:none}
+.post-header h1{font-family:var(--mia-serif);font-size:clamp(3rem,5.3vw,5.35rem);font-weight:500;line-height:.9;letter-spacing:-.05em;color:#342e2c}
+.post-lead{max-width:720px;margin-left:auto!important;margin-right:auto!important;font-family:var(--mia-serif);font-size:1.16rem!important;line-height:1.55!important;color:#77706d!important}
+.post-meta{justify-content:center;color:#928986}
+.post-cover{margin:0 auto 42px;max-width:100%}
+.post-cover img{width:100%;max-height:720px;object-fit:cover}
+.post-body{max-width:760px;margin-inline:auto;font-family:Georgia,"Times New Roman",serif;font-size:1.04rem;line-height:1.82}
+.post-body h2,.post-body h3{font-family:var(--mia-serif);font-weight:500;color:#3b3331}
+.sidebar{position:static;gap:28px}
+.sidebar-card{border:0;border-top:1px solid var(--mia-line);padding:24px 0;background:#fff}
+.sidebar-card:first-child{border-top:0}
+.sidebar-card--practice{padding:25px;background:var(--mia-wine);border-top:4px solid var(--mia-gold)}
+.sidebar-card h2{font-family:var(--mia-serif);font-weight:500;font-size:1.6rem}
+
+/* Rodapé alinhado ao mesmo sistema */
+.site-footer{border-top:1px solid var(--mia-line)!important}
+.footer-intro__hello,.footer-instagram__heading h2{font-family:var(--mia-serif)!important}
+.footer-social a{background:var(--mia-wine)!important}
+.footer-nav-column a.footer-accent{color:var(--mia-wine)!important}
+
+@media(max-width:1100px){
+  .main-nav{gap:24px}
+  .mia-guide__inner,.mia-insider__inner{grid-template-columns:1fr;gap:24px}
+  .mia-signup--top,.mia-signup--dark{max-width:760px}
+  .mia-about__grid{gap:58px}
+  .mia-feed__layout{grid-template-columns:minmax(0,1fr) 270px;gap:48px}
+  .mia-essentials__rail{overflow-x:auto;grid-template-columns:repeat(10,130px);padding-bottom:8px;scroll-snap-type:x proximity}
+  .mia-essential-tile{scroll-snap-align:start}
+}
+
+@media(max-width:860px){
+  .topline{display:none}
+  .site-header{position:sticky;top:0;border-bottom:1px solid var(--mia-line);z-index:100}
+  .header-inner{width:calc(100% - 28px);min-height:70px;padding:9px 0;display:flex;flex-direction:row;justify-content:space-between}
+  .brand{order:1;flex-direction:row;gap:10px;text-align:left;min-width:0}
+  .brand-mark{display:grid;width:39px;height:39px;place-items:center;background:var(--mia-wine);color:#fff;border-radius:50%;font-size:1rem;letter-spacing:0}
+  .brand-mark:before,.brand-mark:after{display:none}
+  .brand-copy{align-items:flex-start}
+  .brand-copy strong{font-size:1.05rem;white-space:nowrap}
+  .brand-copy small{display:none}
+  .menu-toggle{order:2;display:block;border:0;background:#fff}
+  .main-nav{order:3;display:none;position:absolute;left:14px;right:14px;top:70px;width:auto;margin:0;padding:13px 17px;background:#fff;border:1px solid var(--mia-line);box-shadow:0 18px 45px rgba(45,34,31,.12);flex-direction:column;align-items:stretch;gap:0}
+  .main-nav.open{display:flex}
+  .main-nav a{padding:11px 7px;font-size:.68rem}
+  .mia-wrap{width:calc(100% - 40px)}
+  .mia-featured__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 18px}
+  .mia-about__grid{grid-template-columns:1fr;gap:45px}
+  .mia-about__visual{min-height:520px;max-width:670px;width:100%}
+  .mia-about__copy{max-width:700px}
+  .mia-destinations__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 18px}
+  .mia-feed__layout{grid-template-columns:1fr;gap:70px}
+  .mia-home-sidebar{position:static;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px}
+  .mia-side-block{min-width:0}
+  body:not(.home-page) .site-shell{width:calc(100% - 40px);grid-template-columns:1fr;padding-top:42px}
+}
+
+@media(max-width:620px){
+  .mia-wrap{width:calc(100% - 30px)}
+  .mia-guide__inner{padding:28px 0}
+  .mia-signup--top,.mia-signup--dark{grid-template-columns:1fr}
+  .mia-featured{padding:48px 0 58px}
+  .mia-featured__grid{grid-template-columns:1fr 1fr;gap:27px 13px}
+  .mia-feature-card h2{font-size:1.15rem}
+  .mia-feature-card time{font-size:.52rem}
+  .mia-essentials{padding:42px 0 48px}
+  .mia-essentials__head{align-items:flex-start;flex-direction:column;gap:10px}
+  .mia-essentials__rail{grid-template-columns:repeat(10,112px)}
+  .mia-about{padding:60px 0}
+  .mia-about__visual{min-height:395px}
+  .mia-about__image-small{border-width:8px}
+  .mia-about__copy h2{font-size:3.25rem}
+  .mia-destinations{padding:52px 0 58px}
+  .mia-destination h3{font-size:1.38rem}
+  .mia-feed{padding:60px 0 70px}
+  .mia-story{grid-template-columns:1fr;gap:16px;padding-bottom:28px;margin-bottom:28px}
+  .mia-story__media{aspect-ratio:16/10}
+  .mia-home-sidebar{grid-template-columns:1fr}
+  .mia-insider{padding:52px 0}
+  .mia-insider h2{font-size:3.3rem}
+  body:not(.home-page) .site-shell{width:calc(100% - 30px)}
+  .post-header h1{font-size:3.1rem}
+}
